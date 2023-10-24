@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import styles from "./franco.module.css";
+import styles from "../franco/franco.module.css";
 import { Result } from '@/components/Results/Result';
 
 const Gaston = () => {
