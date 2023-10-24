@@ -1,0 +1,255 @@
+ .containerAll {
+      width: 100%;
+      height: 53vh;
+    }
+    .containerPoster {
+      width: 100%;
+      height: 60%;
+    }
+    .containerPoster img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .containerData {
+      width: 100%;
+      height: 40%;
+    }
+  
+    .containerPicture {
+      position: absolute;
+      top: 25%;
+      margin-left: 20px;
+      z-index: 10;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 4px solid rgb(255, 255, 255);
+    }
+  
+    .containerPicture img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  
+    .containerData1 {
+      display: flex;
+      flex-direction: column;
+    }
+    .name {
+      display: flex;
+      justify-content: center;
+      padding-left: 28%;
+      font-size: 23px;
+      color: black;
+      padding-top: 10px;
+    }
+  
+    .team {
+      display: flex;
+      justify-content: center;
+      font-size: 19px;
+      padding-top: 10px;
+      padding-left: 9%;
+      color: slategray;
+    }
+    .psg {
+      display: flex;
+      justify-content: center;
+      font-size: 19px;
+      padding-top: 10px;
+      padding-left: 31%;
+      color: slategray;
+    }
+  
+    .containerData2 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      font-size: 24px;
+    }
+    .top {
+      display: flex;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 22px;
+      margin-bottom: 12px;
+    }
+    .bot {
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 25px;
+    }
+    .containerMidlane {
+      width: 600px;
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 5px;
+      margin: 0 auto;
+    }
+    .containerMidlane button {
+      width: 49%;
+      height: 98%;
+      color: white;
+      background-color: grey;
+      border: none;
+    }
+    .containerGames {
+      width: 100%;
+
+    }
+    .containerGame {
+      width: 600px;
+      height: 40px;
+      display: flex;
+      border-bottom: 1px solid grey;
+      margin-bottom: 5px;
+      margin: 0 auto;
+    }
+    .containerEscudo {
+      width: 10%;
+      height: 100%;
+    }
+    .containerEscudo img {
+      width: 90%;
+      height: 90%;
+    }
+    .containerGameName {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .containerGameResultWin {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: brown;
+      color: white;
+      border: 1px solid white;
+    }
+    .containerGameResultLoss {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(23, 119, 47);
+      color: white;
+      border: 1px solid white;
+    }
+    .containerFinished {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .containerFinished span {
+      border-radius: 50%;
+      height: 60%;
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25px;
+      color: white;
+    }
+    .containerHeader {
+      padding-top: 55px;
+      height: 80px;
+      width: 95%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .containerMarcos {
+      width: 30%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10%;
+      background-color: brown;
+      color: white;
+    }
+    .containerFranco {
+      width: 30%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10%;
+      background-color: rgb(21, 144, 175);
+      color: white;
+    }
+    .containerGaston {
+      width: 30%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10%;
+      background-color: rgb(139, 151, 30);
+      color: white;
+    }
+  
+    .colorGaston {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(139, 151, 30);
+      color: white;
+      border: 1px solid white;
+    }
+    .colorFranco {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(21, 144, 175);
+      color: white;
+      border: 1px solid white;
+    }
+    .colorMarcos {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: brown;
+      color: white;
+      border: 1px solid white;
+    }
+    .spansito {
+      font-size: 30px;
+      width: 99%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: flex;
+      border-radius: 5%;
+      background-color: rgb(197, 197, 197);
+      justify-content: center;
+      align-items: center;
+    }
+  
+    @media screen and (max-width: 600px) {
+        .containerGame {
+            width: 100%;
+          }
+      }

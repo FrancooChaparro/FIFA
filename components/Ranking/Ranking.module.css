@@ -1,0 +1,181 @@
+.containerAll {
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .containerTableGreen { 
+     width: 30%;
+     height: 700px;
+     border-radius: 1%;
+     border: 1px solid rgb(13, 112, 13);
+ }
+ 
+ .containerTableYellow { 
+     width: 30%;
+     height: 700px;
+     border-radius: 1%;
+     border: 1px solid rgb(174, 201, 26);
+ }
+ 
+ .containerTableRed { 
+     width: 30%;
+     height: 700px;
+     border-radius: 1%;
+     border: 1px solid rgb(187, 19, 19);
+ }
+ 
+ .containerPicture {
+     width: 99%;
+     height: 10%;
+     display: flex;
+ }
+ 
+ .containerPictureOut {
+     width: 99%;
+     height: 10%;
+     display: flex;
+     background-color: rgb(248, 201, 114);
+ }
+ 
+ .containerPicture1 {
+     width: 10%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 21px;
+ }
+ .containerPicture2 {
+     width: 10%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: bold;
+     font-size: 15px;
+ 
+ }
+ .containerPicture3 {
+     width: 70%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     font-size: 15px;
+     padding: 2px;
+ }
+ .containerPicture4 {
+     width: 10%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 25px;
+     font-weight: bold;
+ }
+ 
+ .containerPicture2 img {
+     width: 100%;
+     height: 85%;
+
+ }
+ 
+ 
+ @media screen and (max-width: 680px) {
+     .containerAll {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+      }   
+      .containerTableGreen { 
+         width: 80%;
+         height: 700px;
+         margin-bottom: 15px;
+     }
+     
+     .containerTableYellow { 
+         width: 80%;
+         height: 700px;
+         margin-bottom: 15px;
+     }
+     
+     .containerTableRed { 
+         width: 80%;
+         height: 700px;  
+         margin-bottom: 15px;
+     }
+     .containerPicture2 img {
+         width: 90%;
+         height: 50%;
+     }
+     .containerPicture1 {
+         font-size: 19px;
+     }
+ 
+     .containerPicture3 {
+         font-size: 19px;
+     }
+     .containerPicture4 {  
+         font-size: 19px;
+     }
+ }    
+
+
+
+.containerNews {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .containerNotice {
+    width: 30%;
+    height: 360px;
+    border: 0.5px solid black;
+    background-color: antiquewhite;
+    border-radius: 2%;
+  }
+  
+  .noticeImg {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4%;
+  }
+  
+  .noticeImg img {
+    width: 99%;
+    height: 99%;
+  }
+  
+  .noticeInfo h1  {
+    padding-left: 1rem;
+  }
+  .noticeInfo  p {
+    padding-left: 1rem;
+  }
+  @media screen and (max-width: 480px) {
+    .containerNews {
+      flex-direction: column;
+      width: 100%;
+      height: 1200px;
+    }
+  
+    .containerNotice {
+      width: 80%;
+      height: 360px;
+      margin-top: 18px;
+    }
+    
+  .noticeInfo h1 {
+   font-size: 19px;
+  }
+  .noticeInfo p {
+    font-size: 15px;
+   }
+  }
+  

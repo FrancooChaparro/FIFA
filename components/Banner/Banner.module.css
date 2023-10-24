@@ -1,0 +1,57 @@
+.ContainerBackground {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .background {
+    width: 100%;
+    height: 100%;
+    filter: brightness(110%);
+    object-fit: cover;
+    object-position: center;
+    transition: 2s;
+  }
+  
+  .containerData {
+    position: absolute;
+    width: 50%;
+    z-index: 88;
+    bottom: 15%;
+    left: 7%;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 1.75rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.813rem;
+  }
+  
+  .description {
+    font-weight: bold;
+    font-size: 0.875rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.75rem;
+  }
+  
+  @media screen and (max-width: 783px) {
+    .containerData {
+      width: 65%;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .ContainerBackground {
+      height: 100vh;
+    }
+    .containerData {
+      width: 80%;
+    }
+  }
+  

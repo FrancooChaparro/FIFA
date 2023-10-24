@@ -1,0 +1,78 @@
+.container_all {
+    width: 100vw;
+}
+
+.container_poster {
+    width: 100%;
+    height: 15rem;
+    position: relative;
+}
+
+.container_poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.container_info {
+    padding: 1rem;
+}
+.photo {
+    position: absolute;
+    bottom: 0;
+    width: 7rem;
+    height: 7rem;
+}
+.photo img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.containerData2 {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.top {
+    margin-right: 1rem;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.bot {
+    width: 100%;
+    font-size: 22px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerMidlane {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    padding: 0.2rem;
+  }
+  .containerMidlane button {
+    width: 49%;
+    height: 98%;
+    color: white;
+    background-color: grey;
+    border: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .containerMidlane {
+        width: 100%;
+      }
+  }
