@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./azar.module.css";
 import { Nav } from "@/components/Nav/Nav";
 import { Team } from "@/app/types";
-import { useMyContext } from "@/context/ListContext";
+import { useMyContext } from "@/context/ListContext"
 import { useRouter } from "next/navigation";
 
 const Azar = () => {
