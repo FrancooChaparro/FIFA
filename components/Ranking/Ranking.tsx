@@ -27,15 +27,13 @@ export const Ranking = () => {
         <Picture out={true} name={"VILLA REAL"} titles={1} img={"/images/VillaReal.webp"} rank={16}/>
         <Picture out={true} name={"LIVERPOOL"} titles={1} img={"/images/Liverpool.png"} rank={17}/>
         <Picture out={true} name={"NEWCASTLE"} titles={1} img={"/images/Newcastle.png"} rank={18}/>
-        <Picture out={true} name={"ZENIT"} titles={0} img={"/images/Zenit.png"} rank={19}/>
-        <Picture out={true} name={"AC MILAN"} titles={0} img={"/images/Milan.png"} rank={20}/>
-       
-
+        <Picture out={true} name={"AJAX"} titles={1} img={"/images/Ajax.png"} rank={19}/>
+        <Picture out={true} name={"ZENIT"} titles={0} img={"/images/Zenit.png"} rank={20}/>
         </div>
 
         <div className={styles.containerTableRed}>
-        <Picture out={true} name={"BORUSSIA DORTMUND"} titles={0} img={"/images/BorussiaDortmund.png"} rank={21}/>
-        <Picture out={true} name={"AJAX"} titles={0} img={"/images/Ajax.png"} rank={22}/>
+        <Picture out={true} name={"AC MILAN"} titles={0} img={"/images/Milan.png"} rank={21}/>
+        <Picture out={true} name={"BORUSSIA DORTMUND"} titles={0} img={"/images/BorussiaDortmund.png"} rank={22}/>
         <Picture out={true} name={"SPORTING LISBOA"} titles={0} img={"/images/SportingLisboa.png"} rank={23}/>
         <Picture out={true} name={"LAZIO"} titles={0} img={"/images/Lazio.png"} rank={24}/>
         <Picture out={true} name={"EVERTON"} titles={0} img={"/images/Everton.png"} rank={25}/>
@@ -43,9 +41,9 @@ export const Ranking = () => {
         <Picture out={true} name={"BENFICA"} titles={0} img={"/images/Benfica.png"} rank={27}/>
         <Picture out={true} name={"ATL. MADRID"} titles={0} img={"/images/AtleticoMadrid.png"} rank={28}/>
         <Picture out={true} name={"CHELSEA"} titles={0} img={"/images/Chelsea.png"} rank={29}/>
-        <Picture out={true} name={"FIORENTINA"} titles={0} img={"/images/fiorentina.png"} rank={30}/>
-        <Picture out={false} name={"LYON"} titles={0} img={"/images/Lyon.png"} rank={31}/>
-        <Picture out={false} name={"WOLFSBURGO"} titles={0} img={"/images/wolfburgo.png"} rank={32}/>
+        <Picture out={true} name={"WOLFSBURGO"} titles={0} img={"/images/wolfburgo.png"} rank={30}/>
+        <Picture out={false} name={"FIORENTINA"} titles={0} img={"/images/fiorentina.png"} rank={31}/>
+        <Picture out={false} name={"LYON"} titles={0} img={"/images/Lyon.png"} rank={32}/>
         </div>
     </div>
   )

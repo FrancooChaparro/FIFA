@@ -23,9 +23,9 @@ const Marcos = () => {
                 {clasic ? <span>EFECTIVIDAD FINALES</span> : <span>EFECTIVIDAD CLASICOS</span> }
                 </div>
                 {clasic ? <div className={styles.bot}>
-                 <span style={{color: "red"}}>11%</span><span style={{color: "green"}}>1W</span><span style={{color: "red"}}>8L</span>   
+                 <span style={{color: "red"}}>19%</span><span style={{color: "green"}}>3W</span><span style={{color: "red"}}>12L</span>   
                 </div> : <div className={styles.bot}>
-                 <span style={{color: "red"}}>20%</span><span style={{color: "green"}}>1W</span><span style={{color: "red"}}>4L</span>   
+                 <span style={{color: "red"}}>16%</span><span style={{color: "green"}}>1W</span><span style={{color: "red"}}>5L</span>   
                 </div> }
           
             </div>
@@ -47,11 +47,13 @@ const Marcos = () => {
             <Result Result='X' VisitanteEscudo={"/images/Liverpool.png"} VisitanteNombre='LIVERPOOL' VisitanteResultado={2} LocalEscudo={"/images/Porto.jpg"} LocalNombre='PORTO' LocalResultado={1}/>
             <Result Result='X' VisitanteEscudo={"/images/Barcelona.webp"} VisitanteNombre='BARCELONA' VisitanteResultado={0} LocalEscudo={"/images/Milan.png"} LocalNombre='MILAN' LocalResultado={0}/>
             <Result Result='X' VisitanteEscudo={"/images/Arsenal.jpg"} VisitanteNombre='ARSENAL' VisitanteResultado={3} LocalEscudo={"/images/internazionale.png"} LocalNombre='INTER' LocalResultado={0}/>
-            <Result Result='V' VisitanteEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={4} LocalEscudo={"/images/Milan.png"} VisitanteNombre='MILAN' VisitanteResultado={2}/>
-            <Result Result='X' VisitanteEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={0} LocalEscudo={"/images/VillaReal.webp"} VisitanteNombre='VILLA REAL' VisitanteResultado={1}/>
-            <Result Result='V' VisitanteEscudo={"/images/Liverpool.png"} LocalNombre='LIVERPOOL' LocalResultado={1} LocalEscudo={"/images/Tottenham.png"} VisitanteNombre='TOTTENHAM' VisitanteResultado={0}/>
-            <Result Result='V' VisitanteEscudo={"/images/Newcastle.png"} LocalNombre='NEWCLASTLE' LocalResultado={1} LocalEscudo={"/images/Zenit.png"} VisitanteNombre='ZENIT' VisitanteResultado={0}/>
-            <Result Result='V' VisitanteEscudo={"/images/ManchesterUnited.png"} LocalNombre='MAN. UNITED' LocalResultado={1} LocalEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>
+           
+            <Result Result='X' LocalEscudo={"/images/RealMadrid.png"} LocalNombre='REAL MADRID' LocalResultado={0} VisitanteEscudo={"/images/BayernMunchen.png"} VisitanteNombre='BAYERN MUN' VisitanteResultado={1}/>
+            <Result Result='V' LocalEscudo={"/images/RealMadrid.png"} LocalNombre='REAL MADRID' LocalResultado={2} VisitanteEscudo={"/images/BayernMunchen.png"} VisitanteNombre='BAYERN MUN' VisitanteResultado={2}/>
+            <Result Result='V' LocalEscudo={"/images/VillaReal.webp"} LocalNombre='VILLA REAL' LocalResultado={1} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={0}/>
+            <Result Result='X' LocalEscudo={"/images/Tottenham.png"} LocalNombre='TOTTENHAM' LocalResultado={0} VisitanteEscudo={"/images/Liverpool.png"} VisitanteNombre='LIVERPOOL' VisitanteResultado={1}/>
+            <Result Result='X' LocalEscudo={"/images/Zenit.png"} LocalNombre='ZENIT' LocalResultado={0} VisitanteEscudo={"/images/Newcastle.png"} VisitanteNombre='NEWCASTLE' VisitanteResultado={1}/>
+            <Result Result='X' LocalEscudo={"/images/Arsenal.jpg"} LocalNombre='ARSENAL' LocalResultado={0} VisitanteEscudo={"/images/Ajax.png"} VisitanteNombre='AJAX' VisitanteResultado={3}/>
             </> 
             : 
             <>
@@ -60,6 +62,7 @@ const Marcos = () => {
              <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={2}/>
              <Result Result='V' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>
              <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={2}/>
+             <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>      
              </>
         }
     </div> </div>

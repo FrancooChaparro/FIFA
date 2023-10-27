@@ -58,9 +58,9 @@ export const Nav = () => {
           <span onClick={()=> router.push("/azar")} className={styles.span1}>Azar</span>
           <span onClick={()=> router.push("/draft")} className={styles.span1}>Draft</span>
           <span onClick={()=> router.push("/results")} className={styles.span1}>Finals & PopularMatchs</span>
-          <span className={styles.span1}>Franco</span>
-          <span className={styles.span1}>Flaki</span>
-          <span className={styles.span1}>Marcos</span>
+          <span onClick={()=> router.push("/franco")} className={styles.span1}>Franco</span>
+          <span onClick={()=> router.push("/gaston")} className={styles.span1}>Flaki</span>
+          <span onClick={()=> router.push("/marcos")} className={styles.span1}>Marcos</span>
         </div>
 
         <div className={styles.containerBrowse}>

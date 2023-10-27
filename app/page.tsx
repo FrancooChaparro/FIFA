@@ -7,7 +7,7 @@ import { Ranking } from '@/components/Ranking/Ranking'
 export default function Home() {
   return (
     <main className={styles.main}>
-       <Nav />
+       {/* <Nav /> */}
        <Banner />
         <h1 style={{padding: "2rem"}}>BREAKING NEWS</h1>
         <News />

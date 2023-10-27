@@ -22,7 +22,7 @@ const Franco = () => {
                 {clasic ? <span>EFECTIVIDAD FINALES</span> : <span>EFECTIVIDAD CLASICOS</span> }
                 </div>
                 {clasic ? <div className={styles.bot}>
-                 <span style={{color: "green"}}>73%</span><span style={{color: "green"}}>14W</span><span style={{color: "red"}}>5L</span>   
+                 <span style={{color: "green"}}>75%</span><span style={{color: "green"}}>15W</span><span style={{color: "red"}}>5L</span>   
                 </div> : <div className={styles.bot}>
                  <span style={{color: "green"}}>85%</span><span style={{color: "green"}}>6W</span><span style={{color: "red"}}>1L</span>   
              </div> }
@@ -55,6 +55,7 @@ const Franco = () => {
             <Result Result='V' LocalEscudo={"/images/Liverpool.png"} LocalNombre='LIVERPOOL' LocalResultado={1} VisitanteEscudo={"/images/Tottenham.png"} VisitanteNombre='TOTTENHAM' VisitanteResultado={0}/>
             <Result Result='V' LocalEscudo={"/images/Newcastle.png"} LocalNombre='NEWCLASTLE' LocalResultado={1} VisitanteEscudo={"/images/Zenit.png"} VisitanteNombre='ZENIT' VisitanteResultado={0}/>
             <Result Result='V' LocalEscudo={"/images/ManchesterUnited.png"} LocalNombre='MAN. UNITED' LocalResultado={1} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>
+            <Result Result='V' LocalEscudo={"/images/Ajax.png"} LocalNombre='AJAX' LocalResultado={3} VisitanteEscudo={"/images/Arsenal.jpg"} VisitanteNombre='ARSENAL' VisitanteResultado={0}/>
             </> 
             : 
             <>

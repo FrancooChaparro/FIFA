@@ -9,12 +9,12 @@ const Gaston = () => {
   return (
     <div className={styles.container_all}>
         <div className={styles.container_poster}>
-            <img src="https://www.hdwallpapers.in/download/paris_saint_germain_logo_in_colorful_background_hd_psg-1600x900.jpg" alt="poster" />
-            <div className={styles.photo}><img src="/images/fra.jpg" alt="franco" /></div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqFlOp1t-Gt-Iiwyy-QR1pjgW_nY-ovsPc1w&usqp=CAU" alt="poster" />
+            <div className={styles.photo}><img src="/images/flaki.jpg" alt="gaston" /></div>
         </div>
         <div className={styles.container_info}>
-            <h4>Franco Chaparro</h4>
-            <h4>PARIS SAINT GERMAIN</h4>
+            <h4>Gaston Chaparro</h4>
+            <h4>JUVENTUS</h4>
 
             <div className={styles.containerData2}>
               
@@ -22,9 +22,9 @@ const Gaston = () => {
                 {clasic ? <span>EFECTIVIDAD FINALES</span> : <span>EFECTIVIDAD CLASICOS</span> }
                 </div>
                 {clasic ? <div className={styles.bot}>
-                 <span style={{color: "green"}}>73%</span><span style={{color: "green"}}>14W</span><span style={{color: "red"}}>5L</span>   
+                 <span style={{color: "green"}}>50%</span><span style={{color: "green"}}>8W</span><span style={{color: "red"}}>8L</span>   
                 </div> : <div className={styles.bot}>
-                 <span style={{color: "green"}}>85%</span><span style={{color: "green"}}>6W</span><span style={{color: "red"}}>1L</span>   
+                 <span style={{color: "green"}}>42%</span><span style={{color: "green"}}>3W</span><span style={{color: "red"}}>4L</span>   
              </div> }
           
             </div>
@@ -36,35 +36,32 @@ const Gaston = () => {
         {
             clasic ? 
             <>
-            <Result Result='V' LocalEscudo={"/images/BayernMunchen.png"} LocalNombre='BAYERN MUN' LocalResultado={2} VisitanteEscudo={"/images/RealMadrid.png"} VisitanteNombre='REAL MADRID' VisitanteResultado={1}/>
-            <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={3} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={1}/>
-            <Result Result='X' LocalEscudo={"/images/Sevilla.webp"} LocalNombre='SEVILLA' LocalResultado={1} VisitanteEscudo={"/images/ManchesterCity.png"} VisitanteNombre='MAN. CITY' VisitanteResultado={2}/>
-            <Result Result='X' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={0} VisitanteEscudo={"/images/AstonVilla.png"} VisitanteNombre='ASTON VILLA' VisitanteResultado={0}/>
-            <Result Result='V' LocalEscudo={"/images/ManchesterCity.png"} LocalNombre='MAN. CITY' LocalResultado={1} VisitanteEscudo={"/images/ASRoma.png"} VisitanteNombre='ROMA' VisitanteResultado={0}/>
-            <Result Result='V' LocalEscudo={"/images/ManchesterUnited.png"} LocalNombre='MAN. UNITED' LocalResultado={3} VisitanteEscudo={"/images/Valencia.jpg"} VisitanteNombre='VALENCIA' VisitanteResultado={2}/>
-            <Result Result='V' LocalEscudo={"/images/Tottenham.png"} LocalNombre='TOTTENHAM' LocalResultado={1} VisitanteEscudo={"/images/AstonVilla.png"} VisitanteNombre='ASTON VILLA' VisitanteResultado={0}/>
-            <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={2}  VisitanteEscudo={"/images/Chelsea.png"} VisitanteNombre='CHELSEA' VisitanteResultado={1}/>
-            <Result Result='V' LocalEscudo={"/images/Sevilla.webp"} LocalNombre='SEVILLA' LocalResultado={1} VisitanteEscudo={"/images/BayernMunchen.png"} VisitanteNombre='BAYERN MUN' VisitanteResultado={0}/>
-            <Result Result='X' LocalEscudo={"/images/Arsenal.jpg"} LocalNombre='ARSENAL' LocalResultado={0} VisitanteEscudo={"/images/Valencia.jpg"} VisitanteNombre='VALENCIA' VisitanteResultado={1}/>
-            <Result Result='V' LocalEscudo={"/images/internazionale.png"} LocalNombre='INTER' LocalResultado={3} VisitanteEscudo={"/images/Ajax.png"} VisitanteNombre='AJAX' VisitanteResultado={1}/>
-            <Result Result='V' LocalEscudo={"/images/Barcelona.webp"} LocalNombre='BARCELONA' LocalResultado={0} VisitanteEscudo={"/images/Milan.png"} VisitanteNombre='MILAN' VisitanteResultado={0}/>
-            <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={2} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>
-            <Result Result='X' LocalEscudo={"/images/Liverpool.png"} LocalNombre='LIVERPOOL' LocalResultado={1} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={2}/>
-            <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={4} VisitanteEscudo={"/images/Milan.png"} VisitanteNombre='MILAN' VisitanteResultado={2}/>
-            <Result Result='X' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={0} VisitanteEscudo={"/images/VillaReal.webp"} VisitanteNombre='VILLA REAL' VisitanteResultado={1}/>
-            <Result Result='V' LocalEscudo={"/images/Liverpool.png"} LocalNombre='LIVERPOOL' LocalResultado={1} VisitanteEscudo={"/images/Tottenham.png"} VisitanteNombre='TOTTENHAM' VisitanteResultado={0}/>
-            <Result Result='V' LocalEscudo={"/images/Newcastle.png"} LocalNombre='NEWCLASTLE' LocalResultado={1} VisitanteEscudo={"/images/Zenit.png"} VisitanteNombre='ZENIT' VisitanteResultado={0}/>
-            <Result Result='V' LocalEscudo={"/images/ManchesterUnited.png"} LocalNombre='MAN. UNITED' LocalResultado={1} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>
+            <Result Result='V' LocalEscudo={"/images/RealMadrid.png"} LocalNombre='REAL MADRID' LocalResultado={3} VisitanteEscudo={"/images/internazionale.png"} VisitanteNombre='INTER' VisitanteResultado={0}/>
+            <Result Result='X' LocalEscudo={"/images/RealMadrid.png"} LocalNombre='REAL MADRID' LocalResultado={1} VisitanteEscudo={"/images/BayernMunchen.png"} VisitanteNombre='BAYERN MUN' VisitanteResultado={2}/>
+            <Result Result='X' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={1} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={3}/>
+            <Result Result='V' LocalEscudo={"/images/ManchesterCity.png"} LocalNombre='MAN. CITY' LocalResultado={2} VisitanteEscudo={"/images/Sevilla.webp"} VisitanteNombre='SEVILLA' VisitanteResultado={1}/>
+            <Result Result='V' LocalEscudo={"/images/AstonVilla.png"} LocalNombre='ASTON VILLA' LocalResultado={0} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={0}/>
+            <Result Result='X' LocalEscudo={"/images/ASRoma.png"} LocalNombre='ROMA' LocalResultado={0} VisitanteEscudo={"/images/ManchesterCity.png"} VisitanteNombre='MAN. CITY' VisitanteResultado={1}/>
+            <Result Result='V' LocalEscudo={"/images/SSC_Neapel.svg.png"} LocalNombre='NAPOLI' LocalResultado={2} VisitanteEscudo={"/images/Zenit.png"} VisitanteNombre='ZENIT' VisitanteResultado={0}/>
+            <Result Result='X' LocalEscudo={"/images/BayernMunchen.png"} LocalNombre='BAYERN MUN' LocalResultado={0} VisitanteEscudo={"/images/Sevilla.webp"} VisitanteNombre='SEVILLA' VisitanteResultado={1}/>
+            <Result Result='V' LocalEscudo={"/images/Porto.jpg"} LocalNombre='PORTO' LocalResultado={2} VisitanteEscudo={"/images/Liverpool.png"} VisitanteNombre='LIVERPOOL' VisitanteResultado={1}/>
+            <Result Result='X' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={0} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={2}/>
+            <Result Result='V' LocalEscudo={"/images/Arsenal.jpg"} LocalNombre='ARSENAL' LocalResultado={3} VisitanteEscudo={"/images/internazionale.png"} VisitanteNombre='INTER' VisitanteResultado={0}/>
+            <Result Result='V' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={2} VisitanteEscudo={"/images/Liverpool.png"} VisitanteNombre='LIVERPOOL' VisitanteResultado={1}/>
+            <Result Result='X' LocalEscudo={"/images/Milan.png"} LocalNombre='MILAN' LocalResultado={2} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={4}/>
+            <Result Result='V' LocalEscudo={"/images/BayernMunchen.png"} LocalNombre='BAYERN MUN' LocalResultado={1} VisitanteEscudo={"/images/RealMadrid.png"} VisitanteNombre='REALMADRID' VisitanteResultado={0}/>
+            <Result Result='X' LocalEscudo={"/images/BayernMunchen.png"} LocalNombre='BAYERN MUN' LocalResultado={2} VisitanteEscudo={"/images/RealMadrid.png"} VisitanteNombre='REAL MADRID' VisitanteResultado={2}/>
+            <Result Result='X' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={0} VisitanteEscudo={"/images/ManchesterUnited.png"} VisitanteNombre='MANCHESTER UN' VisitanteResultado={1}/>
             </> 
             : 
             <>
-             <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={3}  VisitanteEscudo={"/images/Chelsea.png"} VisitanteNombre='CHELSEA' VisitanteResultado={2}/>
-             <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={2}  VisitanteEscudo={"/images/Chelsea.png"} VisitanteNombre='CHELSEA' VisitanteResultado={1}/>
-             <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={2}  VisitanteEscudo={"/images/Chelsea.png"} VisitanteNombre='CHELSEA' VisitanteResultado={0}/>
-             <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={2} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={2}/>
-             <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={3} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={1}/>
-             <Result Result='V' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={2} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>
-             <Result Result='X' LocalEscudo={"/images/ParisSaintGermain.png"} LocalNombre='PSG' LocalResultado={0} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={1}/>
+             <Result Result='X' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={0} VisitanteEscudo={"/images/Chelsea.png"} VisitanteNombre='CHELSEA' VisitanteResultado={0}/>
+             <Result Result='V' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={2} VisitanteEscudo={"/images/Chelsea.png"} VisitanteNombre='CHELSEA' VisitanteResultado={0}/>
+             <Result Result='V' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={0} VisitanteEscudo={"/images/Chelsea.png"} VisitanteNombre='CHELSEA' VisitanteResultado={0}/>
+             <Result Result='X' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={2} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={2}/>
+             <Result Result='X' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={1} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={3}/>
+             <Result Result='X' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={0} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={2}/>
+             <Result Result='V' LocalEscudo={"/images/Juventus.png"} LocalNombre='JUVENTUS' LocalResultado={1} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={0}/>
              </>
         }
     </div> </div>
