@@ -15,6 +15,7 @@ const Finals = () => {
     </div>
     <span className={styles.spansito}>Finals History</span>
     <div className={styles.containerGames}>  
+    <ResultFinals Player1='F' Player2='M' Result="L" LocalEscudo={"/images/Ajax.png"} LocalNombre='AJAX' LocalResultado={3} VisitanteEscudo={"/images/Arsenal.jpg"} VisitanteNombre='ARSENAL' VisitanteResultado={0}/>
     <ResultFinals Player1='F' Player2='G' Result="L" LocalEscudo={"/images/ManchesterUnited.png"} LocalNombre='MANCHESTER UNITED' LocalResultado={1} VisitanteEscudo={"/images/Juventus.jpg"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>
     <ResultFinals Player1='F' Player2='M' Result="L" LocalEscudo={"/images/Newcastle.png"} LocalNombre='NEWCASTLE' LocalResultado={1} VisitanteEscudo={"/images/Zenit.png"} VisitanteNombre='ZENIT' VisitanteResultado={0}/>
     <ResultFinals Player1='F' Player2='M' Result="L" LocalEscudo={"/images/Liverpool.png"} LocalNombre='LIVERPOOL' LocalResultado={1} VisitanteEscudo={"/images/Tottenham.png"} VisitanteNombre='TOTTENHAM' VisitanteResultado={0}/>

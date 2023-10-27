@@ -55,17 +55,15 @@ const Banner = () => {
     <div className={styles.ContainerBackground}>
       <img
         src={
-          "https://artwork.espncdn.com/programs/06852b52-b7d9-49ad-b4f1-a56285240a82/16x9/1280x720_20210712162540.jpg"
+          "https://st1.uvnimg.com/f0/b8/159a38194e579b74a942b8c10008/gettyimages-1149331608.jpg"
         }
         alt="logo"
         className={styles.background}
       />
       <div className={styles.containerData}>
-        <p className={styles.title}>LYONS VS VILLA REAL</p>
+        <p className={styles.title}>AJAX CAMPEON</p>
         <p className={styles.description}>
-          Lyon y Villa Real jugaran un partido IDA y VUELTA, por ascender a la
-          maxima categoria el equipo de Villa Real cuenta con figuras nuevas
-          como: Riquilme, Forlan. LoCelso y Abondanzieri.
+          Ajax goleo 3 a 0 al ARSENAL, y levanto su primer trofeo, se le acredito la posicion N°19.
         </p>
       </div>
     </div>
