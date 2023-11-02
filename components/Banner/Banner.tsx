@@ -9,21 +9,6 @@ const Banner = () => {
   const news = [
     {
       noticeDescription:
-        "Juventus gano la primera copa, Tras vencer 2 a 1 al Liverpool; el equipo comandado por Gaston Chaparro mostro caracter en el torneo.",
-      noticeImage:
-        "https://img-estaticos.atleticodemadrid.com/system/file5s/51143/medium2x2/fFcQudc5d2_campeon.jpg?1545048921",
-      noticeTitle: "¡JUVENTUS GANA LA PRIMERA!",
-    },
-
-    {
-      noticeDescription:
-        "Lyon y Villa Real jugaran un partido IDA y VUELTA, por ascender a la maxima categoria el equipo de Villa Real cuenta con figuras nuevas como: Riquilme, Forlan. LoCelso y Abondanzieri.",
-      noticeImage:
-        "https://artwork.espncdn.com/programs/06852b52-b7d9-49ad-b4f1-a56285240a82/16x9/1280x720_20210712162540.jpg",
-      noticeTitle: "LYONS VS VILLA REAL",
-    },
-    {
-      noticeDescription:
         "El equipo de Marcos Aquino se hunde lentamente en la tabla de posiciones, actualmente se encuentra en tabla roja, con el puesto N°23. La gente pide un cambio en la forma de jugar, la gente ya no aguanta.",
       noticeImage:
         "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2023/04/01/3672957-74768068-2560-1440.jpg",

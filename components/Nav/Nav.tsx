@@ -74,13 +74,13 @@ export const Nav = () => {
             <div
               className={showBackground ? styles.Browse : styles.BrowseOpacity}
             >
-              <p>Home</p>
-              <p>Azar</p>
-              <p>Draft</p>
-              <p>Finals & PopularMatchs</p>
-              <p>Franco</p>
-              <p>Flaki</p>
-              <p>Marcos</p>
+              <p onClick={()=> router.push("/")}>Home</p>
+              <p onClick={()=> router.push("/azar")}>Azar</p>
+              <p onClick={()=> router.push("/draft")}>Draft</p>
+              <p onClick={()=> router.push("/results")}>Finals & PopularMatchs</p>
+              <p onClick={()=> router.push("/franco")}>Franco</p>
+              <p onClick={()=> router.push("/gaston")}>Flaki</p>
+              <p onClick={()=> router.push("/marcos")}>Marcos</p>
            </div>
           )}
         </div>
