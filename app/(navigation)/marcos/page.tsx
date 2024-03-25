@@ -60,9 +60,15 @@ const Marcos = () => {
              <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={2} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={3}/>
              <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={1} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={2}/>
              <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={2}/>
+             <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={2}/>
+             <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={1} VisitanteEscudo={"/images/ParisSaintGermain.png"} VisitanteNombre='PSG' VisitanteResultado={3}/>
+
              <Result Result='V' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>
              <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={2}/>
+             <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/> 
              <Result Result='X' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={0} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>      
+             <Result Result='V' LocalEscudo={"/images/Chelsea.png"} LocalNombre='CHELSEA' LocalResultado={2} VisitanteEscudo={"/images/Juventus.png"} VisitanteNombre='JUVENTUS' VisitanteResultado={0}/>      
+
              </>
         }
     </div> </div>

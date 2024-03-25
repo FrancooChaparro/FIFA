@@ -22,8 +22,8 @@ export const Games = [
     VisitanteResultado: 1,
   },
   {
-    Player1: "F",
-    Player2: "G",
+    Player1: "M",
+    Player2: "F",
     Result: "L",
     LocalEscudo: "/images/Tottenham.png",
     LocalNombre: "TOTTENHAM",
