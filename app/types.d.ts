@@ -56,8 +56,20 @@ export interface Rank {
   titles: number;
 }
 
+export interface poster {
+  image: string;
+  alt: string;
+  title: string;
+  description: string;
+}
+export interface Rank {
+  logo: string;
+  name: string;
+  rank: number;
+  titles: number;
+}
 export interface Data {
-  poster: [] | any;
+  poster: Array<poster>;
   new: [] | any;
   ranking: Array<Rank>;
 }
