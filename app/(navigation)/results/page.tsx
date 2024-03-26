@@ -3,7 +3,7 @@ import styles from "./results.module.css";
 import { ResultFinals } from "@/components/ResultFinals/ResultFinals";
 import { Nav } from "@/components/Nav/Nav";
 import { History } from "@/models/games";
-import { Match, Externals } from "@/app/types";
+import { Externals } from "@/app/types";
 
 const Finals = () => {
   const history: Externals  = History;

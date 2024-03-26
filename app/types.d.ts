@@ -15,6 +15,25 @@ export interface Match {
     VisitanteResultado: number;
   }
   
+  export type MatchWithoutPlayers = Omit<Match, 'Player1' | 'Player2'>;
+
+  export interface MatchStats {
+    win: number;
+    loss: number;
+    porcent: string;
+  }
+  
+  export interface Person { 
+    finals: { 
+      matchs: MatchWithoutPlayers[];
+      stats: MatchStats;
+    }
+    clasics: { 
+      matchs: MatchWithoutPlayers[];
+      stats: MatchStats;
+    }
+  }
+  
   export interface Externals {
     Games: Match[];
     best_match: Match[];
