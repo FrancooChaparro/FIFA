@@ -415,7 +415,6 @@ torneos: [
 ]
 }
 
-
 export const stats_marcos = {
 finals : {
 
@@ -716,7 +715,6 @@ clasics : {
   }
 }
 }
-
 
 export const stats_franco = { 
   finals : { 
@@ -1053,4 +1051,295 @@ export const stats_franco = {
       loss:1 ,
     }
   }
+}
+
+export const stats_gaston = { 
+  finals: {
+    matchs: [
+      {
+        Result: 'V',
+        LocalEscudo: '/images/RealMadrid.png',
+        LocalNombre: 'REAL MADRID',
+        LocalResultado: 3,
+        VisitanteEscudo: '/images/internazionale.png',
+        VisitanteNombre: 'INTER',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/RealMadrid.png',
+        LocalNombre: 'REAL MADRID',
+        LocalResultado: 1,
+        VisitanteEscudo: '/images/BayernMunchen.png',
+        VisitanteNombre: 'BAYERN MUN',
+        VisitanteResultado: 2
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 1,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PSG',
+        VisitanteResultado: 3
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/ManchesterCity.png',
+        LocalNombre: 'MAN. CITY',
+        LocalResultado: 2,
+        VisitanteEscudo: '/images/Sevilla.webp',
+        VisitanteNombre: 'SEVILLA',
+        VisitanteResultado: 1
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/AstonVilla.png',
+        LocalNombre: 'ASTON VILLA',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PSG',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/ASRoma.png',
+        LocalNombre: 'ROMA',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/ManchesterCity.png',
+        VisitanteNombre: 'MAN. CITY',
+        VisitanteResultado: 1
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/SSC_Neapel.svg.png',
+        LocalNombre: 'NAPOLI',
+        LocalResultado: 2,
+        VisitanteEscudo: '/images/Zenit.png',
+        VisitanteNombre: 'ZENIT',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/BayernMunchen.png',
+        LocalNombre: 'BAYERN MUN',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/Sevilla.webp',
+        VisitanteNombre: 'SEVILLA',
+        VisitanteResultado: 1
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Porto.jpg',
+        LocalNombre: 'PORTO',
+        LocalResultado: 2,
+        VisitanteEscudo: '/images/Liverpool.png',
+        VisitanteNombre: 'LIVERPOOL',
+        VisitanteResultado: 1
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PSG',
+        VisitanteResultado: 2
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Arsenal.jpg',
+        LocalNombre: 'ARSENAL',
+        LocalResultado: 3,
+        VisitanteEscudo: '/images/internazionale.png',
+        VisitanteNombre: 'INTER',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 2,
+        VisitanteEscudo: '/images/Liverpool.png',
+        VisitanteNombre: 'LIVERPOOL',
+        VisitanteResultado: 1
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Milan.png',
+        LocalNombre: 'MILAN',
+        LocalResultado: 2,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PSG',
+        VisitanteResultado: 4
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/BayernMunchen.png',
+        LocalNombre: 'BAYERN MUN',
+        LocalResultado: 1,
+        VisitanteEscudo: '/images/RealMadrid.png',
+        VisitanteNombre: 'REALMADRID',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/BayernMunchen.png',
+        LocalNombre: 'BAYERN MUN',
+        LocalResultado: 2,
+        VisitanteEscudo: '/images/RealMadrid.png',
+        VisitanteNombre: 'REAL MADRID',
+        VisitanteResultado: 2
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/ManchesterUnited.png',
+        VisitanteNombre: 'MANCHESTER UN',
+        VisitanteResultado: 1
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/ManchesterCity.png',
+        LocalNombre: 'MANCHESTER CITY',
+        LocalResultado: 1,
+        VisitanteEscudo: '/images/Porto.jpg',
+        VisitanteNombre: 'PORTO',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Tottenham.png',
+        LocalNombre: 'TOTTENHAM',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/RealMadrid.png',
+        VisitanteNombre: 'REAL MADRID',
+        VisitanteResultado: 1
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Newcastle.png',
+        LocalNombre: 'NEWCASTLE',
+        LocalResultado: 3,
+        VisitanteEscudo: '/images/Valencia.jpg',
+        VisitanteNombre: 'VALENCIA',
+        VisitanteResultado: 1
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Porto.jpg',
+        LocalNombre: 'PORTO',
+        LocalResultado: 1,
+        VisitanteEscudo: '/images/BayernMunchen.png',
+        VisitanteNombre: 'BAYERN MUNICH',
+        VisitanteResultado: 0
+      },
+    ],
+    stats: {
+      win: 11,
+      loss: 9,
+      porcent: "55%",
+    },
+  },
+  clasics: {
+    matchs: [
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/Chelsea.png',
+        VisitanteNombre: 'CHELSEA',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 2,
+        VisitanteEscudo: '/images/Chelsea.png',
+        VisitanteNombre: 'CHELSEA',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/Chelsea.png',
+        VisitanteNombre: 'CHELSEA',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/Chelsea.png',
+        VisitanteNombre: 'CHELSEA',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/Chelsea.png',
+        VisitanteNombre: 'CHELSEA',
+        VisitanteResultado: 2
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 2,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PSG',
+        VisitanteResultado: 2
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 1,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PSG',
+        VisitanteResultado: 3
+      },
+      {
+        Result: 'X',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PSG',
+        VisitanteResultado: 2
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 1,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PSG',
+        VisitanteResultado: 0
+      },
+      {
+        Result: 'V',
+        LocalEscudo: '/images/Juventus.png',
+        LocalNombre: 'JUVENTUS',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PSG',
+        VisitanteResultado: 0
+      }
+    ],
+    stats: {
+      win: 3,
+      loss: 4,
+      porcent: "42%",
+    },
+}
 }
