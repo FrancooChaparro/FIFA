@@ -53,8 +53,8 @@ const Azar = () => {
       ];
       let bombo9 = [
         { nombre: "Villa Real", escudo: "/images/VillaReal.webp" },
-        { nombre: "Wolfsburgo", escudo:"/images/wolfburgo.png" },
-        { nombre: "Fiorentina", escudo:"/images/fiorentina.png" },
+        { nombre: "PSV", escudo:"https://w7.pngwing.com/pngs/258/642/png-transparent-psv-eindhoven-hd-logo.png" },
+        { nombre: "Galatasaray", escudo:"https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/109.png" },
       ];
 
       
@@ -124,11 +124,23 @@ const Azar = () => {
       Gaston(gaston)
       Marcos(marcos)
 
+      const jsonDataFranco = JSON.stringify(franco);
+      localStorage.setItem('franco_data', jsonDataFranco);
+      const jsonDataMarcos = JSON.stringify(marcos);
+      localStorage.setItem('marcos_data', jsonDataMarcos);
+      const jsonDataGaston = JSON.stringify(gaston);
+      localStorage.setItem('gaston_data', jsonDataGaston);
       return;
     }
     alear();
   }
+  const storedDataFranco: any = localStorage.getItem('franco_data');
+  const storedDataMarcos: any = localStorage.getItem('marcos_data');
+  const storedDataGaston: any = localStorage.getItem('gaston_data');
 
+  const retrievedDataFranco = JSON.parse(storedDataFranco);
+  const retrievedDataMarcos = JSON.parse(storedDataMarcos);
+  const retrievedDataGaston = JSON.parse(storedDataGaston);
   
   return (
     <div className={styles.container_all}>
@@ -145,22 +157,22 @@ const Azar = () => {
       <div className={styles.container_main}>
     <div className={styles.container}>
             <h4>Franco</h4>
-            {FrancoBombo.length &&
-              FrancoBombo.map((equipo: any) => (
+            {retrievedDataFranco.length &&
+              retrievedDataFranco.map((equipo: any) => (
                 <span key={equipo.nombre}>{equipo.nombre}</span>
               ))}
     </div>
     <div className={styles.container}>
             <h4>Gaston</h4>
-           {GastonBombo.length &&
-              GastonBombo.map((equipo: any) => (
+           {retrievedDataGaston.length &&
+              retrievedDataGaston.map((equipo: any) => (
                 <span key={equipo.nombre}>{equipo.nombre}</span>
               ))}
     </div>
     <div className={styles.container}>
             <h4>Marcos</h4>
-           {MarcosBombo.length &&
-              MarcosBombo.map((equipo: any) => (
+           {retrievedDataMarcos.length &&
+              retrievedDataMarcos.map((equipo: any) => (
                 <span key={equipo.nombre}>{equipo.nombre}</span>
               ))}
     </div>

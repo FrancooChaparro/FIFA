@@ -14,49 +14,30 @@ const MyProvider: FC<MyProviderProps> = ({ children }) => {
   const [FrancoCopy, setFrancoCopy] = useState<any>([]);
   const [MarcosCopy, setMarcosCopy] = useState<any>([]);
 
-
-const Franco = (newValue: any[]) => {
-setFrancoCopy(newValue);
- let array = newValue
-const nombrePersona = "/images/fra.jpg";
-array.forEach((equipo: any) => {
-  equipo.persona = nombrePersona;
-});
-setFrancoBombo(array);
+  const Franco = (newValue: any[]) => {
+    setFrancoCopy(newValue);
+    setFrancoBombo(newValue);
   };
-
-  
 
   const Gaston = (newValue: any[]) => {
-setGastonCopy(newValue);
-
-    let array = newValue
-const nombrePersona = "/images/Flaki.jpg";
-array.forEach((equipo: any) => {
-  equipo.persona = nombrePersona;
-});
-setGastonBombo(array);
+    setGastonCopy(newValue);
+    setGastonBombo(newValue);
   };
   const Marcos = (newValue: any[]) => {
-setMarcosCopy(newValue);
-
-    let array = newValue
-    const nombrePersona = "/images/Marcos.jpg";
-    array.forEach((equipo: any) => {
-      equipo.persona = nombrePersona;
-    });
-    setMarcosBombo(array);
+    setMarcosCopy(newValue);
+    setMarcosBombo(newValue);
   };
+  
   const contextValue: MyContextType = {
-  Franco,
-  Gaston,
-  Marcos,
-  FrancoBombo,
-  GastonBombo,
-  MarcosBombo,
-  FrancoCopy,
-  GastonCopy,
-  MarcosCopy,
+    Franco,
+    Gaston,
+    Marcos,
+    FrancoBombo,
+    GastonBombo,
+    MarcosBombo,
+    FrancoCopy,
+    GastonCopy,
+    MarcosCopy,
   };
 
   return (
@@ -65,6 +46,3 @@ setMarcosCopy(newValue);
 };
 
 export default MyProvider;
-
-
-

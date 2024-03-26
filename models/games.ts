@@ -6,7 +6,7 @@ export const History = {
     Result: "NO",
     LocalEscudo: "/images/Porto.jpg",
     LocalNombre: "PORTO",
-    LocalResultado: 1,
+    LocalResultado: "1",
     VisitanteEscudo: "/images/BayernMunchen.png",
     VisitanteNombre: "BAYERN MUNICH",
     VisitanteResultado: 0,
@@ -1580,7 +1580,7 @@ export const data = {
       titles: 0,
     },
     {
-      logo: "images/fiorentina.png",
+      logo: "https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/31.png",
       rank: 31,
       name: "FIORENTINA",
       titles: 0,
