@@ -3,12 +3,12 @@
     width: 100wv;
     height: 135vh;
     display: flex;
-    background-color: rgb(48, 38, 58);
+    /* background-color: rgb(48, 38, 58); */
 }
 
 .containerBraket { 
     width: 10%;
-    background-color: rgb(48, 38, 58);
+    /* background-color: rgb(48, 38, 58); */
 }
 
 .diome { 
@@ -19,7 +19,7 @@
 
 .octavosLeft { 
     width: 10%;
-    background-color: rgb(48, 38, 58);
+    /* background-color: rgb(48, 38, 58); */
 }
 
 .octavosLeft div { 
@@ -37,7 +37,7 @@
 
 .cuartosLeft {
     width: 10%;
-    background-color: rgb(48, 38, 58);
+    /* background-color: rgb(48, 38, 58); */
 }
 
 .cuartosLeft div { 
@@ -54,7 +54,7 @@
 
 .semifinalesLeft {
     width: 10%;
-    background-color: rgb(48, 38, 58);
+    /* background-color: rgb(48, 38, 58); */
 }
 
 .semifinalesLeft div { 
@@ -128,7 +128,7 @@
 
 .top {
     width: 100%;
-    background-color: rgb(48, 38, 58);
+    /* background-color: rgb(48, 38, 58); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +136,7 @@
 
 .bot {
     width: 100%;
-    background-color: rgb(48, 38, 58);
+    /* background-color: rgb(48, 38, 58); */
     position: absolute;
     top: 42%;
 }
