@@ -70,6 +70,6 @@ export interface Rank {
 }
 export interface Data {
   poster: Array<poster>;
-  new: [] | any;
+  new: Array<poster>;
   ranking: Array<Rank>;
 }
