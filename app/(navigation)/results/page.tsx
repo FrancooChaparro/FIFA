@@ -10,7 +10,6 @@ const Finals = () => {
   
   return (
     <>
-      <Nav />
       <div className={styles.containerHeader}>
         <div className={styles.containerMarcos}>MARCOS</div>
         <div className={styles.containerFranco}>FRANCO</div>

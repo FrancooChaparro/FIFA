@@ -1,3 +1,6 @@
+.containerGameName {
+  color: white;
+}
 @media screen and (max-width: 480px) {
     .containerAll {
       width: 100%;
@@ -116,8 +119,8 @@
       height: 100%;
     }
     .containerEscudo img {
-      width: 90%;
-      height: 90%;
+      width: 25%;
+      height: 25%;
     }
     .containerGameName {
       width: 25%;
@@ -127,6 +130,7 @@
       align-items: center;
       font-size: 13px;
       font-weight: 500;
+      color: white;
     }
     .containerGameResultWin {
       width: 10%;

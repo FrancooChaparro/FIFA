@@ -9,10 +9,10 @@ export interface Match {
     Result: string;
     LocalEscudo: string;
     LocalNombre: string;
-    LocalResultado: number | string;
+    LocalResultado: any;
     VisitanteEscudo: string;
     VisitanteNombre: string;
-    VisitanteResultado: number | string;
+    VisitanteResultado: any;
   }
   
   export type MatchWithoutPlayers = Omit<Match, 'Player1' | 'Player2'>;

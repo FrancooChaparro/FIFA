@@ -344,7 +344,6 @@ const Draft = () => {
 
   return (
     <>
-    <Nav></Nav>
       <div className={styles.containerAll}>
         <div className={styles.containerBraket}>
           <div style={{ marginTop: "7px" }} onClick={() => setA3(A1)}>

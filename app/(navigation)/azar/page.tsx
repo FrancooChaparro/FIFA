@@ -144,7 +144,6 @@ const Azar = () => {
   
   return (
     <div className={styles.container_all}>
-    <Nav />
       <div className={styles.container_head}>
         <div className={styles.container_title}>
           <h1>DREAM TEAM</h1>

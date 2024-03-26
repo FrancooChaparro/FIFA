@@ -16,6 +16,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background:linear-gradient(to bottom,#0e157a , #4e8ae4);
 }
 
 a {
