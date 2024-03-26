@@ -33,7 +33,7 @@ const Marcos = () => {
             <div className={styles.containerMidlane}>
     <button onClick={()=> setClasic(true)}>Finals</button><button onClick={()=> setClasic(false)}>Classic</button>
     </div>
-    <div className={styles.containerGames}>
+    <div className={styles.containerGames}>  
     {
             clasic ? 
             <>

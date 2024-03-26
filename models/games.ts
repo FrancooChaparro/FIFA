@@ -1,4 +1,5 @@
-export const Games = [
+export const History = { 
+ Games : [
   {
     Player1: "G",
     Player2: "M",
@@ -363,33 +364,110 @@ export const Games = [
     VisitanteNombre: "INTER",
     VisitanteResultado: 0,
   },
-];
-
-
-export const best_match = [
-    {
-          Player1:"F",
-          Player2:"M",
-          Result:"L",
-          LocalEscudo:"/images/SportingLisboa.png",
-          LocalNombre:"SPORTING",
-          LocalResultado:5,
-          VisitanteEscudo:"/images/SanLorenzo.png",
-          VisitanteNombre:"SAN LORENZO",
-          VisitanteResultado:4,
-    },
-    {
-          Player1:"F",
-          Player2:"M",
-          Result:"L",
-          LocalEscudo:"/images/ParisSaintGermain.png",
-          LocalNombre:"PSG",
-          LocalResultado:3,
-          VisitanteEscudo:"/images/Chelsea.png",
-          VisitanteNombre:"CHELSEA",
-          VisitanteResultado:2,
-    },
+], 
+best_match: [
+  {
+    Player1: "F",
+    Player2: "M",
+    Result: "L",
+    LocalEscudo: "/images/SportingLisboa.png",
+    LocalNombre: "SPORTING",
+    LocalResultado: 5,
+    VisitanteEscudo: "/images/SanLorenzo.png",
+    VisitanteNombre: "SAN LORENZO",
+    VisitanteResultado: 4,
+  },
+  {
+    Player1: "F",
+    Player2: "M",
+    Result: "L",
+    LocalEscudo: "/images/ParisSaintGermain.png",
+    LocalNombre: "PSG",
+    LocalResultado: 3,
+    VisitanteEscudo: "/images/Chelsea.png",
+    VisitanteNombre: "CHELSEA",
+    VisitanteResultado: 2,
+  },
+],
+torneos: [
+  {
+    Player1: "F",
+    Player2: "M",
+    Result: "L",
+    LocalEscudo: "/images/ParisSaintGermain.png",
+    LocalNombre: "PARIS SAINT GERMAIN",
+    LocalResultado: 2,
+    VisitanteEscudo: "/images/Chelsea.png",
+    VisitanteNombre: "CHELSEA",
+    VisitanteResultado: 0,
+  },
+  {
+    Player1: "G",
+    Player2: "F",
+    Result: "L",
+    LocalEscudo: "/images/BayernMunchen.png",
+    LocalNombre: "BAYERN MUNICH",
+    LocalResultado: 1,
+    VisitanteEscudo: "/images/ManchesterCity.png",
+    VisitanteNombre: "MANCHESTER CITY",
+    VisitanteResultado: 0,
+  },
 ]
+
+}
+
+
+export const externals = {
+  best_match: [
+    {
+      Player1: "F",
+      Player2: "M",
+      Result: "L",
+      LocalEscudo: "/images/SportingLisboa.png",
+      LocalNombre: "SPORTING",
+      LocalResultado: 5,
+      VisitanteEscudo: "/images/SanLorenzo.png",
+      VisitanteNombre: "SAN LORENZO",
+      VisitanteResultado: 4,
+    },
+    {
+      Player1: "F",
+      Player2: "M",
+      Result: "L",
+      LocalEscudo: "/images/ParisSaintGermain.png",
+      LocalNombre: "PSG",
+      LocalResultado: 3,
+      VisitanteEscudo: "/images/Chelsea.png",
+      VisitanteNombre: "CHELSEA",
+      VisitanteResultado: 2,
+    },
+  ],
+  torneos: [
+    {
+      Player1: "F",
+      Player2: "M",
+      Result: "L",
+      LocalEscudo: "/images/ParisSaintGermain.png",
+      LocalNombre: "PARIS SAINT GERMAIN",
+      LocalResultado: 2,
+      VisitanteEscudo: "/images/Chelsea.png",
+      VisitanteNombre: "CHELSEA",
+      VisitanteResultado: 0,
+    },
+    {
+      Player1: "G",
+      Player2: "F",
+      Result: "L",
+      LocalEscudo: "/images/BayernMunchen.png",
+      LocalNombre: "BAYERN MUNICH",
+      LocalResultado: 1,
+      VisitanteEscudo: "/images/ManchesterCity.png",
+      VisitanteNombre: "MANCHESTER CITY",
+      VisitanteResultado: 0,
+    },
+  ]
+};
+
 
 export const torneos = [
     {

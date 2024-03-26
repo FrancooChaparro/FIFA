@@ -2,43 +2,12 @@ import React from "react";
 import styles from "./results.module.css";
 import { ResultFinals } from "@/components/ResultFinals/ResultFinals";
 import { Nav } from "@/components/Nav/Nav";
-import { Games, best_match, torneos } from "@/models/games";
+import { History } from "@/models/games";
+import { Match, Externals } from "@/app/types";
 
 const Finals = () => {
-  const games: {
-    Player1: string;
-    Player2: string;
-    Result: string;
-    LocalEscudo: string;
-    LocalNombre: string;
-    LocalResultado: number;
-    VisitanteEscudo: string;
-    VisitanteNombre: string;
-    VisitanteResultado: number;
-  }[] = Games;
-
-  const Torneos: {
-    Player1: string;
-    Player2: string;
-    Result: string;
-    LocalEscudo: string;
-    LocalNombre: string;
-    LocalResultado: number;
-    VisitanteEscudo: string;
-    VisitanteNombre: string;
-    VisitanteResultado: number;
-  }[] = torneos;
-  const best_games: {
-    Player1: string;
-    Player2: string;
-    Result: string;
-    LocalEscudo: string;
-    LocalNombre: string;
-    LocalResultado: number;
-    VisitanteEscudo: string;
-    VisitanteNombre: string;
-    VisitanteResultado: number;
-  }[] = best_match;
+  const history: Externals  = History;
+  
   return (
     <>
       <Nav />
@@ -49,7 +18,7 @@ const Finals = () => {
       </div>
       <span className={styles.spansito}>Finals History</span>
       <div className={styles.containerGames}>
-        {games.map((game) => (
+        {history.Games.map((game) => (
           <ResultFinals
             Player1={game.Player1}
             Player2={game.Player2}
@@ -65,7 +34,7 @@ const Finals = () => {
       </div>
       <span className={styles.spansito}>Torneos No oficiales</span>
       <div className={styles.containerGames}>
-        {Torneos.map((game) => (
+        {history.torneos.map((game) => (
           <ResultFinals
             Player1={game.Player1}
             Player2={game.Player2}
@@ -81,7 +50,7 @@ const Finals = () => {
       </div>
       <span className={styles.spansito}>Popular Matchs</span>
       <div className={styles.containerGames}>
-        {best_games.map((game) => (
+        {history.best_match.map((game) => (
           <ResultFinals
             Player1={game.Player1}
             Player2={game.Player2}
