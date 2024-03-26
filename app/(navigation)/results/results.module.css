@@ -182,6 +182,7 @@
     justify-content: space-around;
     margin-bottom: 1rem;
   }
+
   .containerMarcos {
     width: 30%;
     height: 2rem;
@@ -189,7 +190,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5%;
-    background-color: brown;
+    background-color:rgb(255, 33, 33);
     color: white;
   }
   .containerFranco {
@@ -199,7 +200,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5%;
-    background-color: rgb(21, 144, 175);
+    background-color: rgb(39, 186, 255);
     color: white;
   }
   .containerGaston {
@@ -211,7 +212,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5%;
-    background-color: rgb(139, 151, 30);
+    background-color: rgb(209, 212, 33);
     color: white;
   }
 
@@ -246,17 +247,20 @@
     border: 1px solid white;
   }
   .spansito {
-    font-size: 30px;
+    font-size: 25px;
+    height: 40px;
     width:60%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
     display: flex;
-    border-radius: 5%;
-    background-color: rgb(197, 197, 197);
+    border-radius: 7%;
+    background-color:#070a3f;
+    color: white;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    border: 2px solid grey;
   }
 
   .bend {
@@ -265,13 +269,24 @@
     justify-content: center;
     align-items: center;
   }
-.bend div {
+.bend_marcos {
   border-radius: 50%;
-  background-color: yellow;
+  background-color: rgb(255, 33, 33);
   width: 40%;
   height: 30%;
 }
-
+.bend_franco {
+  border-radius: 50%;
+  background-color: rgb(39, 186, 255);
+  width: 40%;
+  height: 30%;
+}
+.bend_gaston {
+  border-radius: 50%;
+  background-color: rgb(251, 255, 32);
+  width: 40%;
+  height: 30%;
+}
 @media screen and (max-width: 480px) {
     .containerAll {
       width: 100%;
