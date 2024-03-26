@@ -49,3 +49,15 @@ export interface AppState {
     marcosBombo: Array<Team> | [];
   };
   
+export interface Rank {
+  logo: string;
+  name: string;
+  rank: number;
+  titles: number;
+}
+
+export interface Data {
+  poster: [] | any;
+  new: [] | any;
+  ranking: Array<Rank>;
+}

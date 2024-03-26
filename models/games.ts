@@ -1343,3 +1343,207 @@ export const stats_gaston = {
     },
 }
 }
+
+export const data = {
+  poster: [
+   
+  ],
+  new: [
+   
+  
+  ],
+  ranking: [
+    {
+      logo: "images/ParisSaintGermain.png",
+      rank: 1,
+      name: "PARIS SAINT GERMAIN",
+      titles: 4,
+    },
+    {
+      logo: "images/BayernMunchen.png",
+      rank: 2,
+      name: "BAYERN MUNICH",
+      titles: 3,
+    },
+    {
+      logo: "images/ManchesterUnited.png",
+      rank: 3,
+      name: "MANCHESTER UNITED",
+      titles: 3,
+    },
+    {
+      logo: "images/ManchesterCity.png",
+      rank: 4,
+      name: "MANCHESTER CITY",
+      titles: 3,
+    },
+    {
+      logo: "images/RealMadrid.png",
+      rank: 5,
+      name: "REAL MADRID",
+      titles: 3,
+    },
+    {
+      logo: "images/Barcelona.webp",
+      rank: 6,
+      name: "BARCELONA",
+      titles: 2,
+    },
+    {
+      logo: "images/Tottenham.png",
+      rank: 7,
+      name: "TOTTENHAM",
+      titles: 2,
+    },
+    {
+      logo: "images/Newcastle.png",
+      rank: 8,
+      name: "NEWCASTLE",
+      titles: 2,
+    },
+    {
+      logo: "images/Porto.jpg",
+      rank: 9,
+      name: "PORTO",
+      titles: 2,
+    },
+    {
+      logo: "images/AstonVilla.png",
+      rank: 10,
+      name: "ASTON VILLA",
+      titles: 1,
+    },
+    {
+      logo: "images/SSC_Neapel.svg.png",
+      rank: 11,
+      name: "NAPOLI",
+      titles: 1,
+    },
+    {
+      logo: "images/Sevilla.webp",
+      rank: 12,
+      name: "SEVILLA",
+      titles: 1,
+    },
+    {
+      logo: "images/Valencia.jpg",
+      rank: 13,
+      name: "VALENCIA",
+      titles: 1,
+    },
+    {
+      logo: "images/Internazionale.png",
+      rank: 14,
+      name: "INTER",
+      titles: 1,
+    },
+    {
+      logo: "images/Arsenal.jpg",
+      rank: 15,
+      name: "ARSENAL",
+      titles: 1,
+    },
+    {
+      logo: "images/Juventus.png",
+      rank: 16,
+      name: "JUVENTUS",
+      titles: 1,
+    },
+    {
+      logo: "images/VillaReal.webp",
+      rank: 17,
+      name: "VILLA REAL",
+      titles: 1,
+    },
+    {
+      logo: "images/Liverpool.png",
+      rank: 18,
+      name: "LIVERPOOL",
+      titles: 1,
+    },
+    {
+      logo: "images/Ajax.png",
+      rank: 19,
+      name: "AJAX",
+      titles: 1,
+    },
+    {
+      logo: "images/Chelsea.png",
+      rank: 20,
+      name: "CHELSEA",
+      titles: 0,
+    },
+    {
+      logo: "images/Zenit.png",
+      rank: 21,
+      name: "ZENIT",
+      titles: 0,
+    },
+    {
+      logo: "images/Milan.png",
+      rank: 22,
+      name: "AC MILAN",
+      titles: 0,
+    },
+    {
+      logo: "images/BorussiaDortmund.png",
+      rank: 23,
+      name: "BORUSSIA DORTMUND",
+      titles: 0,
+    },
+    {
+      logo: "images/SportingLisboa.png",
+      rank: 24,
+      name: "SPORTING LISBOA",
+      titles: 0,
+    },
+    {
+      logo: "images/Lazio.png",
+      rank: 25,
+      name: "LAZIO",
+      titles: 0,
+    },
+    {
+      logo: "images/AtleticoMadrid.png",
+      rank: 26,
+      name: "ATL. MADRID",
+      titles: 0,
+    },
+    {
+      logo: "images/Everton.png",
+      rank: 27,
+      name: "EVERTON",
+      titles: 0,
+    },
+    {
+      logo: "images/ASRoma.png",
+      rank: 28,
+      name: "AS ROMA",
+      titles: 0,
+    },
+    {
+      logo: "images/Benfica.png",
+      rank: 29,
+      name: "BENFICA",
+      titles: 0,
+    },
+    {
+      logo: "images/wolfburgo.png",
+      rank: 30,
+      name: "WOLFSBURGO",
+      titles: 0,
+    },
+    {
+      logo: "images/fiorentina.png",
+      rank: 31,
+      name: "FIORENTINA",
+      titles: 0,
+    },
+    {
+      logo: "images/Lyon.png",
+      rank: 32,
+      name: "LYON",
+      titles: 0,
+    },
+  ]
+}
