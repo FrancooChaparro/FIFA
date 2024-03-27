@@ -1,33 +1,45 @@
+
 .containerAll {
+    position: relative;
+    width: 100vw;
+    background-image: url("https://brandemia.org/sites/default/files/inline/images/ucl-image-ultimatestage-gallery-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
     display: flex;
-    justify-content: space-around;
- }
- 
+    justify-content: space-evenly;
+    position: absolute;
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+
  .containerTableGreen { 
-     width: 30%;
-     height: 700px;
+     width: 25%;
      border-radius: 1%;
-     border: 1px solid rgb(13, 112, 13);
+     /* border: 2px solid rgb(13, 112, 13); */
  }
  
  .containerTableYellow { 
-     width: 30%;
-     height: 700px;
+     width: 25%;
      border-radius: 1%;
-     border: 1px solid rgb(174, 201, 26);
+     /* border: 2px solid rgb(174, 201, 26); */
  }
  
  .containerTableRed { 
-     width: 30%;
-     height: 700px;
+     width: 25%;
      border-radius: 1%;
-     border: 1px solid rgb(187, 19, 19);
+     /* border: 2px solid rgb(187, 19, 19); */
  }
  
  .containerPicture {
-     width: 99%;
-     height: 10%;
+     width: 100%;
+     height: 55px;   
      display: flex;
+     background-color: rgba(0, 0, 0, 0.5);
+     margin-bottom: 1rem;
  }
  
  .containerPictureOut {
@@ -53,7 +65,7 @@
      align-items: center;
      font-weight: bold;
      font-size: 15px;
-     background-color: white;
+
      border-radius: 5px;
  
  }

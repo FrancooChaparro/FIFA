@@ -12,7 +12,7 @@ const Azar = () => {
  
     let equipos: Array<Team> = [
         { nombre: "Real Madrid", escudo: "/images/RealMadrid.png" },
-        { nombre: "Manchester City", escudo: "/images/ManchesterCity.png" },
+        { nombre: "Manchester City", escudo: "/images/mancity.png" },
         { nombre: "Bayern Munich", escudo: "/images/BayernMunchen.png" },
       ];
     
@@ -28,31 +28,31 @@ const Azar = () => {
       ];
       let bombo4 = [
         { nombre: "Tottenham", escudo: "/images/Tottenham.png" },
-        { nombre: "Newcastle", escudo: "/images/Newcastle.png" },
+        { nombre: "Newcastle", escudo: "/images/newcastlee.png" },
         { nombre: "Napoli", escudo:"/images/SSC_Neapel.svg.png"},
       ];
       let bombo5 = [
         { nombre: "Roma", escudo: "/images/ASRoma.png"},
-        { nombre: "Arsenal", escudo: "/images/Arsenal.jpg" },
+        { nombre: "Arsenal", escudo: "/images/arsenalfc.png" },
         { nombre: "Atletico Madrid", escudo: "/images/AtleticoMadrid.png" },
       ];
       let bombo6 = [
-        { nombre: "Sevilla", escudo: "/images/Sevilla.webp"},
-        { nombre: "Valencia", escudo:  "/images/Valencia.jpg" },
+        { nombre: "Sevilla", escudo: "/images/sevillaa.png"},
+        { nombre: "Valencia", escudo:  "/images/valenciafc.png" },
         { nombre: "Aston Villa", escudo:  "/images/AstonVilla.png"},
       ];
       let bombo7 = [
         { nombre: "Zenit", escudo: "/images/Zenit.png"},
         { nombre: "Lyon", escudo:  "/images/Lyon.png"},
-        { nombre: "Everton", escudo:  "/images/Everton.png" },
+        { nombre: "Everton", escudo:  "/images/evertonfc.png" },
       ];
       let bombo8 = [
-        { nombre: "Porto", escudo:"/images/Porto.jpg" },
+        { nombre: "Porto", escudo:"/images/oporto.png" },
         { nombre: "Benfica", escudo: "/images/Benfica.png" },
         { nombre: "Sporting Lisboa", escudo: "/images/SportingLisboa.png" },
       ];
       let bombo9 = [
-        { nombre: "Villa Real", escudo: "/images/VillaReal.webp" },
+        { nombre: "Villa Real", escudo: "/images/villar.png" },
         { nombre: "PSV", escudo:"https://w7.pngwing.com/pngs/258/642/png-transparent-psv-eindhoven-hd-logo.png" },
         { nombre: "Galatasaray", escudo:"https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/109.png" },
       ];
@@ -112,7 +112,7 @@ const Azar = () => {
 
       franco = [{ nombre: "Paris Saint Germain", escudo: "/images/ParisSaintGermain.png" }, ...franco];
 
-      marcos.push({ nombre: "Lazio", escudo: "/images/Lazio.png" });
+      marcos.push({ nombre: "Lazio", escudo: "/images/laziofc.png" });
 
       let Gaston_Franco = Math.random() * 1;
       if (Gaston_Franco > 0.5) {

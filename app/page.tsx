@@ -54,21 +54,7 @@ export default function Home() {
           <News />
         </div>
       </div>
-      <h1 style={{ padding: "2rem" }}>POWER RANKING</h1>
       <Ranking />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </main>
   );
 }
