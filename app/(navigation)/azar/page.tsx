@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
 import styles from "./azar.module.css";
-import { Nav } from "@/components/Nav/Nav";
 import { Team } from "@/app/types";
 import { useMyContext } from "@/context/ListContext"
 import { useRouter } from "next/navigation";
@@ -144,22 +143,21 @@ const Azar = () => {
       </div>
       <div className={styles.container_main}>
     <div className={styles.container}>
-            <h4>Franco</h4>
+            <h4>FRANCO</h4>
             {FrancoBombo.length &&
               FrancoBombo.map((equipo: any) => (
-                // <span key={equipo.nombre}>{equipo.nombre}</span>
                 <Picture key={equipo.nombre} name={equipo.nombre} img={equipo.escudo} />
               ))}
     </div>
     <div className={styles.container}>
-            <h4>Gaston</h4>
+            <h4>GASTON</h4>
            {GastonBombo.length &&
               GastonBombo.map((equipo: any) => (
                 <Picture key={equipo.nombre} name={equipo.nombre} img={equipo.escudo} />
               ))}
     </div>
     <div className={styles.container}>
-            <h4>Marcos</h4>
+            <h4>MARCOS</h4>
            {MarcosBombo.length &&
               MarcosBombo.map((equipo: any) => (
                 <Picture key={equipo.nombre} name={equipo.nombre} img={equipo.escudo} />

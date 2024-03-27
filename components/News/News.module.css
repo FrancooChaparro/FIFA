@@ -12,11 +12,18 @@
 .container_image {
     height: 11rem;
     width: 100%;
+    overflow: hidden;
 }
 .container_image img {
     height: 100%;
     width: 100%;
+    transition: transform 0.2s ease-in-out; 
 }
+
+.container_image:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 
 .container_description {
     height: 11rem;
