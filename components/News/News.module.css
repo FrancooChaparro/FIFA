@@ -1,15 +1,12 @@
-.container_section {
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-}
-
 .container_notice {
-    height: 22rem;
-    width: 24rem;
+    height: 350px;
+    width: 350px;
     border: 1px solid black;
     border-radius: 0.4rem;
-    background-color: rgb(250, 232, 232);
+    margin-right: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction:column ;
 }
 
 .container_image {
@@ -26,6 +23,8 @@
     width: 100%;
     padding: 0.5rem;
     overflow: hidden;
+    display: flex;
+    flex-direction:column ;
 }
 
 .container_description h3 {

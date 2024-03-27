@@ -1396,6 +1396,54 @@ export const data = {
       title: "AL NASSAR PIERDE LA CATEGORIA",
       description: "Al Nassar eliminado del torneo, baja de categoria.",
      },
+     {
+      image: "https://st1.uvnimg.com/f0/b8/159a38194e579b74a942b8c10008/gettyimages-1149331608.jpg",
+      alt: "poster_image",
+      title: "AJAX CAMPEON",
+      description: "Ajax goleo 3 a 0 al ARSENAL, y levanto su primer trofeo, se le acredito la posicion N°19.",
+     },
+     {
+      image: "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/AC-Monaco-v-Porto---UEFA-Champions-League-Final-5f05fd3c5c1c440351f6f19748a748b0.jpg",
+      alt: "poster_image",
+      title: "PORTO SUMA SU SEGUNDO TITULO",
+      description: "Porto suma una estrella mas, y escala al TOP 9 del ranking mundial, tras derrotar 1 a 0 al Bayern Munich.",
+     },
+     {
+      image: " https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt258bc4e87ba31646/658ebd9dd7a29304077f8b4f/Goal_HIC_-_LinkedIn_(75).png?auto=webp&format=pjpg&width=3840&quality=60",
+      alt: "poster_image",
+      title: "GALATASARAY ES EL NUEVO PARTICIPANTE DE LOS TORNEOS",
+      description: "Galatasaray jugara el torneo la proxima copa.",
+     },
+     {
+      image: "https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1400/02/04/1400020400192581422620774.jpg",
+      alt: "poster_image",
+      title: "AL NASSAR PIERDE LA CATEGORIA",
+      description: "Al Nassar eliminado del torneo, baja de categoria.",
+     },
+     {
+      image: "https://st1.uvnimg.com/f0/b8/159a38194e579b74a942b8c10008/gettyimages-1149331608.jpg",
+      alt: "poster_image",
+      title: "AJAX CAMPEON",
+      description: "Ajax goleo 3 a 0 al ARSENAL, y levanto su primer trofeo, se le acredito la posicion N°19.",
+     },
+     {
+      image: "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/AC-Monaco-v-Porto---UEFA-Champions-League-Final-5f05fd3c5c1c440351f6f19748a748b0.jpg",
+      alt: "poster_image",
+      title: "PORTO SUMA SU SEGUNDO TITULO",
+      description: "Porto suma una estrella mas, y escala al TOP 9 del ranking mundial, tras derrotar 1 a 0 al Bayern Munich.",
+     },
+     {
+      image: " https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt258bc4e87ba31646/658ebd9dd7a29304077f8b4f/Goal_HIC_-_LinkedIn_(75).png?auto=webp&format=pjpg&width=3840&quality=60",
+      alt: "poster_image",
+      title: "GALATASARAY ES EL NUEVO PARTICIPANTE DE LOS TORNEOS",
+      description: "Galatasaray jugara el torneo la proxima copa.",
+     },
+     {
+      image: "https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1400/02/04/1400020400192581422620774.jpg",
+      alt: "poster_image",
+      title: "AL NASSAR PIERDE LA CATEGORIA",
+      description: "Al Nassar eliminado del torneo, baja de categoria.",
+     },
   
   ],
   ranking: [
