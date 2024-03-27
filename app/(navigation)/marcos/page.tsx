@@ -52,8 +52,9 @@ const Marcos = () => {
           {clasic ? (
             <>
               {games.finals.matchs
-                .map((game) => (
+                .map((game, index) => (
                   <Result
+                    key={index}
                     Result={game.Result}
                     VisitanteEscudo={game.VisitanteEscudo}
                     VisitanteNombre={game.VisitanteNombre}
@@ -68,8 +69,9 @@ const Marcos = () => {
           ) : (
             <>
              {
-              games.clasics.matchs.map((game) =>(
+              games.clasics.matchs.map((game, index) =>(
                 <Result
+                key={index}
                 Result={game.Result}
                 VisitanteEscudo={game.VisitanteEscudo}
                 VisitanteNombre={game.VisitanteNombre}

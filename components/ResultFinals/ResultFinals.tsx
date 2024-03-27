@@ -41,7 +41,7 @@ export const ResultFinals : React.FC<MyPropsCard> = ({
         <img src={VisitanteEscudo} alt={VisitanteNombre} />
       </div>
       <div className={styles.bend}>
-      <div className={Player1 === "F" ? styles.bend_franco : Player1 === "M" ? styles.bend_marcos :  styles.bend_gaston}></div>
+      <div className={Player2 === "F" ? styles.bend_franco : Player2 === "M" ? styles.bend_marcos :  styles.bend_gaston}></div>
       </div>
       <div className={styles.containerFinished}>
         {Result === "L" ?  <span style={{backgroundColor: "rgb(121, 18, 238)"}}>{Result}</span> :  <span style={{backgroundColor: "grey"}}>{Result}</span> }    

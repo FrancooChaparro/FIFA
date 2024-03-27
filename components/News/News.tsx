@@ -8,8 +8,8 @@ export const News = () => {
   return (
     <div className={styles.container_section}>
          {
-        info.new.map((notice) => (
-            <div className={styles.container_notice}>
+        info.new.map((notice, index) => (
+            <div key={index} className={styles.container_notice}>
                 <div className={styles.container_image}>
                     <img src={notice.image} alt={notice.alt} />
                 </div>
