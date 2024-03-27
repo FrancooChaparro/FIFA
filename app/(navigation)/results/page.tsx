@@ -10,9 +10,21 @@ const Finals = () => {
   return (
     <>
       <div className={styles.containerHeader}>
-        <div className={styles.containerMarcos}>MARCOS</div>
-        <div className={styles.containerFranco}>FRANCO</div>
-        <div className={styles.containerGaston}>GASTON</div>
+        <div className={styles.containerMarcos}>
+          <div className={styles.icon_marcos}>
+          </div>
+            <h5>MARCOS</h5>
+        </div>
+        <div className={styles.containerFranco}>
+        <div className={styles.icon_franco}>
+          </div>
+            <h5>FRANCO</h5>
+        </div>
+        <div className={styles.containerGaston}>
+        <div className={styles.icon_gaston}>
+          </div>
+            <h5>GASTON</h5>
+        </div>
       </div>
       <span className={styles.spansito}>Finals History</span>
       <div className={styles.containerGames}>

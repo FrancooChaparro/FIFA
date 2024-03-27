@@ -2,7 +2,6 @@
 import { useState } from "react";
 import styles from "./draft.module.css";
 import { Team } from "@/app/types";
-import { Nav } from "@/components/Nav/Nav";
 import { useMyContext } from "@/context/ListContext";
 
 const Draft = () => {

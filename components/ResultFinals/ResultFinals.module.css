@@ -1,5 +1,5 @@
 .containerGameName {
-  color: white;
+  color: rgb(204, 35, 35);
 }
 @media screen and (max-width: 480px) {
     .containerAll {
