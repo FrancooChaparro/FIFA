@@ -18,20 +18,14 @@
 
  .containerTableGreen { 
      width: 25%;
-     border-radius: 1%;
-     /* border: 2px solid rgb(13, 112, 13); */
  }
  
  .containerTableYellow { 
      width: 25%;
-     border-radius: 1%;
-     /* border: 2px solid rgb(174, 201, 26); */
  }
  
  .containerTableRed { 
      width: 25%;
-     border-radius: 1%;
-     /* border: 2px solid rgb(187, 19, 19); */
  }
  
  .containerPicture {
@@ -40,6 +34,8 @@
      display: flex;
      background-color: rgba(0, 0, 0, 0.5);
      margin-bottom: 1rem;
+     border-radius: 0.4rem;
+     padding: 0.1rem;
  }
  
  .containerPictureOut {
