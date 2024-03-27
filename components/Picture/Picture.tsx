@@ -5,23 +5,26 @@ import styles from "../Ranking/Ranking.module.css";
 interface MyPropsCard {
     img: any;
     name: string;
-    titles: number;
-    rank: number;
-    out: boolean;
+    titles?: number;
+    rank?: number;
   }
 
-export const Picture: React.FC<MyPropsCard> = ({ img, name, titles, rank, out}) => {
+export const Picture: React.FC<MyPropsCard> = ({ img, name, titles, rank}) => {
 
   return (
-    <div className={out ? styles.containerPicture : styles.containerPictureOut}>
-      <div className={styles.containerPicture1}>
+    <div className={styles.containerPicture}>
+     {rank !== undefined && (
+       <div className={styles.containerPicture1}>
         <span>{rank}</span>
       </div>
+     )}
       <div className={styles.containerPicture2}>
         <img src={img} alt={name} />
       </div>
       <div className={styles.containerPicture3}>{name}</div>
+      {titles !== undefined && (
       <div className={styles.containerPicture4}>{titles}</div>
+      )}
     </div>
   );
 };

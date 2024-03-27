@@ -12,7 +12,7 @@ export const Ranking = () => {
         <div className={styles.containerTableGreen}>
           {
             info.ranking.map((team, index) => (
-              <Picture key={index} out={true} name={team.name} titles={team.titles} img={team.logo} rank={team.rank}/>
+              <Picture key={index} name={team.name} titles={team.titles} img={team.logo} rank={team.rank}/>
             )).slice(0,10)
           }
         </div>
@@ -20,7 +20,7 @@ export const Ranking = () => {
         <div className={styles.containerTableYellow}>
         {
             info.ranking.map((team, index) => (
-              <Picture key={index} out={true} name={team.name} titles={team.titles} img={team.logo} rank={team.rank}/>
+              <Picture key={index} name={team.name} titles={team.titles} img={team.logo} rank={team.rank}/>
             )).slice(10,20)
           }
         </div>
@@ -28,19 +28,15 @@ export const Ranking = () => {
         <div className={styles.containerTableRed}>
         {
             info.ranking.map((team, index) => (
-              <Picture key={index} out={true} name={team.name} titles={team.titles} img={team.logo} rank={team.rank}/>
+              <Picture key={index} name={team.name} titles={team.titles} img={team.logo} rank={team.rank}/>
             )).slice(20,30)
           }
-          
+           { info.ranking.map((team, index) => (
+              <Picture key={index} name={team.name} titles={team.titles} img={team.logo} rank={team.rank}/>
+            )).slice(30,32)
+          } 
         </div>
       
     </div>
   )
 }
-
-
-{/* {
-            info.ranking.map((team, index) => (
-              <Picture key={index} out={false} name={team.name} titles={team.titles} img={team.logo} rank={team.rank}/>
-            )).slice(30,32)
-          } */}

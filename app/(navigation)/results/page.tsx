@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./results.module.css";
 import { ResultFinals } from "@/components/ResultFinals/ResultFinals";
-import { Nav } from "@/components/Nav/Nav";
 import { History } from "@/models/games";
 import { Externals } from "@/app/types";
 
