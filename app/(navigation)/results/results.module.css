@@ -118,14 +118,14 @@
   .containerEscudo {
     width: 9%;
     height: 100%;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .containerEscudo img {
     width: 40px;
-    height: 37px;
+    height: 35px;
   }
   .containerGameName {
     width: 25%;
@@ -206,8 +206,6 @@
   .containerGaston {
     width: 30%;
     height: 2rem;
-
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,9 +240,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(204, 136, 35);
+    /* background-color: rgb(204, 136, 35); */
     color: rgb(255, 255, 255);
-    border: 1px solid white;
+    /* border: 1px solid white; */
   }
   .spansito {
     font-size: 25px;
