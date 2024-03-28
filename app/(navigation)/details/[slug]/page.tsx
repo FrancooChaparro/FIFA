@@ -43,16 +43,21 @@ export default function Page({ params }: { params: { slug: string } }) {
   }
   console.log(teamID);
   console.log(finales);   
-
+  const titles = teamID.titles; // Número de títulos
+  const finalsLength = finales?.length || 0; // Número de finales
+  const por = (100 / (titles + (finalsLength - titles)))*titles
+  // Calcular el porcentaje
+  console.log(por);
+  
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
         <img
-          src="https://i.pinimg.com/originals/40/ce/31/40ce311eb0519c5bd50410ec957dfd0e.jpg"
+          src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0411%2Fr998252_1296x729_16%2D9.jpg"
           alt="poster"
         />
         <div className={styles.photo}>
-          <img src="/images/Marcos.jpg" alt="marcos" />
+        <img src={`/${teamID?.logo}`} alt={teamID?.name.slice(0,3)} />
         </div>
 
         <div className={styles.container_rank}>
@@ -75,9 +80,9 @@ export default function Page({ params }: { params: { slug: string } }) {
             </div>
 
             <div className={styles.bot}>
-              <span style={{ color: "red" }}>#</span>
-              <span style={{ color: "green" }}>#</span>
-              <span style={{ color: "red" }}>#</span>
+              <span style={{ color: Math.round(por) > 50 ? "green" : "red" }}>{Math.round(por)}%</span>
+              <span style={{ color: "green" }}>{teamID.titles}</span>
+              <span style={{ color: "red" }}>{finalsLength - titles}</span>
             </div>
           </div>
     
