@@ -4,10 +4,14 @@ import styles from "../franco/franco.module.css";
 import { Result } from "@/components/Results/Result";
 import { stats_marcos } from "@/models/games";
 import { Person } from "@/app/types";
+import { data } from '@/models/games';
+import { Data } from '@/app/types';
 
 const Marcos = () => {
   const [clasic, setClasic] = useState(true);
   const games: Person = stats_marcos;
+  const info: Data = data;
+  const dat = info.ranking.filter(index => index.name === "CHELSEA")
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
@@ -21,10 +25,10 @@ const Marcos = () => {
        
         <div className={styles.container_rank}>
           <div className={styles.container_rank_number}>
-            <span>Rank #20</span>
+            <span>Rank #{dat[0]?.rank}</span>
           </div>
           <div className={styles.container_image}>
-              <img src="/images/Chelsea.png" alt="Chelsea" />
+              <img src={dat[0]?.logo} alt={dat[0]?.name} />
           </div>
         </div>
 

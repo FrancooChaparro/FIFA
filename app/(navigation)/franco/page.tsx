@@ -4,20 +4,30 @@ import styles from "./franco.module.css";
 import { Result } from "@/components/Results/Result";
 import { stats_franco } from "@/models/games";
 import { Person } from "@/app/types";
-
+import { data } from '@/models/games';
+import { Data } from '@/app/types';
 const Franco = () => {
   const [clasic, setClasic] = useState(true);
   const games: Person = stats_franco;
-
+  const info: Data = data;
+  const dat = info.ranking.filter(index => index.name === "PARIS SAINT GERMAIN")
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
         <img
-          src="https://www.hdwallpapers.in/download/paris_saint_germain_logo_in_colorful_background_hd_psg-1600x900.jpg"
+          src="https://w0.peakpx.com/wallpaper/741/835/HD-wallpaper-paris-saint-germain-french-football-team-blue-background-paris-saint-germain-logo-grunge-art-ligue-1-france-football-psg-emblem-psg-logo.jpg"
           alt="poster"
         />
         <div className={styles.photo}>
           <img src="/images/fra.jpg" alt="franco" />
+        </div>
+        <div className={styles.container_rank}>
+          <div className={styles.container_rank_number}>
+            <span>Rank #{dat[0]?.rank}</span>
+          </div>
+          <div className={styles.container_image}>
+          <img src={dat[0]?.logo} alt={dat[0]?.name} />
+          </div>
         </div>
       </div>
       <div className={styles.container_info}>
@@ -67,6 +77,8 @@ const Franco = () => {
                     LocalEscudo={game.LocalEscudo}
                     LocalNombre={game.LocalNombre}
                     LocalResultado={game.LocalResultado}
+                    Raiz={game.Raiz}
+
                   />
                 ))
                 .reverse()}
@@ -83,6 +95,8 @@ const Franco = () => {
                   LocalEscudo={game.LocalEscudo}
                   LocalNombre={game.LocalNombre}
                   LocalResultado={game.LocalResultado}
+                  Raiz={game.Raiz}
+
                 />
               ))}
             </>
