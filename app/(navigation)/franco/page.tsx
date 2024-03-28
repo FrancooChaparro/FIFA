@@ -33,6 +33,8 @@ const Franco = () => {
       <div className={styles.container_info}>
         <h4>Franco Chaparro</h4>
         <h4>PARIS SAINT GERMAIN</h4>
+        <div className={styles.section}>
+       
         <div className={styles.containerData2}>
           <div className={styles.top}>
             {clasic ? (
@@ -62,6 +64,7 @@ const Franco = () => {
         <div className={styles.containerMidlane}>
           <button onClick={() => setClasic(true)}>Finals</button>
           <button onClick={() => setClasic(false)}>Classic</button>
+        </div>
         </div>
         <div className={styles.containerGames}>
           {clasic ? (

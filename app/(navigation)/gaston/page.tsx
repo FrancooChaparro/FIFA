@@ -33,6 +33,7 @@ const Gaston = () => {
       <div className={styles.container_info}>
         <h4>Gaston Chaparro</h4>
         <h4>JUVENTUS</h4>
+        <div className={styles.section}>
         <div className={styles.containerData2}>
           <div className={styles.top}>
             {clasic ? (
@@ -62,6 +63,7 @@ const Gaston = () => {
         <div className={styles.containerMidlane}>
           <button onClick={() => setClasic(true)}>Finals</button>
           <button onClick={() => setClasic(false)}>Classic</button>
+        </div>
         </div>
         <div className={styles.containerGames}>
           {clasic ? (

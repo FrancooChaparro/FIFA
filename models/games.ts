@@ -732,7 +732,7 @@ export const stats_franco = {
     matchs: [ 
       
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/BayernMunchen.png',
             LocalNombre: 'BAYERN MUN',
             LocalResultado: 2,
@@ -741,7 +741,7 @@ export const stats_franco = {
             VisitanteResultado: 1
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/ParisSaintGermain.png',
             LocalNombre: 'PSG',
             LocalResultado: 3,
@@ -750,7 +750,7 @@ export const stats_franco = {
             VisitanteResultado: 1
           },
           {
-            Result: 'X',
+            Result: 'Defeat',
             LocalEscudo: '/images/sevillaa.png',
             LocalNombre: 'SEVILLA',
             LocalResultado: 1,
@@ -759,7 +759,7 @@ export const stats_franco = {
             VisitanteResultado: 2
           },
           {
-            Result: 'X',
+            Result: 'Defeat',
             LocalEscudo: '/images/ParisSaintGermain.png',
             LocalNombre: 'PSG',
             LocalResultado: 0,
@@ -768,7 +768,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/mancity.png',
             LocalNombre: 'MAN. CITY',
             LocalResultado: 1,
@@ -777,7 +777,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/ManchesterUnited.png',
             LocalNombre: 'MAN. UNITED',
             LocalResultado: 3,
@@ -786,7 +786,7 @@ export const stats_franco = {
             VisitanteResultado: 2
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/Tottenham.png',
             LocalNombre: 'TOTTENHAM',
             LocalResultado: 1,
@@ -795,7 +795,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/ParisSaintGermain.png',
             LocalNombre: 'PSG',
             LocalResultado: 2,
@@ -804,7 +804,7 @@ export const stats_franco = {
             VisitanteResultado: 1
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/sevillaa.png',
             LocalNombre: 'SEVILLA',
             LocalResultado: 1,
@@ -813,7 +813,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'X',
+            Result: 'Defeat',
             LocalEscudo: '/images/arsenalfc.png',
             LocalNombre: 'ARSENAL',
             LocalResultado: 0,
@@ -822,7 +822,7 @@ export const stats_franco = {
             VisitanteResultado: 1
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/internazionale.png',
             LocalNombre: 'INTER',
             LocalResultado: 3,
@@ -831,7 +831,7 @@ export const stats_franco = {
             VisitanteResultado: 1
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/Barcelona.webp',
             LocalNombre: 'BARCELONA',
             LocalResultado: 0,
@@ -840,7 +840,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/ParisSaintGermain.png',
             LocalNombre: 'PSG',
             LocalResultado: 2,
@@ -849,7 +849,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'X',
+            Result: 'Defeat',
             LocalEscudo: '/images/Liverpool.png',
             LocalNombre: 'LIVERPOOL',
             LocalResultado: 1,
@@ -858,7 +858,7 @@ export const stats_franco = {
             VisitanteResultado: 2
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/ParisSaintGermain.png',
             LocalNombre: 'PSG',
             LocalResultado: 4,
@@ -867,7 +867,7 @@ export const stats_franco = {
             VisitanteResultado: 2
           },
           {
-            Result: 'X',
+            Result: 'Defeat',
             LocalEscudo: '/images/ParisSaintGermain.png',
             LocalNombre: 'PSG',
             LocalResultado: 0,
@@ -876,7 +876,7 @@ export const stats_franco = {
             VisitanteResultado: 1
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/Liverpool.png',
             LocalNombre: 'LIVERPOOL',
             LocalResultado: 1,
@@ -885,7 +885,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/newcastlee.png',
             LocalNombre: 'NEWCLASTLE',
             LocalResultado: 1,
@@ -894,7 +894,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/ManchesterUnited.png',
             LocalNombre: 'MAN. UNITED',
             LocalResultado: 1,
@@ -903,7 +903,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/Ajax.png',
             LocalNombre: 'AJAX',
             LocalResultado: 3,
@@ -912,7 +912,7 @@ export const stats_franco = {
             VisitanteResultado: 0
           },
           {
-            Result: 'X',
+            Result: 'Defeat',
             LocalEscudo: '/images/Liverpool.png',
             LocalNombre: 'LIVERPOOL',
             LocalResultado: 0,
@@ -921,7 +921,7 @@ export const stats_franco = {
             VisitanteResultado: 1
           },
           {
-            Result: 'X',
+            Result: 'Defeat',
             LocalEscudo: '/images/oporto.png',
             LocalNombre: 'PORTO',
             LocalResultado: 0,
@@ -930,7 +930,7 @@ export const stats_franco = {
             VisitanteResultado: 1
           },
           {
-            Result: 'V',
+            Result: 'Victory',
             LocalEscudo: '/images/Barcelona.webp',
             LocalNombre: 'BARCELONA',
             LocalResultado: 2,
@@ -939,7 +939,7 @@ export const stats_franco = {
             VisitanteResultado: 2
           },
           {
-            Result: 'X',
+            Result: 'Defeat',
             LocalEscudo: '/images/arsenalfc.png',
             LocalNombre: 'ARSENAL',
             LocalResultado: 0,
@@ -948,7 +948,7 @@ export const stats_franco = {
             VisitanteResultado: 2
           },
           {
-            Result: 'X',
+            Result: 'Defeat',
             LocalEscudo: '/images/valenciafc.png',
             LocalNombre: 'VALENCIA',
             LocalResultado: 1,
@@ -966,7 +966,8 @@ export const stats_franco = {
   clasics: {
     matchs: [
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Octavos de final",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 3,
@@ -975,7 +976,8 @@ export const stats_franco = {
         VisitanteResultado: 2
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Final",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 2,
@@ -984,7 +986,8 @@ export const stats_franco = {
         VisitanteResultado: 1
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Octavos de final",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 2,
@@ -993,7 +996,8 @@ export const stats_franco = {
         VisitanteResultado: 0
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Final - Verano",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 2,
@@ -1002,7 +1006,8 @@ export const stats_franco = {
         VisitanteResultado: 0
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "16avos de final",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 3,
@@ -1011,7 +1016,8 @@ export const stats_franco = {
         VisitanteResultado: 1
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Semifinal",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 2,
@@ -1020,7 +1026,8 @@ export const stats_franco = {
         VisitanteResultado: 2
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Final",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 3,
@@ -1029,7 +1036,8 @@ export const stats_franco = {
         VisitanteResultado: 1
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Cuartos de final",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 2,
@@ -1038,7 +1046,8 @@ export const stats_franco = {
         VisitanteResultado: 0
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
+        Raiz: "Semifinal",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 0,
@@ -1047,7 +1056,8 @@ export const stats_franco = {
         VisitanteResultado: 1
       },
       {
-        Result: 'X',
+        Result: 'Draw',
+        Raiz: "Fase de grupos - Verano",
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 0,
@@ -1058,7 +1068,7 @@ export const stats_franco = {
     ],
     stats: {
       porcent: "85%",
-      win:6,
+      win:8,
       loss:1 ,
     }
   }
@@ -1068,7 +1078,7 @@ export const stats_gaston = {
   finals: {
     matchs: [
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/RealMadrid.png',
         LocalNombre: 'REAL MADRID',
         LocalResultado: 3,
@@ -1077,7 +1087,7 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
         LocalEscudo: '/images/RealMadrid.png',
         LocalNombre: 'REAL MADRID',
         LocalResultado: 1,
@@ -1086,7 +1096,7 @@ export const stats_gaston = {
         VisitanteResultado: 2
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 1,
@@ -1095,7 +1105,7 @@ export const stats_gaston = {
         VisitanteResultado: 3
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/mancity.png',
         LocalNombre: 'MAN. CITY',
         LocalResultado: 2,
@@ -1104,7 +1114,7 @@ export const stats_gaston = {
         VisitanteResultado: 1
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/AstonVilla.png',
         LocalNombre: 'ASTON VILLA',
         LocalResultado: 0,
@@ -1113,7 +1123,7 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
         LocalEscudo: '/images/ASRoma.png',
         LocalNombre: 'ROMA',
         LocalResultado: 0,
@@ -1122,7 +1132,7 @@ export const stats_gaston = {
         VisitanteResultado: 1
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/SSC_Neapel.svg.png',
         LocalNombre: 'NAPOLI',
         LocalResultado: 2,
@@ -1131,7 +1141,7 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
         LocalEscudo: '/images/BayernMunchen.png',
         LocalNombre: 'BAYERN MUN',
         LocalResultado: 0,
@@ -1140,7 +1150,7 @@ export const stats_gaston = {
         VisitanteResultado: 1
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/oporto.png',
         LocalNombre: 'PORTO',
         LocalResultado: 2,
@@ -1149,7 +1159,7 @@ export const stats_gaston = {
         VisitanteResultado: 1
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
@@ -1158,7 +1168,7 @@ export const stats_gaston = {
         VisitanteResultado: 2
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/arsenalfc.png',
         LocalNombre: 'ARSENAL',
         LocalResultado: 3,
@@ -1167,7 +1177,7 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 2,
@@ -1176,7 +1186,7 @@ export const stats_gaston = {
         VisitanteResultado: 1
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
         LocalEscudo: '/images/Milan.png',
         LocalNombre: 'MILAN',
         LocalResultado: 2,
@@ -1185,7 +1195,7 @@ export const stats_gaston = {
         VisitanteResultado: 4
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/BayernMunchen.png',
         LocalNombre: 'BAYERN MUN',
         LocalResultado: 1,
@@ -1194,7 +1204,7 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
         LocalEscudo: '/images/BayernMunchen.png',
         LocalNombre: 'BAYERN MUN',
         LocalResultado: 2,
@@ -1203,7 +1213,7 @@ export const stats_gaston = {
         VisitanteResultado: 2
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
@@ -1212,7 +1222,7 @@ export const stats_gaston = {
         VisitanteResultado: 1
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/mancity.png',
         LocalNombre: 'MANCHESTER CITY',
         LocalResultado: 1,
@@ -1221,7 +1231,7 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
         LocalEscudo: '/images/Tottenham.png',
         LocalNombre: 'TOTTENHAM',
         LocalResultado: 0,
@@ -1230,7 +1240,7 @@ export const stats_gaston = {
         VisitanteResultado: 1
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/newcastlee.png',
         LocalNombre: 'NEWCASTLE',
         LocalResultado: 3,
@@ -1239,7 +1249,7 @@ export const stats_gaston = {
         VisitanteResultado: 1
       },
       {
-        Result: 'V',
+        Result: 'Victory',
         LocalEscudo: '/images/oporto.png',
         LocalNombre: 'PORTO',
         LocalResultado: 1,
@@ -1257,7 +1267,8 @@ export const stats_gaston = {
   clasics: {
     matchs: [
       {
-        Result: 'X',
+        Result: 'Defeat',
+        Raiz: "16avos de final",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
@@ -1266,7 +1277,8 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Semifinal",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 2,
@@ -1275,7 +1287,8 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Octavos de final",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
@@ -1284,7 +1297,8 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'V',
+        Result: 'Draw',
+        Raiz: "Amistoso",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
@@ -1293,7 +1307,8 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
+        Raiz: "Semifinal",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
@@ -1302,7 +1317,8 @@ export const stats_gaston = {
         VisitanteResultado: 2
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
+        Raiz: "Semifinal",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 2,
@@ -1311,7 +1327,8 @@ export const stats_gaston = {
         VisitanteResultado: 2
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
+        Raiz: "Final",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 1,
@@ -1320,7 +1337,8 @@ export const stats_gaston = {
         VisitanteResultado: 3
       },
       {
-        Result: 'X',
+        Result: 'Defeat',
+        Raiz: "Cuartos de final",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
@@ -1329,7 +1347,8 @@ export const stats_gaston = {
         VisitanteResultado: 2
       },
       {
-        Result: 'V',
+        Result: 'Victory',
+        Raiz: "Semifinal",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 1,
@@ -1338,7 +1357,8 @@ export const stats_gaston = {
         VisitanteResultado: 0
       },
       {
-        Result: 'V',
+        Result: 'Draw',
+        Raiz: "Fase de grupos - Verano",
         LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
@@ -1349,8 +1369,8 @@ export const stats_gaston = {
     ],
     stats: {
       win: 3,
-      loss: 4,
-      porcent: "42%",
+      loss: 5,
+      porcent: "30%",
     },
 }
 }
