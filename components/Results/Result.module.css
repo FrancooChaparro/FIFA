@@ -101,20 +101,7 @@
       background-color: grey;
       border: none;
     }
-    /* .containerGames {
-      width: 100%;
-    } */
-
-
-    /* .containerGame {
-      width: 600px;
-      height: 40px;
-      display: flex;
-      border-bottom: 1px solid grey;
-      margin-bottom: 5px;
-      margin: 0 auto;
-    } */
-
+  
     /*Borrador*/
     .containerGame {
     height: 40px;

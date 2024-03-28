@@ -18,6 +18,16 @@ const Marcos = () => {
         <div className={styles.photo}>
           <img src="/images/Marcos.jpg" alt="marcos" />
         </div>
+       
+        <div className={styles.container_rank}>
+          <div className={styles.container_rank_number}>
+            <span>Rank #20</span>
+          </div>
+          <div className={styles.container_image}>
+              <img src="/images/Chelsea.png" alt="Chelsea" />
+          </div>
+        </div>
+
       </div>
       <div className={styles.container_info}>
         <h4>Marcos Aquino</h4>
