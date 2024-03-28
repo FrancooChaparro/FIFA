@@ -55,6 +55,7 @@ export const Nav = () => {
         </div>
         <div className={styles.containerInfo}>
           <span className={styles.span1} onClick={()=> router.push("/")}>Home</span>
+          <span>Teams</span>
           <span onClick={()=> router.push("/azar")} className={styles.span1}>Azar</span>
           <span onClick={()=> router.push("/draft")} className={styles.span1}>Draft</span>
           <span onClick={()=> router.push("/results")} className={styles.span1}>Finals & PopularMatchs</span>
