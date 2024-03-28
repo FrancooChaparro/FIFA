@@ -51,7 +51,7 @@ export const Nav = () => {
     >
       <div className={styles.flex}>
         <div className={styles.containerLogo}>
-          <img src="./images/logo-ESPN.png" alt="LogoNetflix" onClick={() => handleClick(0)}/>
+          <img src="/images/logo-ESPN.png" alt="LogoNetflix" onClick={() => handleClick(0)}/>
         </div>
         <div className={styles.containerInfo}>
           <span className={styles.span1} onClick={()=> router.push("/")}>Home</span>
