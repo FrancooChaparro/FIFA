@@ -1067,7 +1067,7 @@ export const stats_franco = {
       }
     ],
     stats: {
-      porcent: "85%",
+      porcent: "80%",
       win:8,
       loss:1 ,
     }

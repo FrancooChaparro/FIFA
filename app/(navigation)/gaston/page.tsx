@@ -19,7 +19,7 @@ const Gaston = () => {
           alt="poster"
         />
         <div className={styles.photo}>
-          <img src="/images/flaki.jpg" alt="gaston" />
+          <img src="/images/gaston.jpg" alt="gaston" />
         </div>
         <div className={styles.container_rank}>
           <div className={styles.container_rank_number}>

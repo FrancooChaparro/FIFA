@@ -19,7 +19,7 @@ const Franco = () => {
           alt="poster"
         />
         <div className={styles.photo}>
-          <img src="/images/fra.jpg" alt="franco" />
+          <img src="/images/fran.jpg" alt="franco" />
         </div>
         <div className={styles.container_rank}>
           <div className={styles.container_rank_number}>
