@@ -13,6 +13,7 @@ export interface Match {
     VisitanteEscudo: string;
     VisitanteNombre: string;
     VisitanteResultado: any;
+    Raiz?: string;
   }
   
   export type MatchWithoutPlayers = Omit<Match, 'Player1' | 'Player2'>;
@@ -20,6 +21,7 @@ export interface Match {
   export interface MatchStats {
     win: number;
     loss: number;
+    draw?: number;
     porcent: string;
   }
   

@@ -62,6 +62,7 @@ const Marcos = () => {
                     LocalEscudo={game.LocalEscudo}
                     LocalNombre={game.LocalNombre}
                     LocalResultado={game.LocalResultado}
+                    Raiz={game.Raiz}
                   />
                 ))
                 .reverse()}
@@ -79,6 +80,7 @@ const Marcos = () => {
                 LocalEscudo={game.LocalEscudo}
                 LocalNombre={game.LocalNombre}
                 LocalResultado={game.LocalResultado}
+                Raiz={game.Raiz}
               />
               ))
              }

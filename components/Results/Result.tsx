@@ -8,7 +8,8 @@ interface MyPropsCard {
   VisitanteEscudo: any;
   VisitanteNombre: string;
   VisitanteResultado: number;
-  Result: string
+  Result: string;
+  Raiz: string | undefined;
 }
 export const Result: React.FC<MyPropsCard> = ({
   LocalEscudo,
@@ -17,7 +18,8 @@ export const Result: React.FC<MyPropsCard> = ({
   VisitanteEscudo,
   VisitanteNombre,
   VisitanteResultado,
-  Result
+  Result,
+  Raiz
 }) => {
   return (
     <div className={styles.containerGame}>

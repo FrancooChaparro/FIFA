@@ -108,7 +108,7 @@ const Azar = () => {
     if (bombo9.length === 0) {
       marcos = [{ nombre: "Chelsea", escudo: "/images/Chelsea.png" }, ...marcos];
 
-      gaston = [{ nombre: "Juventus", escudo: "/images/Juventus.png" }, ...gaston];
+      gaston = [{ nombre: "Juventus", escudo: "/images/da-removebg-preview.png" }, ...gaston];
 
       franco = [{ nombre: "Paris Saint Germain", escudo: "/images/ParisSaintGermain.png" }, ...franco];
 

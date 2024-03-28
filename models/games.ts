@@ -96,7 +96,7 @@ export const History = {
     LocalEscudo: "/images/ManchesterUnited.png",
     LocalNombre: "MANCHESTER UNITED",
     LocalResultado: 1,
-    VisitanteEscudo: "/images/Juventus.png",
+    VisitanteEscudo: "/images/da-removebg-preview.png",
     VisitanteNombre: "JUVENTUS",
     VisitanteResultado: 0,
   },
@@ -173,7 +173,7 @@ export const History = {
     LocalEscudo: "/images/Liverpool.png",
     LocalNombre: "LIVERPOOL",
     LocalResultado: 1,
-    VisitanteEscudo: "/images/Juventus.png",
+    VisitanteEscudo: "/images/da-removebg-preview.png",
     VisitanteNombre: "JUVENTUS",
     VisitanteResultado: 2,
   },
@@ -184,7 +184,7 @@ export const History = {
     LocalEscudo: "/images/ParisSaintGermain.png",
     LocalNombre: "PARIS SAINT GERMAIN",
     LocalResultado: 2,
-    VisitanteEscudo: "/images/Juventus.png",
+    VisitanteEscudo: "/images/da-removebg-preview.png",
     VisitanteNombre: "JUVENTUS",
     VisitanteResultado: 0,
   },
@@ -338,7 +338,7 @@ export const History = {
     LocalEscudo: "/images/ParisSaintGermain.png",
     LocalNombre: "PSG",
     LocalResultado: 3,
-    VisitanteEscudo: "/images/Juventus.png",
+    VisitanteEscudo: "/images/da-removebg-preview.png",
     VisitanteNombre: "JUVENTUS",
     VisitanteResultado: 1,
   },
@@ -618,7 +618,8 @@ matchs : [
 clasics : {
   matchs : [
   {
-    Result: "X",
+    Result: "Defeat",
+    Raiz: "Octavos de final",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 2,
@@ -627,7 +628,8 @@ clasics : {
     VisitanteResultado: 3,
   },
   {
-    Result: "X",
+    Result: "Defeat",
+    Raiz: "Final",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 1,
@@ -636,7 +638,8 @@ clasics : {
     VisitanteResultado: 2,
   },
   {
-    Result: "X",
+    Result: "Defeat",
+    Raiz: "Octavos de final",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 0,
@@ -645,7 +648,8 @@ clasics : {
     VisitanteResultado: 2,
   },
   {
-    Result: "X",
+    Result: "Defeat",
+    Raiz: "Final - Verano",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 0,
@@ -654,7 +658,8 @@ clasics : {
     VisitanteResultado: 2,
   },
   {
-    Result: "X",
+    Result: "Defeat",
+    Raiz: "16avos de final",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 1,
@@ -663,55 +668,61 @@ clasics : {
     VisitanteResultado: 3,
   },
   {
-    Result: "V",
+    Result: "Victory",
+    Raiz: "16avos de final",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 0,
-    VisitanteEscudo: "/images/Juventus.png",
+    VisitanteEscudo: "/images/da-removebg-preview.png",
     VisitanteNombre: "JUVENTUS",
     VisitanteResultado: 0,
   },
   {
-    Result: "X",
+    Result: "Defeat",
+    Raiz: "Semifinal",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 0,
-    VisitanteEscudo: "/images/Juventus.png",
+    VisitanteEscudo: "/images/da-removebg-preview.png",
     VisitanteNombre: "JUVENTUS",
     VisitanteResultado: 2,
   },
   {
     Result: "X",
+    Raiz: "Octavos de final",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 0,
-    VisitanteEscudo: "/images/Juventus.png",
+    VisitanteEscudo: "/images/da-removebg-preview.png",
     VisitanteNombre: "JUVENTUS",
     VisitanteResultado: 0,
   },
   {
-    Result: "X",
+    Result: "Draw",
+    Raiz: "Amistoso",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 0,
-    VisitanteEscudo: "/images/Juventus.png",
+    VisitanteEscudo: "/images/da-removebg-preview.png",
     VisitanteNombre: "JUVENTUS",
     VisitanteResultado: 0,
   },
   {
-    Result: "V",
+    Result: "Victory",
+    Raiz: "Fase Grupos - Verano",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",
     LocalResultado: 2,
-    VisitanteEscudo: "/images/Juventus.png",
+    VisitanteEscudo: "/images/da-removebg-preview.png",
     VisitanteNombre: "JUVENTUS",
     VisitanteResultado: 0,
   },
 ],
   stats: {
-    win: 1,
-    loss: 5,
-    porcent: "16%",
+    win: 2,
+    loss: 7,
+    draw: 1,
+    porcent: "20%",
   }
 }
 }
@@ -734,7 +745,7 @@ export const stats_franco = {
             LocalEscudo: '/images/ParisSaintGermain.png',
             LocalNombre: 'PSG',
             LocalResultado: 3,
-            VisitanteEscudo: '/images/Juventus.png',
+            VisitanteEscudo: '/images/da-removebg-preview.png',
             VisitanteNombre: 'JUVENTUS',
             VisitanteResultado: 1
           },
@@ -833,7 +844,7 @@ export const stats_franco = {
             LocalEscudo: '/images/ParisSaintGermain.png',
             LocalNombre: 'PSG',
             LocalResultado: 2,
-            VisitanteEscudo: '/images/Juventus.png',
+            VisitanteEscudo: '/images/da-removebg-preview.png',
             VisitanteNombre: 'JUVENTUS',
             VisitanteResultado: 0
           },
@@ -842,7 +853,7 @@ export const stats_franco = {
             LocalEscudo: '/images/Liverpool.png',
             LocalNombre: 'LIVERPOOL',
             LocalResultado: 1,
-            VisitanteEscudo: '/images/Juventus.png',
+            VisitanteEscudo: '/images/da-removebg-preview.png',
             VisitanteNombre: 'JUVENTUS',
             VisitanteResultado: 2
           },
@@ -887,7 +898,7 @@ export const stats_franco = {
             LocalEscudo: '/images/ManchesterUnited.png',
             LocalNombre: 'MAN. UNITED',
             LocalResultado: 1,
-            VisitanteEscudo: '/images/Juventus.png',
+            VisitanteEscudo: '/images/da-removebg-preview.png',
             VisitanteNombre: 'JUVENTUS',
             VisitanteResultado: 0
           },
@@ -1004,7 +1015,7 @@ export const stats_franco = {
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 2,
-        VisitanteEscudo: '/images/Juventus.png',
+        VisitanteEscudo: '/images/da-removebg-preview.png',
         VisitanteNombre: 'JUVENTUS',
         VisitanteResultado: 2
       },
@@ -1013,7 +1024,7 @@ export const stats_franco = {
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 3,
-        VisitanteEscudo: '/images/Juventus.png',
+        VisitanteEscudo: '/images/da-removebg-preview.png',
         VisitanteNombre: 'JUVENTUS',
         VisitanteResultado: 1
       },
@@ -1022,7 +1033,7 @@ export const stats_franco = {
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 2,
-        VisitanteEscudo: '/images/Juventus.png',
+        VisitanteEscudo: '/images/da-removebg-preview.png',
         VisitanteNombre: 'JUVENTUS',
         VisitanteResultado: 0
       },
@@ -1031,7 +1042,7 @@ export const stats_franco = {
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 0,
-        VisitanteEscudo: '/images/Juventus.png',
+        VisitanteEscudo: '/images/da-removebg-preview.png',
         VisitanteNombre: 'JUVENTUS',
         VisitanteResultado: 1
       },
@@ -1040,7 +1051,7 @@ export const stats_franco = {
         LocalEscudo: '/images/ParisSaintGermain.png',
         LocalNombre: 'PSG',
         LocalResultado: 0,
-        VisitanteEscudo: '/images/Juventus.png',
+        VisitanteEscudo: '/images/da-removebg-preview.png',
         VisitanteNombre: 'JUVENTUS',
         VisitanteResultado: 0
       }
@@ -1076,7 +1087,7 @@ export const stats_gaston = {
       },
       {
         Result: 'X',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 1,
         VisitanteEscudo: '/images/ParisSaintGermain.png',
@@ -1139,7 +1150,7 @@ export const stats_gaston = {
       },
       {
         Result: 'X',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
         VisitanteEscudo: '/images/ParisSaintGermain.png',
@@ -1157,7 +1168,7 @@ export const stats_gaston = {
       },
       {
         Result: 'V',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 2,
         VisitanteEscudo: '/images/Liverpool.png',
@@ -1193,7 +1204,7 @@ export const stats_gaston = {
       },
       {
         Result: 'X',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
         VisitanteEscudo: '/images/ManchesterUnited.png',
@@ -1247,7 +1258,7 @@ export const stats_gaston = {
     matchs: [
       {
         Result: 'X',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
         VisitanteEscudo: '/images/Chelsea.png',
@@ -1256,7 +1267,7 @@ export const stats_gaston = {
       },
       {
         Result: 'V',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 2,
         VisitanteEscudo: '/images/Chelsea.png',
@@ -1265,7 +1276,7 @@ export const stats_gaston = {
       },
       {
         Result: 'V',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
         VisitanteEscudo: '/images/Chelsea.png',
@@ -1274,7 +1285,7 @@ export const stats_gaston = {
       },
       {
         Result: 'V',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
         VisitanteEscudo: '/images/Chelsea.png',
@@ -1283,7 +1294,7 @@ export const stats_gaston = {
       },
       {
         Result: 'X',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
         VisitanteEscudo: '/images/Chelsea.png',
@@ -1292,7 +1303,7 @@ export const stats_gaston = {
       },
       {
         Result: 'X',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 2,
         VisitanteEscudo: '/images/ParisSaintGermain.png',
@@ -1301,7 +1312,7 @@ export const stats_gaston = {
       },
       {
         Result: 'X',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 1,
         VisitanteEscudo: '/images/ParisSaintGermain.png',
@@ -1310,7 +1321,7 @@ export const stats_gaston = {
       },
       {
         Result: 'X',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
         VisitanteEscudo: '/images/ParisSaintGermain.png',
@@ -1319,7 +1330,7 @@ export const stats_gaston = {
       },
       {
         Result: 'V',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 1,
         VisitanteEscudo: '/images/ParisSaintGermain.png',
@@ -1328,7 +1339,7 @@ export const stats_gaston = {
       },
       {
         Result: 'V',
-        LocalEscudo: '/images/Juventus.png',
+        LocalEscudo: '/images/da-removebg-preview.png',
         LocalNombre: 'JUVENTUS',
         LocalResultado: 0,
         VisitanteEscudo: '/images/ParisSaintGermain.png',
@@ -1539,7 +1550,7 @@ export const data = {
       titles: 1,
     },
     {
-      logo: "images/Juventus.png",
+      logo: "images/da-removebg-preview.png",
       rank: 16,
       name: "JUVENTUS",
       titles: 1,
