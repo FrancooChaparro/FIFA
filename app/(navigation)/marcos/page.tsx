@@ -22,6 +22,8 @@ const Marcos = () => {
       <div className={styles.container_info}>
         <h4>Marcos Aquino</h4>
         <h4>CHELSEA</h4>
+        <div className={styles.section}>
+
         <div className={styles.containerData2}>
           <div className={styles.top}>
             {clasic ? (
@@ -48,6 +50,11 @@ const Marcos = () => {
           <button onClick={() => setClasic(true)}>Finals</button>
           <button onClick={() => setClasic(false)}>Classic</button>
         </div>
+
+        </div>
+        
+        
+
         <div className={styles.containerGames}>
           {clasic ? (
             <>
