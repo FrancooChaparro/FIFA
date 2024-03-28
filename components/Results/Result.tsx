@@ -22,20 +22,33 @@ export const Result: React.FC<MyPropsCard> = ({
   Raiz
 }) => {
   return (
+  
     <div className={styles.containerGame}>
       <div className={styles.containerEscudo}>
         <img src={LocalEscudo} alt={LocalNombre} />
       </div>
       <div className={styles.containerGameName}>{LocalNombre}</div>
-      <div className={Result === "X" ? styles.containerGameResultWin : styles.containerGameResultLoss}>{LocalResultado}</div>
-      <div className={Result === "X" ? styles.containerGameResultWin : styles.containerGameResultLoss}>{VisitanteResultado}</div>
+      <div className={styles.containerGameResultWin}>{LocalResultado}</div>
+      <div className={styles.containerGameResultWin}>{VisitanteResultado}</div>
       <div className={styles.containerGameName}>{VisitanteNombre}</div>
       <div className={styles.containerEscudo}>
         <img src={VisitanteEscudo} alt={VisitanteNombre} />
       </div>
       <div className={styles.containerFinished}>
-        {Result === "X" ?  <span style={{backgroundColor: "red"}}>{Result}</span> :  <span style={{backgroundColor: "green"}}>{Result}</span> }    
+      {Result === "Defeat" ?  
+    <span style={{backgroundColor: "red"}}>{Result}</span> 
+    : 
+    (Result === "Victory" ? 
+        <span style={{backgroundColor: "green"}}>{Result}</span> 
+        : 
+        <span style={{backgroundColor: "rgb(243, 208, 52)"}}>{Result}</span>
+    )
+}    
       </div>
+      {Raiz !== undefined && <div className={styles.raiz}>
+        <span>{Raiz}</span>
+      </div>
+}
     </div>
   );
 };

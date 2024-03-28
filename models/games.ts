@@ -420,7 +420,7 @@ finals : {
 
 matchs : [
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/internazionale.png",
     LocalNombre: 'INTER',
     LocalResultado: 0,
@@ -429,7 +429,7 @@ matchs : [
     VisitanteResultado: 3,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/valenciafc.png",
     LocalNombre: 'VALENCIA',
     LocalResultado: 2,
@@ -438,7 +438,7 @@ matchs : [
     VisitanteResultado: 3,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/AstonVilla.png",
     LocalNombre: 'ASTON VILLA',
     LocalResultado: 0,
@@ -447,7 +447,7 @@ matchs : [
     VisitanteResultado: 1,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/Zenit.png",
     LocalNombre: 'ZENIT',
     LocalResultado: 0,
@@ -456,7 +456,7 @@ matchs : [
     VisitanteResultado: 2,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: 'CHELSEA',
     LocalResultado: 1,
@@ -465,7 +465,7 @@ matchs : [
     VisitanteResultado: 2,
   },
   {
-    Result: "V",
+    Result: "Victory",
     LocalEscudo: "/images/valenciafc.png",
     LocalNombre: 'VALENCIA',
     LocalResultado: 1,
@@ -474,7 +474,7 @@ matchs : [
     VisitanteResultado: 0,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     VisitanteEscudo: "/images/internazionale.png",
     VisitanteNombre: 'INTER',
     VisitanteResultado: 3,
@@ -483,7 +483,7 @@ matchs : [
     LocalResultado: 1,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     VisitanteEscudo: "/images/Liverpool.png",
     VisitanteNombre: 'LIVERPOOL',
     VisitanteResultado: 2,
@@ -492,7 +492,7 @@ matchs : [
     LocalResultado: 1,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     VisitanteEscudo: "/images/Barcelona.webp",
     VisitanteNombre: 'BARCELONA',
     VisitanteResultado: 0,
@@ -501,7 +501,7 @@ matchs : [
     LocalResultado: 0,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     VisitanteEscudo: "/images/arsenalfc.png",
     VisitanteNombre: 'ARSENAL',
     VisitanteResultado: 3,
@@ -510,7 +510,7 @@ matchs : [
     LocalResultado: 0,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/RealMadrid.png",
     LocalNombre: 'REAL MADRID',
     LocalResultado: 0,
@@ -519,7 +519,7 @@ matchs : [
     VisitanteResultado: 1,
   },
   {
-    Result: "V",
+    Result: "Victory",
     LocalEscudo: "/images/RealMadrid.png",
     LocalNombre: 'REAL MADRID',
     LocalResultado: 2,
@@ -528,7 +528,7 @@ matchs : [
     VisitanteResultado: 2,
   },
   {
-    Result: "V",
+    Result: "Victory",
     LocalEscudo: "/images/villar.png",
     LocalNombre: 'VILLA REAL',
     LocalResultado: 1,
@@ -537,7 +537,7 @@ matchs : [
     VisitanteResultado: 0,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/Tottenham.png",
     LocalNombre: 'TOTTENHAM',
     LocalResultado: 0,
@@ -546,7 +546,7 @@ matchs : [
     VisitanteResultado: 1,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/Zenit.png",
     LocalNombre: 'ZENIT',
     LocalResultado: 0,
@@ -555,7 +555,7 @@ matchs : [
     VisitanteResultado: 1,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/arsenalfc.png",
     LocalNombre: 'ARSENAL',
     LocalResultado: 0,
@@ -564,7 +564,7 @@ matchs : [
     VisitanteResultado: 3,
   },
   {
-    Result: "V",
+    Result: "Victory",
     LocalEscudo: "/images/ManchesterUnited.png",
     LocalNombre: 'MANCHESTER UNITED',
     LocalResultado: 1,
@@ -573,7 +573,7 @@ matchs : [
     VisitanteResultado: 0,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: 'CHELSEA',
     LocalResultado: 2,
@@ -582,7 +582,7 @@ matchs : [
     VisitanteResultado: 2,
   },
   {
-    Result: "V",
+    Result: "Victory",
     LocalEscudo: "/images/RealMadrid.png",
     LocalNombre: 'REAL MADRID',
     LocalResultado: 1,
@@ -591,7 +591,7 @@ matchs : [
     VisitanteResultado: 0,
   },
   {
-    Result: "V",
+    Result: "Victory",
     LocalEscudo: "/images/Tottenham.png",
     LocalNombre: 'TOTTENHAM',
     LocalResultado: 2,
@@ -600,7 +600,7 @@ matchs : [
     VisitanteResultado: 0,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     LocalEscudo: "/images/BayernMunchen.png",
     LocalNombre: 'BAYERN MUNICH',
     LocalResultado: 0,
@@ -688,7 +688,7 @@ clasics : {
     VisitanteResultado: 2,
   },
   {
-    Result: "X",
+    Result: "Defeat",
     Raiz: "Octavos de final",
     LocalEscudo: "/images/Chelsea.png",
     LocalNombre: "CHELSEA",

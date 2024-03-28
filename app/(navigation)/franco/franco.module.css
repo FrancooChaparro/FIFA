@@ -1,10 +1,17 @@
 .container_all {
     width: 100vw;
+    position: relative;
+    width: 100vw;
+    background-image: url("https://168kick.com/wp-content/uploads/2019/09/uefa_champion_league_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container_poster {
     width: 100%;
-    height: 15rem;
+    height: 25rem;
     position: relative;
 }
 
@@ -16,12 +23,14 @@
 }
 .container_info {
     padding: 1rem;
+    color: white;
+    font-size: 1.2rem;
 }
 .photo {
     position: absolute;
     bottom: 0;
-    width: 7rem;
-    height: 7rem;
+    width: 9rem;
+    height: 9rem;
 }
 .photo img {
     border-radius: 50%;

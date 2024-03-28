@@ -101,28 +101,69 @@
       background-color: grey;
       border: none;
     }
-    .containerGames {
+    /* .containerGames {
       width: 100%;
+    } */
 
-    }
-    .containerGame {
+
+    /* .containerGame {
       width: 600px;
       height: 40px;
       display: flex;
       border-bottom: 1px solid grey;
       margin-bottom: 5px;
       margin: 0 auto;
-    }
+    } */
+
+    /*Borrador*/
+    .containerGame {
+    height: 40px;
+    display: flex;
+    width: max-content;
+    border: 1px solid grey;
+    margin-top: 3px;
+    background-color:#070a3f;
+    border-radius: 0.5rem;
+    padding-left: 0.2rem;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    cursor: pointer;
+   }
+
+ 
+
     .containerEscudo {
-      width: 10%;
+      width: 50px;
       height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .containerEscudo img {
-      width: 90%;
-      height: 90%;
+      width: 38px;
+      height: 32px;
+
+      width: 50px;
+      height: 50px;
     }
+
+    .raiz {
+      width: 170px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.7rem;
+      transition: all 0.3s ease;
+      /* display: none; */
+      transition: height 0.5s ease;
+    }
+
+    /* .containerGame:hover .raiz {
+      display: block;
+    } */
     .containerGameName {
-      width: 25%;
+      width: 180px;
       height: 100%;
       display: flex;
       justify-content: center;
@@ -131,40 +172,31 @@
       font-weight: 500;
     }
     .containerGameResultWin {
-      width: 10%;
+      width: 45px;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: brown;
       color: white;
-      border: 1px solid white;
     }
-    .containerGameResultLoss {
-      width: 10%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: rgb(23, 119, 47);
-      color: white;
-      border: 1px solid white;
-    }
+   
     .containerFinished {
-      width: 10%;
+      width: 70px;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+
     }
     .containerFinished span {
-      border-radius: 50%;
+      border-radius: 0.5rem;
       height: 60%;
-      font-size: 15px;
+      font-size: 12px;
       display: flex;
+      border: 1px solid black;
       justify-content: center;
       align-items: center;
-      width: 25px;
+      width: 85%;
       color: white;
     }
     .containerHeader {
