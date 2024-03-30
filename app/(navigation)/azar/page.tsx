@@ -106,13 +106,13 @@ const Azar = () => {
     }
 
     if (bombo9.length === 0) {
-      marcos = [{ nombre: "Chelsea", escudo: "/images/Chelsea.png" }, ...marcos];
+      marcos = [{ nombre: "Chelsea", escudo: "/images/Chelsea.png", rank: "#15" }, ...marcos];
 
-      gaston = [{ nombre: "Juventus", escudo: "/images/da-removebg-preview.png" }, ...gaston];
+      gaston = [{ nombre: "Juventus", escudo: "/images/da-removebg-preview.png", rank: "#15" }, ...gaston];
 
-      franco = [{ nombre: "Paris Saint Germain", escudo: "/images/ParisSaintGermain.png" }, ...franco];
+      franco = [{ nombre: "Paris Saint Germain", escudo: "/images/ParisSaintGermain.png", rank: "#15" }, ...franco];
 
-      marcos.push({ nombre: "Lazio", escudo: "/images/laziofc.png" });
+      marcos.push({ nombre: "Lazio", escudo: "/images/laziofc.png" , rank: "#15"});
 
       let Gaston_Franco = Math.random() * 1;
       if (Gaston_Franco > 0.5) {

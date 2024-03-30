@@ -17,6 +17,7 @@ const Draft = () => {
   let base = {
     nombre: "",
     escudo: "",
+    rank: "",
   };
 
   const [A1, setA1] = useState(base);
@@ -349,8 +350,11 @@ const Draft = () => {
             {A1?.nombre && (
               <img className={styles.img} src={A1?.escudo} alt={A1?.nombre} />
             )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             <span className={styles.number_rank}>
-              #24
+              {A1 && A1.rank}
             </span>
           </div>
           <div onClick={() => setA3(A2)}>
@@ -358,79 +362,136 @@ const Draft = () => {
               <img className={styles.img} src={A2?.escudo} alt={A2?.nombre} />
             )}
                <span className={styles.number_rank}>
-              #4
+              {A1 && A1.rank}
             </span>
+
           </div>
           <div onClick={() => setB3(B1)}>
             {B1?.nombre && (
               <img className={styles.img} src={B1?.escudo} alt={B1?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setB3(B2)}>
             {B2?.nombre && (
               <img className={styles.img} src={B2?.escudo} alt={B2?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setC3(C1)}>
             {C1?.nombre && (
               <img className={styles.img} src={C1?.escudo} alt={C1?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setC3(C2)}>
             {C2?.nombre && (
               <img className={styles.img} src={C2?.escudo} alt={C2?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setD3(D1)}>
             {D1?.nombre && (
               <img className={styles.img} src={D1?.escudo} alt={D1?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setD3(D2)} style={{ marginBottom: "18px" }}>
             {D2?.nombre && (
               <img className={styles.img} src={D2?.escudo} alt={D2?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setE3(E1)}>
             {E1.nombre && (
               <img className={styles.img} src={E1?.escudo} alt={E1?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setE3(E2)}>
             {E2.nombre && (
               <img className={styles.img} src={E2?.escudo} alt={E2?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setF3(F1)}>
             {F1.nombre && (
               <img className={styles.img} src={F1?.escudo} alt={F1?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setF3(F2)}>
             {F2.nombre && (
               <img className={styles.img} src={F2?.escudo} alt={F2?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setG3(G1)}>
             {G1.nombre && (
               <img className={styles.img} src={G1?.escudo} alt={G1?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setG3(G2)}>
             {G2.nombre && (
               <img className={styles.img} src={G2?.escudo} alt={G2?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setH3(H1)}>
             {H1.nombre && (
               <img className={styles.img} src={H1?.escudo} alt={H1?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
           <div onClick={() => setH3(H2)}>
             {H2.nombre && (
               <img className={styles.img} src={H2?.escudo} alt={H2?.nombre} />
             )}
+           <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
           </div>
+
         </div>
         <div className={styles.diome}>
           <div className={styles.octavosLeft}>
@@ -438,64 +499,112 @@ const Draft = () => {
               {A3?.nombre && (
                 <img className={styles.img} src={A3?.escudo} alt={A3?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setA4(B3)}>
               {B3?.nombre && (
                 <img className={styles.img} src={B3?.escudo} alt={B3?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setB4(C3)}>
               {C3?.nombre && (
                 <img className={styles.img} src={C3?.escudo} alt={C3?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setB4(D3)} style={{ marginBottom: "100px" }}>
               {D3?.nombre && (
                 <img className={styles.img} src={D3?.escudo} alt={D3?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setC4(E3)}>
               {E3?.nombre && (
                 <img className={styles.img} src={E3?.escudo} alt={E3?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setC4(F3)}>
               {F3?.nombre && (
                 <img className={styles.img} src={F3?.escudo} alt={F3?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setD4(G3)}>
               {G3?.nombre && (
                 <img className={styles.img} src={G3?.escudo} alt={G3?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setD4(H3)}>
               {H3?.nombre && (
                 <img className={styles.img} src={H3?.escudo} alt={H3?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
           </div>
           <div className={styles.cuartosLeft}>
             <div onClick={() => setA5(A4)} style={{ marginTop: "150px" }}>
               {A4?.nombre && (
                 <img className={styles.img} src={A4?.escudo} alt={A4?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setA5(B4)} style={{ marginBottom: "280px" }}>
               {B4?.nombre && (
                 <img className={styles.img} src={B4?.escudo} alt={B4?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setB5(C4)}>
               {C4?.nombre && (
                 <img className={styles.img} src={C4?.escudo} alt={C4?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setB5(D4)}>
               {D4?.nombre && (
                 <img className={styles.img} src={D4?.escudo} alt={D4?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
           </div>
           <div className={styles.semifinalesLeft}>
             <div
@@ -505,19 +614,31 @@ const Draft = () => {
               {A5?.nombre && (
                 <img className={styles.img} src={A5?.escudo} alt={A5?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
             <div onClick={() => setA6(B5)}>
               {B5?.nombre && (
                 <img className={styles.img} src={B5?.escudo} alt={B5?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
           </div>
           <div className={styles.FianalsLeft}>
             <div onClick={() => setA7(A6)}>
               {A6?.nombre && (
                 <img className={styles.img} src={A6?.escudo} alt={A6?.nombre} />
               )}
+             <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
             </div>
+
           </div>
 
           <div className={styles.arooba}>
@@ -544,7 +665,11 @@ const Draft = () => {
                         alt={A7?.nombre}
                       />
                     )}
+                   <span className={styles.number_rank}>
+              {A1 && A1.rank}
+            </span>
                   </div>
+
                   <div className={styles.der}>
                     {A7?.nombre && <span>{A7?.nombre}</span>}
                   </div>
