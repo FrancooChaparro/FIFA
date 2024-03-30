@@ -14,10 +14,11 @@ export default function Page({ params }: { params: { slug: string } }) {
   const router = useRouter();
 
   const param = async () => {
+    
     const team = AllTeams.find(
       (e) =>
         e.name.toLocaleLowerCase() ===
-        params.slug.toLocaleLowerCase()
+        decodeURI(params.slug.toLocaleLowerCase())
     );
     if (team) {
       const fi = Finals.filter(e => team.name === e.LocalNombre || team.name === e.VisitanteNombre)
