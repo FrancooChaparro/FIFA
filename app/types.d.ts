@@ -1,6 +1,7 @@
 export interface Team { 
     nombre: string
     escudo: any
+    rank: string
 }
 
 export interface Match {

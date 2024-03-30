@@ -349,11 +349,17 @@ const Draft = () => {
             {A1?.nombre && (
               <img className={styles.img} src={A1?.escudo} alt={A1?.nombre} />
             )}
+            <span className={styles.number_rank}>
+              #24
+            </span>
           </div>
           <div onClick={() => setA3(A2)}>
             {A2?.nombre && (
               <img className={styles.img} src={A2?.escudo} alt={A2?.nombre} />
             )}
+               <span className={styles.number_rank}>
+              #4
+            </span>
           </div>
           <div onClick={() => setB3(B1)}>
             {B1?.nombre && (
