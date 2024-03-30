@@ -2,6 +2,17 @@ export const History = {
  Games : [
   {
     Player1: "G",
+    Player2: "F",
+    Result: "L",
+    LocalEscudo: "/images/ManchesterUnited.png",
+    LocalNombre: "MANCHESTER UNITED",
+    LocalResultado: 0,
+    VisitanteEscudo: "/images/ParisSaintGermain.png",
+    VisitanteNombre: "PARIS SAINT GERMAIN",
+    VisitanteResultado: 1,
+  },
+  {
+    Player1: "G",
     Player2: "M",
     Result: "NO",
     LocalEscudo: "/images/oporto.png",
@@ -956,11 +967,20 @@ export const stats_franco = {
             VisitanteNombre: 'NEWCASTLE',
             VisitanteResultado: 3
           }, 
+          {
+            Result: 'Victory',
+            LocalEscudo: '/images/ParisSaintGermain.png',
+            LocalNombre: 'PARIS SAINT GERMAIN',
+            LocalResultado: 1,
+            VisitanteEscudo: '/images/ManchesterUnited.png',
+            VisitanteNombre: 'MANCHESTER UNITED',
+            VisitanteResultado: 0,
+          }, 
     ],
     stats: {
-      win: 16,
+      win: 17,
       loss: 9,
-      porcent: "64%",
+      porcent: "66%",
     }
   },
   clasics: {
@@ -1257,11 +1277,20 @@ export const stats_gaston = {
         VisitanteNombre: 'BAYERN MUNICH',
         VisitanteResultado: 0
       },
+      {
+        Result: 'Defeat',
+        LocalEscudo: '/images/ManchesterUnited.png',
+        LocalNombre: 'MANCHESTER UNITED',
+        LocalResultado: 0,
+        VisitanteEscudo: '/images/ParisSaintGermain.png',
+        VisitanteNombre: 'PARIS SAINT GERMAIN',
+        VisitanteResultado: 1,
+      }, 
     ],
     stats: {
       win: 11,
-      loss: 9,
-      porcent: "55%",
+      loss: 10,
+      porcent: "52%",
     },
   },
   clasics: {
@@ -1482,7 +1511,7 @@ export const data = {
       logo: "images/ParisSaintGermain.png",
       rank: 1,
       name: "PARIS SAINT GERMAIN",
-      titles: 4,
+      titles: 5,
     },
     {
       logo: "images/BayernMunchen.png",
