@@ -70,7 +70,7 @@
   
 
   .container_picture {
-    width: 250px;
+    width: 240px;
     height: 40px;
     margin: 0.3rem;
     display: flex;
@@ -91,7 +91,7 @@
   }
 
   .container_picture_name {
-    width: 190px;
+    width: 180px;
     height: 40px;
     padding: 0.5rem;
     display: flex;
