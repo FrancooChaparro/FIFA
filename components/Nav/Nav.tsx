@@ -48,9 +48,9 @@ export const Nav = () => {
     });
   };
 
-  const handleShow = () => { 
-    setShowMenu(!showMenu)
-    setShowBrowse(false)
+  const handleShow = (param: string) => { 
+    setShowCor(false);
+    router.push(param)
   }
   const handleShow2 = () => { 
     setShowMenu(false)
@@ -68,14 +68,14 @@ export const Nav = () => {
           <img src="/images/logo-ESPN.png" alt="LogoNetflix" onClick={() => handleClick(0)}/>
         </div>
         <div className={styles.containerInfo}>
-          <span className={styles.span1} onClick={()=> router.push("/")}>Home</span>
-          <span className={styles.active} onMouseEnter={handleMouseEnterCor} >Teams</span>
+          <span className={styles.span1} onClick={()=> router.push("/")} onMouseEnter={handleMouseLeaveCor}>Home</span>
+          <span className={styles.active} onMouseEnter={handleMouseEnterCor}>Teams</span>
           <div className={showCor ? styles.cor: styles.co}>
           {showCor && (
             <div className={ styles.cor} onMouseEnter={handleMouseEnterCor} 
             onMouseLeave={handleMouseLeaveCor} >
               {info.ranking.map((team, index) => (
-                <div className={styles.container_picture} key={index} onClick={()=> router.push(`/details/${team.name}`)}>
+                <div className={styles.container_picture} key={index} onClick={()=> handleShow(`/details/${team.name}`)}>
                   <div className={styles.container_picture_img}><img src={team.logo} alt={team.name} /></div>
                   <div className={styles.container_picture_name}><span>{team.name}</span></div>
                 </div>
@@ -83,12 +83,12 @@ export const Nav = () => {
             </div>
           )}
           </div>
-          <span onClick={()=> router.push("/azar")} className={styles.span1}>Azar</span>
-          <span onClick={()=> router.push("/draft")} className={styles.span1}>Draft</span>
-          <span onClick={()=> router.push("/results")} className={styles.span1}>Finals & PopularMatchs</span>
-          <span onClick={()=> router.push("/franco")} className={styles.span1}>Franco</span>
-          <span onClick={()=> router.push("/gaston")} className={styles.span1}>Flaki</span>
-          <span onClick={()=> router.push("/marcos")} className={styles.span1}>Marcos</span>
+          <span onClick={()=> router.push("/azar")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Azar</span>
+          <span onClick={()=> router.push("/draft")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Draft</span>
+          <span onClick={()=> router.push("/results")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Finals & PopularMatchs</span>
+          <span onClick={()=> router.push("/franco")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Franco</span>
+          <span onClick={()=> router.push("/gaston")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Flaki</span>
+          <span onClick={()=> router.push("/marcos")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Marcos</span>
         </div>
 
         <div className={styles.containerBrowse}>

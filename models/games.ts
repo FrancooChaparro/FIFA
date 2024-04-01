@@ -1434,7 +1434,7 @@ export const stats_gaston = {
 export const data = {
   poster: [
     {
-      image: "/images/poster_marcos.jpeg",
+      image: "https://editorial.uefa.com/resources/0272-146df6021a60-20bfa974e771-1000/fla7gnnxiaqacwr.jpeg",
       alt: "poster_image",
       title: "¡CHELSEA CAMPEON!",
       description:

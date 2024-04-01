@@ -11,7 +11,7 @@ const Banner = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (num === 2) {
+      if (num === 3) {
         setNum(0);
       } else {
         setNum((num) => num + 1);
@@ -22,7 +22,7 @@ const Banner = () => {
   }, [num]);
 
   const poster = data.poster[num];
-
+  
   return (
     <div className={styles.ContainerBackground}>
       <img
