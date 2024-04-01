@@ -23,8 +23,8 @@ const Azar = () => {
       ];
       let bombo3 = [
         { nombre: "Inter", escudo:"/images/Internazionale.png" , rank: "#14"},
-        { nombre: "Milan", escudo: "/images/Milan.png" , rank: "#22"},
-        { nombre: "Dortmund", escudo: "/images/BorussiaDortmund.png" , rank: "#23"},
+        { nombre: "Milan", escudo: "/images/Milan.png" , rank: "#23"},
+        { nombre: "Dortmund", escudo: "/images/BorussiaDortmund.png" , rank: "#22"},
       ];
       let bombo4 = [
         { nombre: "Tottenham", escudo: "/images/Tottenham.png" , rank: "#7"},

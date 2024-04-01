@@ -4,7 +4,6 @@ import styles from "./Nav.module.css";
 import { useRouter } from 'next/navigation';
 import { data } from '@/models/games';
 import { Data } from '@/app/types';
-import { Picture } from "../Picture/Picture";
 
 
 export const Nav = () => {
@@ -14,7 +13,7 @@ export const Nav = () => {
   const [showBrowse, setShowBrowse] = useState<boolean>(false);
   const TOP_OFFSET = 66;
   const [showBackground, setShowBackground] = useState<boolean>(false);
-  const [showCor, setShowCor] = useState(false); // Estado para controlar si se muestra el contenido de .cor
+  const [showCor, setShowCor] = useState(false); 
 
   
   const handleMouseEnterCor = () => {
@@ -64,7 +63,6 @@ export const Nav = () => {
         showBackground ? styles.containerAll : styles.containerAllOpacity
       }
     >
-       {/* <div className={styles.cor}></div> */}
       <div className={styles.flex}>
         <div className={styles.containerLogo}>
           <img src="/images/logo-ESPN.png" alt="LogoNetflix" onClick={() => handleClick(0)}/>
@@ -81,7 +79,7 @@ export const Nav = () => {
                   <div className={styles.container_picture_img}><img src={team.logo} alt={team.name} /></div>
                   <div className={styles.container_picture_name}><span>{team.name}</span></div>
                 </div>
-              )).slice(0, 32)}
+              )).slice(0, 38)}
             </div>
           )}
           </div>
