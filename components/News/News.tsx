@@ -13,15 +13,15 @@ export const News = () => {
           <div key={index}>
             <div  className={styles.container_notice}>
                 <div className={styles.container_image}>
-                    <Image 
+                    {/* <Image 
                     src={notice.image} 
                     alt={notice.alt}
                     width={176}
                     height={350}
                     objectFit='cover'
-                    />
-                    {/* <img src={notice.image} alt={notice.alt} /> */}
-                </div>
+                    /> */}
+                    <img src={notice.image} alt={notice.alt} />
+               </div>
                 <div className={styles.container_description}>
                     <h3>{notice.title}</h3>
                     <p>{notice.description}</p>

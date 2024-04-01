@@ -10,13 +10,13 @@
 }
 
 .container_image {
-    height: 176px;
-    width: 350px;
+    height: 11rem;
+    width: 100%;
     overflow: hidden;
 }
 .container_image img {
-    height: 176px;
-    width: 350px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     transition: transform 0.2s ease-in-out; 
 }
