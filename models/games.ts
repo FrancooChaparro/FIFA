@@ -1434,7 +1434,7 @@ export const stats_gaston = {
 export const data = {
   poster: [
     {
-      image: "https://editorial.uefa.com/resources/0272-146df6021a60-20bfa974e771-1000/fla7gnnxiaqacwr.jpeg",
+      image: "/images/chelsea_poster.webp",
       alt: "poster_image",
       title: "¡CHELSEA CAMPEON!",
       description:
@@ -1442,7 +1442,7 @@ export const data = {
     },
     {
       image:
-        "https://st1.uvnimg.com/f0/b8/159a38194e579b74a942b8c10008/gettyimages-1149331608.jpg",
+        "/images/ajax_poster.jpg",
       alt: "poster_image",
       title: "AJAX CAMPEON",
       description:
@@ -1450,7 +1450,7 @@ export const data = {
     },
     {
       image:
-        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/AC-Monaco-v-Porto---UEFA-Champions-League-Final-5f05fd3c5c1c440351f6f19748a748b0.jpg",
+        "/images/porto_poster.webp",
       alt: "poster_image",
       title: "PORTO SUMA SU SEGUNDO TITULO",
       description:
@@ -1458,14 +1458,14 @@ export const data = {
     },
     {
       image:
-        " https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt258bc4e87ba31646/658ebd9dd7a29304077f8b4f/Goal_HIC_-_LinkedIn_(75).png?auto=webp&format=pjpg&width=3840&quality=60",
+        "/images/galatasaray_poster.webp",
       alt: "poster_image",
       title: "GALATASARAY ES EL NUEVO PARTICIPANTE DE LOS TORNEOS",
       description: "Galatasaray jugara el torneo la proxima copa.",
     },
     {
       image:
-        "https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1400/02/04/1400020400192581422620774.jpg",
+        "/images/alnassar_poster.jpg",
       alt: "poster_image",
       title: "AL NASSAR PIERDE LA CATEGORIA",
       description: "Al Nassar eliminado del torneo, baja de categoria.",
@@ -1481,7 +1481,7 @@ export const data = {
     },
     {
       image:
-        "https://st1.uvnimg.com/f0/b8/159a38194e579b74a942b8c10008/gettyimages-1149331608.jpg",
+        "/images/ajax_poster.jpg",
       alt: "poster_image",
       title: "AJAX CAMPEON",
       description:
@@ -1489,7 +1489,7 @@ export const data = {
     },
     {
       image:
-        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/AC-Monaco-v-Porto---UEFA-Champions-League-Final-5f05fd3c5c1c440351f6f19748a748b0.jpg",
+        "/images/porto_poster.webp",
       alt: "poster_image",
       title: "PORTO SUMA SU SEGUNDO TITULO",
       description:
@@ -1497,21 +1497,21 @@ export const data = {
     },
     {
       image:
-        " https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt258bc4e87ba31646/658ebd9dd7a29304077f8b4f/Goal_HIC_-_LinkedIn_(75).png?auto=webp&format=pjpg&width=3840&quality=60",
+        "/images/galatasaray_poster.webp",
       alt: "poster_image",
       title: "GALATASARAY ES EL NUEVO PARTICIPANTE DE LOS TORNEOS",
       description: "Galatasaray jugara el torneo la proxima copa.",
     },
     {
       image:
-        "https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1400/02/04/1400020400192581422620774.jpg",
+        "/images/alnassar_poster.jpg",
       alt: "poster_image",
       title: "AL NASSAR PIERDE LA CATEGORIA",
       description: "Al Nassar eliminado del torneo, baja de categoria.",
     },
     {
       image:
-        "https://st1.uvnimg.com/f0/b8/159a38194e579b74a942b8c10008/gettyimages-1149331608.jpg",
+        "/images/ajax_poster.jpg",
       alt: "poster_image",
       title: "AJAX CAMPEON",
       description:
@@ -1519,7 +1519,7 @@ export const data = {
     },
     {
       image:
-        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/AC-Monaco-v-Porto---UEFA-Champions-League-Final-5f05fd3c5c1c440351f6f19748a748b0.jpg",
+        "/images/porto_poster.webp",
       alt: "poster_image",
       title: "PORTO SUMA SU SEGUNDO TITULO",
       description:
@@ -1527,21 +1527,21 @@ export const data = {
     },
     {
       image:
-        " https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt258bc4e87ba31646/658ebd9dd7a29304077f8b4f/Goal_HIC_-_LinkedIn_(75).png?auto=webp&format=pjpg&width=3840&quality=60",
+        "/images/galatasaray_poster.webp",
       alt: "poster_image",
       title: "GALATASARAY ES EL NUEVO PARTICIPANTE DE LOS TORNEOS",
       description: "Galatasaray jugara el torneo la proxima copa.",
     },
     {
       image:
-        "https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1400/02/04/1400020400192581422620774.jpg",
+        "/images/alnassar_poster.jpg",
       alt: "poster_image",
       title: "AL NASSAR PIERDE LA CATEGORIA",
       description: "Al Nassar eliminado del torneo, baja de categoria.",
     },
     {
       image:
-        "https://st1.uvnimg.com/f0/b8/159a38194e579b74a942b8c10008/gettyimages-1149331608.jpg",
+        "/images/ajax_poster.jpg",
       alt: "poster_image",
       title: "AJAX CAMPEON",
       description:
@@ -1557,14 +1557,14 @@ export const data = {
     },
     {
       image:
-        " https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt258bc4e87ba31646/658ebd9dd7a29304077f8b4f/Goal_HIC_-_LinkedIn_(75).png?auto=webp&format=pjpg&width=3840&quality=60",
+        "/images/galatasaray_poster.webp",
       alt: "poster_image",
       title: "GALATASARAY ES EL NUEVO PARTICIPANTE DE LOS TORNEOS",
       description: "Galatasaray jugara el torneo la proxima copa.",
     },
     {
       image:
-        "https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1400/02/04/1400020400192581422620774.jpg",
+        "/images/alnassar_poster.jpg",
       alt: "poster_image",
       title: "AL NASSAR PIERDE LA CATEGORIA",
       description: "Al Nassar eliminado del torneo, baja de categoria.",

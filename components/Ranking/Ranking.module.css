@@ -2,7 +2,7 @@
 .containerAll {
     position: relative;
     width: 100vw;
-    background-image: url("https://brandemia.org/sites/default/files/inline/images/ucl-image-ultimatestage-gallery-01.jpg");
+    background-image: url("/images/background_rank.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
