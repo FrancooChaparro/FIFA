@@ -9,8 +9,11 @@
     padding-left: 55px;
     padding-right: 55px;
     justify-content: space-between;
+
+    /* position: relative; */
   }
   
+
   .containerAllOpacity {
     background-color: rgba(0, 0, 0, 0.05);
     display: flex;
@@ -23,7 +26,6 @@
     padding-right: 55px;
     justify-content: space-between;
   }
-  
   .containerLogo {
     display: flex;
     justify-content: center;
@@ -38,8 +40,67 @@
   .containerInfo {
     display: flex;
     align-items: center;
+    position: relative;
+  }
+  .cor {
+    position: absolute;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    min-width:1px ;
+    background-color:  rgba(0, 0, 0, 0.9);
+    padding: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+  transition: background-color 0.3s;
+
   }
   
+.co {
+  position: absolute;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  min-width:1px ;
+  background-color:none;
+  padding: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+
+  .container_picture {
+    width: 250px;
+    height: 40px;
+    margin: 0.3rem;
+    display: flex;
+  }
+
+ 
+  .container_picture_img {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_picture_img img {
+    width: 33x;
+    height: 33px;
+  }
+
+  .container_picture_name {
+    width: 190px;
+    height: 40px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: black!important; 
+  }
+
+ 
+
   .containerInfo span {
     color: var(--primary-white);
     filter: contrast(150%) saturate(150%);

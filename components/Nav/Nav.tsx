@@ -2,14 +2,29 @@
 import { useState, useEffect } from "react";
 import styles from "./Nav.module.css";
 import { useRouter } from 'next/navigation';
+import { data } from '@/models/games';
+import { Data } from '@/app/types';
+import { Picture } from "../Picture/Picture";
+
 
 export const Nav = () => {
+  const info: Data = data;
   const router = useRouter();
   const [showMenu, setShowMenu] = useState<boolean>(false);
   const [showBrowse, setShowBrowse] = useState<boolean>(false);
   const TOP_OFFSET = 66;
   const [showBackground, setShowBackground] = useState<boolean>(false);
+  const [showCor, setShowCor] = useState(false); // Estado para controlar si se muestra el contenido de .cor
 
+  
+  const handleMouseEnterCor = () => {
+    setShowCor(true);
+  };
+
+  const handleMouseLeaveCor = () => {
+    setShowCor(false);
+  };
+  
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= TOP_OFFSET) {
@@ -49,13 +64,27 @@ export const Nav = () => {
         showBackground ? styles.containerAll : styles.containerAllOpacity
       }
     >
+       {/* <div className={styles.cor}></div> */}
       <div className={styles.flex}>
         <div className={styles.containerLogo}>
           <img src="/images/logo-ESPN.png" alt="LogoNetflix" onClick={() => handleClick(0)}/>
         </div>
         <div className={styles.containerInfo}>
           <span className={styles.span1} onClick={()=> router.push("/")}>Home</span>
-          <span>Teams</span>
+          <span className={styles.active} onMouseEnter={handleMouseEnterCor} >Teams</span>
+          <div className={showCor ? styles.cor: styles.co}>
+          {showCor && (
+            <div className={ styles.cor} onMouseEnter={handleMouseEnterCor} 
+            onMouseLeave={handleMouseLeaveCor} >
+              {info.ranking.map((team, index) => (
+                <div className={styles.container_picture} key={index} onClick={()=> router.push(`/details/${team.name}`)}>
+                  <div className={styles.container_picture_img}><img src={team.logo} alt={team.name} /></div>
+                  <div className={styles.container_picture_name}><span>{team.name}</span></div>
+                </div>
+              )).slice(0, 32)}
+            </div>
+          )}
+          </div>
           <span onClick={()=> router.push("/azar")} className={styles.span1}>Azar</span>
           <span onClick={()=> router.push("/draft")} className={styles.span1}>Draft</span>
           <span onClick={()=> router.push("/results")} className={styles.span1}>Finals & PopularMatchs</span>
