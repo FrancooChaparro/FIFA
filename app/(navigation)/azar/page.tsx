@@ -54,7 +54,7 @@ const Azar = () => {
       let bombo9 = [
         { nombre: "Villa Real", escudo: "/images/villar.png" , rank: "#17"},
         { nombre: "Wolfburgo", escudo:"/images/wolfburgo.png" , rank: "#31"},
-        { nombre: "Galatasaray", escudo:"https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/109.png" , rank: "#30"},
+        { nombre: "Galatasaray", escudo:"/images/galatasaray.png" , rank: "#30"},
       ];
 
       

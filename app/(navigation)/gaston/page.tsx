@@ -15,7 +15,7 @@ const Gaston = () => {
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
         <img
-          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e01a4d13-bcea-4c7c-ad5c-82caa2045e37/d3339fc-00e527bc-547b-4380-a086-446ea52c078d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UwMWE0ZDEzLWJjZWEtNGM3Yy1hZDVjLTgyY2FhMjA0NWUzN1wvZDMzMzlmYy0wMGU1MjdiYy01NDdiLTQzODAtYTA4Ni00NDZlYTUyYzA3OGQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rz0GPkrWhqY18Xyt1oFw_TZhSfQLjzwya7XJ8friyvc"
+          src="/images/juv.jpg"
           alt="poster"
         />
         <div className={styles.photo}>

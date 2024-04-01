@@ -6,6 +6,7 @@ import { stats_franco } from "@/models/games";
 import { Person } from "@/app/types";
 import { data } from '@/models/games';
 import { Data } from '@/app/types';
+import Image from "next/image";
 const Franco = () => {
   const [clasic, setClasic] = useState(true);
   const games: Person = stats_franco;
@@ -14,12 +15,26 @@ const Franco = () => {
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
-        <img
-          src="https://w0.peakpx.com/wallpaper/741/835/HD-wallpaper-paris-saint-germain-french-football-team-blue-background-paris-saint-germain-logo-grunge-art-ligue-1-france-football-psg-emblem-psg-logo.jpg"
+        {/* <img
+          src="/images/ps.jpg"
           alt="poster"
+        /> */}
+        <Image 
+        src="/images/ps.jpg"
+        alt="poster"
+        width={1200}
+        height={400}
+        object-fit= "cover"
+        object-position= "center"
         />
         <div className={styles.photo}>
-          <img src="/images/fran.jpg" alt="franco" />
+          {/* <img src="/images/fran.jpg" alt="franco" /> */}
+          <Image 
+        src="/images/fran.jpg"
+        alt="poster"
+        width={144}
+        height={144}
+        />
         </div>
         <div className={styles.container_rank}>
           <div className={styles.container_rank_number}>

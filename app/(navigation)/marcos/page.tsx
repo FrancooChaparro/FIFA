@@ -16,7 +16,7 @@ const Marcos = () => {
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
         <img
-          src="https://i.pinimg.com/originals/40/ce/31/40ce311eb0519c5bd50410ec957dfd0e.jpg"
+          src="/images/che.jpg"
           alt="poster"
         />
         <div className={styles.photo}>

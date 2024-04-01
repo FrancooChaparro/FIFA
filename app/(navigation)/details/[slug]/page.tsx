@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import styles from "@/app/(navigation)/franco/franco.module.css";
 import { data, History } from "@/models/games";
-import { Externals, Data, Rank, Match } from "@/app/types";
+import { Rank, Match } from "@/app/types";
 import { useRouter } from "next/navigation";
 import { ResultFinals } from "@/components/ResultFinals/ResultFinals";
 import Image from "next/image";
