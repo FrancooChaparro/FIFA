@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/app/(navigation)/results/results.module.css";
+import Image from "next/image";
 
 interface MyPropsCard {
   LocalEscudo: any;
@@ -29,7 +30,8 @@ export const ResultFinals : React.FC<MyPropsCard> = ({
       <div className={Player1 === "F" ? styles.bend_franco : Player1 === "M" ? styles.bend_marcos :  styles.bend_gaston}></div>
       </div>
       <div className={styles.containerEscudo}>
-        <img src={LocalEscudo} alt={LocalNombre} />
+        <Image src={LocalEscudo} alt={LocalNombre} width={40} height={35}/>
+        {/* <img src={LocalEscudo} alt={LocalNombre} /> */}
       </div>
       <div className={styles.containerGameName}>{LocalNombre}</div>
 

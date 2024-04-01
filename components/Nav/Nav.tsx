@@ -4,6 +4,7 @@ import styles from "./Nav.module.css";
 import { useRouter } from 'next/navigation';
 import { data } from '@/models/games';
 import { Data } from '@/app/types';
+import Image from "next/image";
 
 
 export const Nav = () => {
@@ -76,7 +77,10 @@ export const Nav = () => {
             onMouseLeave={handleMouseLeaveCor} >
               {info.ranking.map((team, index) => (
                 <div className={styles.container_picture} key={index} onClick={()=> handleShow(`/details/${team.name}`)}>
-                  <div className={styles.container_picture_img}><img src={team.logo} alt={team.name} /></div>
+                  <div className={styles.container_picture_img}>
+                    <Image src={team.logo} alt={team.name} width={33} height={33}/>
+                    {/* <img src={team.logo} alt={team.name} /> */}
+                    </div>
                   <div className={styles.container_picture_name}><span>{team.name}</span></div>
                 </div>
               )).slice(0, 38)}

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../Ranking/Ranking.module.css";
+import Image from "next/image";
 
 
 interface MyPropsCard {
@@ -19,7 +20,8 @@ export const Picture: React.FC<MyPropsCard> = ({ img, name, titles, rank}) => {
       </div>
      )}
       <div className={styles.containerPicture2}>
-        <img src={img} alt={name} />
+        <Image src={img} alt={name} width={40} height={40}/>
+        {/* <img src={img} alt={name} /> */}
       </div>
       <div className={styles.containerPicture3}>{name}</div>
       {titles !== undefined && (

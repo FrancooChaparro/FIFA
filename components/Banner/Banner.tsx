@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import styles from "./Banner.module.css";
-import { useRouter } from "next/navigation";
 import { data } from "@/models/games";
 import { Data } from "@/app/types";
 

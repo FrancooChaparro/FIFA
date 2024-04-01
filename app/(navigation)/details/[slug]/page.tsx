@@ -5,6 +5,7 @@ import { data, History } from "@/models/games";
 import { Externals, Data, Rank, Match } from "@/app/types";
 import { useRouter } from "next/navigation";
 import { ResultFinals } from "@/components/ResultFinals/ResultFinals";
+import Image from "next/image";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const [teamID, setTeamID] = useState<Rank>();
@@ -42,23 +43,20 @@ export default function Page({ params }: { params: { slug: string } }) {
       </div>
     );
   }
-  console.log(teamID);
-  console.log(finales);   
-  const titles = teamID.titles; // Número de títulos
-  const finalsLength = finales?.length || 0; // Número de finales
-  const por = (100 / (titles + (finalsLength - titles)))*titles
-  // Calcular el porcentaje
-  console.log(por);
+
+  const titles = teamID.titles; 
+  const finalsLength = finales?.length || 0; 
+  const por = (100 / (titles + (finalsLength - titles)))*titles;
   
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
-        <img
-          src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0411%2Fr998252_1296x729_16%2D9.jpg"
+         <img
+          src="/images/portada.jpg"
           alt="poster"
-        />
+        /> 
         <div className={styles.photo}>
-        <img src={`/${teamID?.logo}`} alt={teamID?.name.slice(0,3)} />
+        <img src={`${teamID?.logo}`} alt={teamID?.name.slice(0,3)} />
         </div>
 
         <div className={styles.container_rank}>
@@ -66,7 +64,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             <span>Rank #{teamID?.rank}</span>
           </div>
           <div className={styles.container_image}>
-            <img src={`/${teamID?.logo}`} alt={teamID?.name.slice(0,3)} />
+            <img src={`${teamID?.logo}`} alt={teamID?.name.slice(0,3)} />
           </div>
         </div>
       </div>
