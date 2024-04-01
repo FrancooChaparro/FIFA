@@ -1549,7 +1549,7 @@ export const data = {
     },
     {
       image:
-        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/AC-Monaco-v-Porto---UEFA-Champions-League-Final-5f05fd3c5c1c440351f6f19748a748b0.jpg",
+        "/images/porto_poster.webp",
       alt: "poster_image",
       title: "PORTO SUMA SU SEGUNDO TITULO",
       description:
