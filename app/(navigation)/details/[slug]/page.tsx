@@ -5,7 +5,6 @@ import { data, History } from "@/models/games";
 import { Rank, Match } from "@/app/types";
 import { useRouter } from "next/navigation";
 import { ResultFinals } from "@/components/ResultFinals/ResultFinals";
-import Image from "next/image";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const [teamID, setTeamID] = useState<Rank>();

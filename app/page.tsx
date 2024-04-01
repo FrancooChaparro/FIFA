@@ -1,34 +1,36 @@
 "use client";
+import { ContainerNews } from "@/components/ContainerNews/ContainerNews";
 import styles from "./page.module.css";
 import Banner from "@/components/Banner/Banner";
 import { News } from "@/components/News/News";
 import { Ranking } from "@/components/Ranking/Ranking";
 import { useRef } from "react";
-import icon from "@/public/icon.svg";
 
 export default function Home() {
-  const carouselRef = useRef<HTMLDivElement>(null);
-  const izq = "<";
-  const handleScrollLeft = () => {
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({
-        left: -425,
-        behavior: "smooth",
-      });
-    }
-  };
-  const handleScrollRight = () => {
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({
-        left: 425,
-        behavior: "smooth",
-      });
-    }
-  };
+  // const carouselRef = useRef<HTMLDivElement>(null);
+  // const izq = "<";
+  // const handleScrollLeft = () => {
+  //   if (carouselRef.current) {
+  //     carouselRef.current.scrollBy({
+  //       left: -425,
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
+  // const handleScrollRight = () => {
+  //   if (carouselRef.current) {
+  //     carouselRef.current.scrollBy({
+  //       left: 425,
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
   return (
     <main className={styles.main}>
       <Banner />
-      <div className={styles.container_news}>
+      <ContainerNews />
+      
+      {/* <div className={styles.container_news}>
         <div className={styles.container_news_header}>
           <h1>BREAKING NEWS</h1>
           <div className={styles.container_buttons}>
@@ -53,7 +55,7 @@ export default function Home() {
         <div ref={carouselRef} className={styles.container_news_footer}>
           <News />
         </div>
-      </div>
+      </div> */}
       <Ranking />
     </main>
   );

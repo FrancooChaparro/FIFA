@@ -33,11 +33,9 @@
     width: 144px;
     height: 144px;
     border-radius: 50%;
-    padding: 0.2rem;
 }
 .photo img {
     border-radius: 50%;
-    padding: 0.2rem;
     border: 0.1rem solid white;
     width: 144px;
     height: 144px;
