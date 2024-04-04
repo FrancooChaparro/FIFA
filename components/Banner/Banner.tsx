@@ -3,10 +3,11 @@ import React, { useState, useEffect } from "react";
 import styles from "./Banner.module.css";
 import { data } from "@/models/games";
 import { Data } from "@/app/types";
+import Image from "next/image";
 
 const Banner = () => {
   const [num, setNum] = useState<number>(1);
-  const info: Data = data
+  const info: Data = data;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -21,13 +22,24 @@ const Banner = () => {
   }, [num]);
 
   const poster = data.poster[num];
-  
+
   return (
     <div className={styles.ContainerBackground}>
-      <img
+      {/* <img
         src={poster.image}
         alt={poster.alt}
         className={styles.background}
+      /> */}
+      <Image
+        src={poster.image}
+        alt={poster.alt}
+        layout="fill"
+        objectFit="cover"
+        style={{
+          filter: "brightness(110%)",
+          objectPosition: "center",
+          transition: "filter 2s",
+        }}
       />
       <div className={styles.containerData}>
         <p className={styles.title}>{poster.title}</p>

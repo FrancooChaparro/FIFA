@@ -1,35 +1,70 @@
-// import { useEffect } from "react";
+// navUtils.ts
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
-// export function handleScroll(topOffset, setShowBackground) {
-//   const handleScroll = () => {
-//     if (window.scrollY >= topOffset) {
-//       setShowBackground(true);
-//     } else {
-//       setShowBackground(false);
-//     }
-//   };
+export const useShowCor = () => {
+    const [showCor, setShowCor] = useState(false);
+    const router = useRouter();
+  
+    const handleMouseEnterCor = () => {
+      setShowCor(true);
+    };
+  
+    const handleMouseLeaveCor = () => {
+      setShowCor(false);
+    };
+  
+    const handleShow = (param: string) => { 
+        setShowCor(false);
+        router.push(param)
+      }
 
-//   window.addEventListener("scroll", handleScroll);
+      function ruter (param: string): void {
+        router.push(param)
+      }
 
-//   return () => {
-//     window.removeEventListener("scroll", handleScroll);
-//   };
-// }
+    return { showCor, handleMouseEnterCor, handleMouseLeaveCor, handleShow, ruter };
+  };
 
-// export function handleClick(top) {
-//   window.scrollTo({
-//     top,
-//     left: 0,
-//     behavior: "smooth",
-//   });
-// }
+export function handleClick(top: number): void {
+  window.scrollTo({
+    top,
+    left: 0,
+    behavior: "smooth",
+  });
+}
 
-// export function handleShow(router, param) {
-//   setShowCor(false);
-//   router.push(param);
-// }
 
-// export function handleShow2(setShowMenu, setShowBrowse, showBrowse) {
-//   setShowMenu(false);
-//   setShowBrowse(!showBrowse);
-// }
+export function ruter (param: string): void {
+  const router = useRouter();
+  router.push(param);
+}
+
+export function handleShow(param: string): void {
+  const router = useRouter();
+  router.push(param);
+}
+
+export function handleShowMenu(setShowMenu: (value: boolean) => void, setShowBrowse: (value: boolean) => void, showBrowse: boolean): void {
+  setShowMenu(false);
+  setShowBrowse(!showBrowse);
+}
+
+export function useClient(topOffset: number, setShowBackground: (value: boolean) => void): void {
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY >= topOffset) {
+          setShowBackground(true);
+        } else {
+          setShowBackground(false);
+        }
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+  
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
+  }
+  

@@ -41,7 +41,7 @@ export const Nav = () => {
     };
   }, []);
 
-  const handleClick = (topp: number) => {
+  const handleClick = (topp: number) => { //ya esta
     window.scrollTo({
       top: topp,
       left: 0,

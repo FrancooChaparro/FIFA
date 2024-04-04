@@ -1466,7 +1466,7 @@ export const stats_gaston = {
     stats: {
       win: 4,
       loss: 5,
-      porcent: "40%",
+      porcent: "4   0%",
     },
   },
 };
