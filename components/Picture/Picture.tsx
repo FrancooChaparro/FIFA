@@ -20,8 +20,7 @@ export const Picture: React.FC<MyPropsCard> = ({ img, name, titles, rank}) => {
       </div>
      )}
       <div className={styles.containerPicture2}>
-        <Image src={img} alt={name} width={40} height={40}/>
-        {/* <img src={img} alt={name} /> */}
+        <Image src={img} alt={name} width={40} height={40} loading="lazy"/>
       </div>
       <div className={styles.containerPicture3}>{name}</div>
       {titles !== undefined && (

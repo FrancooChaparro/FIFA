@@ -12,17 +12,13 @@ export const News = () => {
         <div key={index}>
           <div className={styles.container_notice}>
             <div className={styles.container_image}>
-              {/* <img src={notice.image} alt={notice.alt} /> */}
               <Image
                 src={notice.image}
                 alt={notice.alt}
                 layout="fill"
                 objectFit="cover"
-                style={{
-                  filter: "brightness(110%)",
-                  objectPosition: "center",
-                  transition: "transform 0.2s ease-in-out",
-                }}
+                objectPosition="center"
+                loading="lazy"
               />
             </div>
             <div className={styles.container_description}>

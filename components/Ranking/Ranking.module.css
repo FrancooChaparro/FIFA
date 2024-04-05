@@ -1,6 +1,4 @@
-
 .containerAll {
-    position: relative;
     width: 100vw;
     background-image: url("/images/bakcground_rank.jpg");
     background-repeat: no-repeat;
@@ -15,16 +13,7 @@
     padding-bottom: 3rem;
 }
 
-
- .containerTableGreen { 
-     width: 25%;
- }
- 
- .containerTableYellow { 
-     width: 25%;
- }
- 
- .containerTableRed { 
+ .containerTable { 
      width: 25%;
  }
  
@@ -36,13 +25,6 @@
      margin-bottom: 1rem;
      border-radius: 0.4rem;
      padding: 0.1rem;
- }
- 
- .containerPictureOut {
-     width: 99%;
-     height: 10%;
-     display: flex;
-     background-color: rgb(248, 201, 114);
  }
  
  .containerPicture1 {
@@ -79,12 +61,6 @@
      align-items: center;
      font-size: 25px;
      font-weight: bold;
- }
- 
- .containerPicture2 img {
-     width: 40px;
-     height: 40px;
-    
  }
  
  
