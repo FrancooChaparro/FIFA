@@ -4,30 +4,40 @@ import styles from "../franco/franco.module.css";
 import { Result } from "@/components/Results/Result";
 import { stats_gaston } from "@/models/games";
 import { Person } from "@/app/types";
-import { data } from '@/models/games';
-import { Data } from '@/app/types';
+import { data } from "@/models/games";
+import { Data } from "@/app/types";
+import Image from "next/image";
 
 const Gaston = () => {
   const [clasic, setClasic] = useState(true);
   const games: Person = stats_gaston;
   const info: Data = data;
-  const dat = info.ranking.filter(index => index.name === "JUVENTUS")
+  const dat = info.ranking.filter((index) => index.name === "JUVENTUS");
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
-        <img
+        <Image
           src="/images/juv.jpg"
           alt="poster"
-        /> 
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          loading="lazy"
+        />
         <div className={styles.photo}>
-          <img src="/images/gaston.jpg" alt="gaston" />
+          <Image
+            src="/images/gaston.jpg"
+            alt="gaston"
+            width={144}
+            height={144}
+          />
         </div>
         <div className={styles.container_rank}>
           <div className={styles.container_rank_number}>
             <span>Rank #{dat[0]?.rank}</span>
           </div>
           <div className={styles.container_image}>
-          <img src={dat[0]?.logo} alt={dat[0]?.name} />
+            <img src={dat[0]?.logo} alt={dat[0]?.name} />
           </div>
         </div>
       </div>
@@ -35,36 +45,38 @@ const Gaston = () => {
         <h4>Gaston Chaparro</h4>
         <h4>JUVENTUS</h4>
         <div className={styles.section}>
-        <div className={styles.containerData2}>
-          <div className={styles.top}>
+          <div className={styles.containerData2}>
+            <div className={styles.top}>
+              {clasic ? (
+                <span>EFECTIVIDAD FINALES</span>
+              ) : (
+                <span>EFECTIVIDAD CLASICOS</span>
+              )}
+            </div>
             {clasic ? (
-              <span>EFECTIVIDAD FINALES</span>
+              <div className={styles.bot}>
+                <span style={{ color: "green" }}>
+                  {games.finals.stats.porcent}
+                </span>
+                <span style={{ color: "green" }}>{games.finals.stats.win}</span>
+                <span style={{ color: "red" }}>{games.finals.stats.loss}</span>
+              </div>
             ) : (
-              <span>EFECTIVIDAD CLASICOS</span>
+              <div className={styles.bot}>
+                <span style={{ color: "green" }}>
+                  {games.clasics.stats.porcent}
+                </span>
+                <span style={{ color: "green" }}>
+                  {games.clasics.stats.win}
+                </span>
+                <span style={{ color: "red" }}>{games.clasics.stats.loss}</span>
+              </div>
             )}
           </div>
-          {clasic ? (
-            <div className={styles.bot}>
-              <span style={{ color: "green" }}>
-                {games.finals.stats.porcent}
-              </span>
-              <span style={{ color: "green" }}>{games.finals.stats.win}</span>
-              <span style={{ color: "red" }}>{games.finals.stats.loss}</span>
-            </div>
-          ) : (
-            <div className={styles.bot}>
-              <span style={{ color: "green" }}>
-                {games.clasics.stats.porcent}
-              </span>
-              <span style={{ color: "green" }}>{games.clasics.stats.win}</span>
-              <span style={{ color: "red" }}>{games.clasics.stats.loss}</span>
-            </div>
-          )}
-        </div>
-        <div className={styles.containerMidlane}>
-          <button onClick={() => setClasic(true)}>Finals</button>
-          <button onClick={() => setClasic(false)}>Classic</button>
-        </div>
+          <div className={styles.containerMidlane}>
+            <button onClick={() => setClasic(true)}>Finals</button>
+            <button onClick={() => setClasic(false)}>Classic</button>
+          </div>
         </div>
         <div className={styles.containerGames}>
           {clasic ? (
@@ -81,7 +93,6 @@ const Gaston = () => {
                     LocalNombre={game.LocalNombre}
                     LocalResultado={game.LocalResultado}
                     Raiz={game.Raiz}
-
                   />
                 ))
                 .reverse()}
@@ -99,7 +110,6 @@ const Gaston = () => {
                   LocalNombre={game.LocalNombre}
                   LocalResultado={game.LocalResultado}
                   Raiz={game.Raiz}
-
                 />
               ))}
             </>

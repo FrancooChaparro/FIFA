@@ -3,17 +3,18 @@ import styles from "@/app/(navigation)/results/results.module.css";
 import Image from "next/image";
 
 interface MyPropsCard {
-  LocalEscudo: any;
+  LocalEscudo: string;
   LocalNombre: string;
   LocalResultado: number;
-  VisitanteEscudo: any;
+  VisitanteEscudo: string;
   VisitanteNombre: string;
   VisitanteResultado: number;
   Result: string;
   Player1: string;
   Player2: string;
 }
-export const ResultFinals : React.FC<MyPropsCard> = ({
+
+export const ResultFinals: React.FC<MyPropsCard> = ({
   LocalEscudo,
   LocalNombre,
   LocalResultado,
@@ -22,31 +23,39 @@ export const ResultFinals : React.FC<MyPropsCard> = ({
   VisitanteResultado,
   Result,
   Player1,
-  Player2
+  Player2,
 }) => {
+  const getPlayerClass = (player: string) => {
+    switch (player) {
+      case "F":
+        return styles.bend_franco;
+      case "M":
+        return styles.bend_marcos;
+      default:
+        return styles.bend_gaston;
+    }
+  };
+
   return (
     <div className={styles.containerGame}>
       <div className={styles.bend}>
-      <div className={Player1 === "F" ? styles.bend_franco : Player1 === "M" ? styles.bend_marcos :  styles.bend_gaston}></div>
+        <div className={getPlayerClass(Player1)}></div>
       </div>
       <div className={styles.containerEscudo}>
-        <Image src={LocalEscudo} alt={LocalNombre} width={40} height={35}/>
-        {/* <img src={LocalEscudo} alt={LocalNombre} /> */}
+        <Image src={LocalEscudo} alt={LocalNombre} width={40} height={35} />
       </div>
       <div className={styles.containerGameName}>{LocalNombre}</div>
-
       <div className={styles.colorMarcos}>{LocalResultado}</div>
       <div className={styles.colorMarcos}>{VisitanteResultado}</div>
-
       <div className={styles.containerGameName}>{VisitanteNombre}</div>
       <div className={styles.containerEscudo}>
-        <img src={VisitanteEscudo} alt={VisitanteNombre} />
+        <Image src={VisitanteEscudo} alt={VisitanteNombre} width={40} height={35} />
       </div>
       <div className={styles.bend}>
-      <div className={Player2 === "F" ? styles.bend_franco : Player2 === "M" ? styles.bend_marcos :  styles.bend_gaston}></div>
+        <div className={getPlayerClass(Player2)}></div>
       </div>
       <div className={styles.containerFinished}>
-        {Result === "L" ?  <span style={{backgroundColor: "rgb(121, 18, 238)"}}>{Result}</span> :  <span style={{backgroundColor: "grey"}}>{Result}</span> }    
+        <span style={{ backgroundColor: Result === "L" ? "rgb(121, 18, 238)" : "grey" }}>{Result}</span>
       </div>
     </div>
   );

@@ -41,7 +41,7 @@ export const Nav = () => {
     };
   }, []);
 
-  const handleClick = (topp: number) => { //ya esta
+  const handleClick = (topp: number) => { 
     window.scrollTo({
       top: topp,
       left: 0,
@@ -79,7 +79,6 @@ export const Nav = () => {
                 <div className={styles.container_picture} key={index} onClick={()=> handleShow(`/details/${team.name}`)}>
                   <div className={styles.container_picture_img}>
                     <Image src={team.logo} alt={team.name} width={33} height={33}/>
-                    {/* <img src={team.logo} alt={team.name} /> */}
                     </div>
                   <div className={styles.container_picture_name}><span>{team.name}</span></div>
                 </div>

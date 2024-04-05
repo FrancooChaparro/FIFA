@@ -16,20 +16,15 @@ const Franco = () => {
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
-        {/* <img
-          src="/images/ps.jpg"
-          alt="poster"
-        /> */}
         <Image 
         src="/images/ps.jpg"
         alt="poster"
-        width={1200}
-        height={400}
-        objectFit= "cover"
+        layout="fill"
+        objectFit="cover"
         objectPosition="center"
+        loading="lazy"
         />
         <div className={styles.photo}>
-          {/* <img src="/images/fran.jpg" alt="franco" /> */}
           <Image 
         src="/images/fran.jpg"
         alt="poster"

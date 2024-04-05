@@ -9,12 +9,12 @@
 }
 
 .container_poster {
-    width: 100%;
+    width: 100vw;
     height: 400px;
     position: relative;
 }
 
-.container_poster img {
+.container_image img {
     width: 100%;
     height: 100%;
     object-fit: cover;

@@ -10,7 +10,7 @@ interface MyPropsCard {
   VisitanteNombre: string;
   VisitanteResultado: number;
   Result: string;
-  Raiz: string | undefined;
+  Raiz?: string | undefined;
 }
 export const Result: React.FC<MyPropsCard> = ({
   LocalEscudo,
