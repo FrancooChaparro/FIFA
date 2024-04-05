@@ -7,46 +7,37 @@ import Image from "next/image";
 
 const Banner = () => {
   const [num, setNum] = useState<number>(1);
-  const info: Data = data;
+  const { poster }: Data = data;
+  const posterInfo = poster[num];
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (num === 3) {
-        setNum(0);
-      } else {
-        setNum((num) => num + 1);
-      }
-    }, 8000);
-
+    const interval = startInterval();
     return () => clearInterval(interval);
-  }, [num]);
+  }, []);
 
-  const poster = data.poster[num];
+  const startInterval = () => {
+    return setInterval(() => {
+      setNum((num) => (num === 2 ? 0 : num + 1));
+    }, 8000);
+  };
 
   return (
     <div className={styles.ContainerBackground}>
-      {/* <img
-        src={poster.image}
-        alt={poster.alt}
-        className={styles.background}
-      /> */}
       <Image
-        src={poster.image}
-        alt={poster.alt}
+        src={posterInfo?.image}
+        alt={posterInfo?.alt}
         layout="fill"
         objectFit="cover"
-        style={{
-          filter: "brightness(110%)",
-          objectPosition: "center",
-          transition: "filter 2s",
-        }}
+        objectPosition="center"
+        loading="lazy"
       />
       <div className={styles.containerData}>
-        <p className={styles.title}>{poster.title}</p>
-        <p className={styles.description}>{poster.description}</p>
+        <p className={styles.title}>{posterInfo.title}</p>
+        <p className={styles.description}>{posterInfo.description}</p>
       </div>
     </div>
   );
 };
 
 export default Banner;
+
