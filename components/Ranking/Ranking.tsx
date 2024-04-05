@@ -22,6 +22,7 @@ export const Ranking = () => {
           ))
           .slice(0, 10)}
       </div>
+
       <div className={styles.containerTable}>
         {info.ranking
           .map((team, index) => (
