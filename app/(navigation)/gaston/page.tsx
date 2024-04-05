@@ -6,6 +6,7 @@ import { stats_gaston } from "@/models/games";
 import { Person } from "@/app/types";
 import { data } from '@/models/games';
 import { Data } from '@/app/types';
+
 const Gaston = () => {
   const [clasic, setClasic] = useState(true);
   const games: Person = stats_gaston;
@@ -17,7 +18,7 @@ const Gaston = () => {
         <img
           src="/images/juv.jpg"
           alt="poster"
-        />
+        /> 
         <div className={styles.photo}>
           <img src="/images/gaston.jpg" alt="gaston" />
         </div>

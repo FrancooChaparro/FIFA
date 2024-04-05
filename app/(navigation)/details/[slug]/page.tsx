@@ -5,6 +5,7 @@ import { data, History } from "@/models/games";
 import { Rank, Match } from "@/app/types";
 import { useRouter } from "next/navigation";
 import { ResultFinals } from "@/components/ResultFinals/ResultFinals";
+import Image from "next/image";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const [teamID, setTeamID] = useState<Rank>();
@@ -50,10 +51,19 @@ export default function Page({ params }: { params: { slug: string } }) {
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
-         <img
+         {/* <img
           src="/images/portada.jpg"
           alt="poster"
-        /> 
+        />  */}
+         <Image
+        src="/images/portada.jpg"
+        alt="poster"
+        layout="fill"
+        objectFit="cover"
+        style={{
+          objectPosition: "center",
+        }}
+      />
         <div className={styles.photo}>
         <img src={`${teamID?.logo}`} alt={teamID?.name.slice(0,3)} />
         </div>

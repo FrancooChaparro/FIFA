@@ -12,6 +12,7 @@ const Franco = () => {
   const games: Person = stats_franco;
   const info: Data = data;
   const dat = info.ranking.filter(index => index.name === "PARIS SAINT GERMAIN")
+
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
@@ -24,8 +25,8 @@ const Franco = () => {
         alt="poster"
         width={1200}
         height={400}
-        object-fit= "cover"
-        object-position= "center"
+        objectFit= "cover"
+        objectPosition="center"
         />
         <div className={styles.photo}>
           {/* <img src="/images/fran.jpg" alt="franco" /> */}
