@@ -1,11 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
 import styles from "./Nav.module.css";
-import { useRouter } from 'next/navigation';
-import { data } from '@/models/games';
-import { Data } from '@/app/types';
+import { useRouter } from "next/navigation";
+import { data } from "@/models/games";
+import { Data } from "@/app/types";
 import Image from "next/image";
-
 
 export const Nav = () => {
   const info: Data = data;
@@ -14,9 +13,8 @@ export const Nav = () => {
   const [showBrowse, setShowBrowse] = useState<boolean>(false);
   const TOP_OFFSET = 66;
   const [showBackground, setShowBackground] = useState<boolean>(false);
-  const [showCor, setShowCor] = useState(false); 
+  const [showCor, setShowCor] = useState(false);
 
-  
   const handleMouseEnterCor = () => {
     setShowCor(true);
   };
@@ -24,7 +22,7 @@ export const Nav = () => {
   const handleMouseLeaveCor = () => {
     setShowCor(false);
   };
-  
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= TOP_OFFSET) {
@@ -41,7 +39,7 @@ export const Nav = () => {
     };
   }, []);
 
-  const handleClick = (topp: number) => { 
+  const handleClick = (topp: number) => {
     window.scrollTo({
       top: topp,
       left: 0,
@@ -49,14 +47,14 @@ export const Nav = () => {
     });
   };
 
-  const handleShow = (param: string) => { 
+  const handleShow = (param: string) => {
     setShowCor(false);
-    router.push(param)
-  }
-  const handleShow2 = () => { 
-    setShowMenu(false)
-    setShowBrowse(!showBrowse)
-  }
+    router.push(param);
+  };
+  const handleShow2 = () => {
+    setShowMenu(false);
+    setShowBrowse(!showBrowse);
+  };
 
   return (
     <div
@@ -66,56 +64,122 @@ export const Nav = () => {
     >
       <div className={styles.flex}>
         <div className={styles.containerLogo}>
-          <img src="/images/logo-ESPN.png" alt="LogoNetflix" onClick={() => handleClick(0)}/>
+          <Image
+            src="/images/logo-ESPN.png"
+            alt="LogoNetflix"
+            onClick={() => handleClick(0)}
+            width={70}
+            height={40}
+            loading="lazy"
+          />
         </div>
         <div className={styles.containerInfo}>
-          <span className={styles.span1} onClick={()=> router.push("/")} onMouseEnter={handleMouseLeaveCor}>Home</span>
-          <span className={styles.active} onMouseEnter={handleMouseEnterCor}>Teams</span>
-          <div className={showCor ? styles.cor: styles.co}>
-          {showCor && (
-            <div className={ styles.cor} onMouseEnter={handleMouseEnterCor} 
-            onMouseLeave={handleMouseLeaveCor} >
-              {info.ranking.map((team, index) => (
-                <div className={styles.container_picture} key={index} onClick={()=> handleShow(`/details/${team.name}`)}>
-                  <div className={styles.container_picture_img}>
-                    <Image src={team.logo} alt={team.name} width={33} height={33}/>
+          <span
+            className={styles.span1}
+            onClick={() => router.push("/")}
+            onMouseEnter={handleMouseLeaveCor}
+          >
+            Home
+          </span>
+          <span className={styles.active} onMouseEnter={handleMouseEnterCor}>
+            Teams
+          </span>
+          <div className={showCor ? styles.cor : styles.co}>
+            {showCor && (
+              <div
+                className={styles.cor}
+                onMouseEnter={handleMouseEnterCor}
+                onMouseLeave={handleMouseLeaveCor}
+              >
+                {info.ranking.map((team, index) => (
+                  <div
+                    className={styles.container_picture}
+                    key={index}
+                    onClick={() => handleShow(`/details/${team.name}`)}
+                  >
+                    <div className={styles.container_picture_img}>
+                      <Image
+                        src={team.logo}
+                        alt={team.name}
+                        width={33}
+                        height={33}
+                        loading="lazy"
+                        placeholder="blur"
+                      />
                     </div>
-                  <div className={styles.container_picture_name}><span>{team.name}</span></div>
-                </div>
-              )).slice(0, 38)}
-            </div>
-          )}
+                    <div className={styles.container_picture_name}>
+                      <span>{team.name}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
-          <span onClick={()=> router.push("/azar")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Azar</span>
-          <span onClick={()=> router.push("/draft")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Draft</span>
-          <span onClick={()=> router.push("/results")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Finals & PopularMatchs</span>
-          <span onClick={()=> router.push("/franco")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Franco</span>
-          <span onClick={()=> router.push("/gaston")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Flaki</span>
-          <span onClick={()=> router.push("/marcos")} className={styles.span1} onMouseEnter={handleMouseLeaveCor}>Marcos</span>
+          <span
+            onClick={() => router.push("/azar")}
+            className={styles.span1}
+            onMouseEnter={handleMouseLeaveCor}
+          >
+            Azar
+          </span>
+          <span
+            onClick={() => router.push("/draft")}
+            className={styles.span1}
+            onMouseEnter={handleMouseLeaveCor}
+          >
+            Draft
+          </span>
+          <span
+            onClick={() => router.push("/results")}
+            className={styles.span1}
+            onMouseEnter={handleMouseLeaveCor}
+          >
+            Finals & PopularMatchs
+          </span>
+          <span
+            onClick={() => router.push("/franco")}
+            className={styles.span1}
+            onMouseEnter={handleMouseLeaveCor}
+          >
+            Franco
+          </span>
+          <span
+            onClick={() => router.push("/gaston")}
+            className={styles.span1}
+            onMouseEnter={handleMouseLeaveCor}
+          >
+            Flaki
+          </span>
+          <span
+            onClick={() => router.push("/marcos")}
+            className={styles.span1}
+            onMouseEnter={handleMouseLeaveCor}
+          >
+            Marcos
+          </span>
         </div>
 
         <div className={styles.containerBrowse}>
-          <span
-            className={styles.btnBrowse}
-            onClick={() => handleShow2()}
-          >
+          <span className={styles.btnBrowse} onClick={() => handleShow2()}>
             Menu
           </span>
           {showBrowse && (
             <div
               className={showBackground ? styles.Browse : styles.BrowseOpacity}
             >
-              <p onClick={()=> router.push("/")}>Home</p>
-              <p onClick={()=> router.push("/azar")}>Azar</p>
-              <p onClick={()=> router.push("/draft")}>Draft</p>
-              <p onClick={()=> router.push("/results")}>Finals & PopularMatchs</p>
-              <p onClick={()=> router.push("/franco")}>Franco</p>
-              <p onClick={()=> router.push("/gaston")}>Flaki</p>
-              <p onClick={()=> router.push("/marcos")}>Marcos</p>
-           </div>
+              <p onClick={() => router.push("/")}>Home</p>
+              <p onClick={() => router.push("/azar")}>Azar</p>
+              <p onClick={() => router.push("/draft")}>Draft</p>
+              <p onClick={() => router.push("/results")}>
+                Finals & PopularMatchs
+              </p>
+              <p onClick={() => router.push("/franco")}>Franco</p>
+              <p onClick={() => router.push("/gaston")}>Flaki</p>
+              <p onClick={() => router.push("/marcos")}>Marcos</p>
+            </div>
           )}
         </div>
       </div>
-      </div>
+    </div>
   );
 };

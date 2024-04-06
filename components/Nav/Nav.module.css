@@ -9,8 +9,6 @@
     padding-left: 55px;
     padding-right: 55px;
     justify-content: space-between;
-
-    /* position: relative; */
   }
   
 
@@ -33,7 +31,6 @@
     margin-right: 12px;
   }
   .containerLogo img {
-    height: 40px;
     cursor: pointer;
   }
   
