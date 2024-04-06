@@ -10,10 +10,10 @@ import Image from "next/image";
 const Franco = () => {
   const [clasic, setClasic] = useState(true);
   const games: Person = stats_franco;
-  const info: Data = data;
-  const dat = info.ranking.filter(index => index.name === "PARIS SAINT GERMAIN")
+  const { ranking }: Data = data;
+  const dat = ranking.filter(index => index.name === "PARIS SAINT GERMAIN")
 
-  return (
+  return ( 
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
         <Image 
@@ -92,7 +92,6 @@ const Franco = () => {
                     LocalNombre={game.LocalNombre}
                     LocalResultado={game.LocalResultado}
                     Raiz={game.Raiz}
-
                   />
                 ))
                 .reverse()}

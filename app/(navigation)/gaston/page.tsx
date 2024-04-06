@@ -11,8 +11,8 @@ import Image from "next/image";
 const Gaston = () => {
   const [clasic, setClasic] = useState(true);
   const games: Person = stats_gaston;
-  const info: Data = data;
-  const dat = info.ranking.filter((index) => index.name === "JUVENTUS");
+  const { ranking }: Data = data;
+  const dat = ranking.filter((index) => index.name === "JUVENTUS");
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
