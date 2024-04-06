@@ -55,6 +55,9 @@ export default function Page({ params }: { params: { slug: string } }) {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          placeholder="blur" 
+          blurDataURL="/images/ajax_poster_blur.webp"
+          loading="lazy"
         />
         <div className={styles.photo}>
           <Image
@@ -62,6 +65,9 @@ export default function Page({ params }: { params: { slug: string } }) {
             alt={teamID?.name.slice(0, 3)}
             width={144}
             height={144}
+            placeholder="blur" 
+          blurDataURL="/images/ajax_poster_blur.webp"
+          loading="lazy"
           />
         </div>
         <div className={styles.container_rank}>

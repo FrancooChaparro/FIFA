@@ -17,13 +17,11 @@ export const ContainerNewsHeader: React.FC<ContainerNewsHeaderProps> = ({
       <div className={styles.container_buttons}>
         <button className={styles.buttons} onClick={handleScrollLeft}>
           <div className={styles.icons}>
-            {/* <img src="/icon.svg" alt="home" /> */}
             <Image src="/icon.svg" alt="home" width={28} height={28} loading='lazy'/>
           </div>
         </button>
         <button className={styles.buttons} onClick={handleScrollRight}>
           <div className={styles.icons}>
-            {/* <img src="/icon2.svg" alt="home" /> */}
             <Image src="/icon2.svg" alt="home" width={28} height={28} loading='lazy'/>
           </div>
         </button>
