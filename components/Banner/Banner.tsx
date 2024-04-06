@@ -30,6 +30,8 @@ const Banner = () => {
         objectFit="cover"
         objectPosition="center"
         loading="lazy"
+        placeholder="blur" 
+        blurDataURL="/images/ajax_poster_blur.webp"
       />
        <div className={styles.containerData}>
         <p className={styles.title}>{posterInfo?.title}</p>
