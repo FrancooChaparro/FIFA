@@ -31,10 +31,6 @@ const Banner = () => {
         objectPosition="center"
         loading="lazy"
       />
-      <div className={styles.containerData}>
-        <p className={styles.title}>{posterInfo.title}</p>
-        <p className={styles.description}>{posterInfo.description}</p>
-      </div>
     </div>
   );
 };
