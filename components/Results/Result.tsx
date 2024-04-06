@@ -27,7 +27,6 @@ export const Result: React.FC<MyPropsCard> = ({
     <div className={styles.containerGame}>
       <div className={styles.containerEscudo}>
         <Image src={LocalEscudo} alt={LocalNombre} width={50} height={50}/>
-        {/* <img src={LocalEscudo} alt={LocalNombre} /> */}
       </div>
       <div className={styles.containerGameName}>{LocalNombre}</div>
       <div className={styles.containerGameResultWin}>{LocalResultado}</div>
