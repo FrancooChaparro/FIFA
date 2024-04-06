@@ -70,7 +70,7 @@ export const Nav = () => {
             onClick={() => handleClick(0)}
             width={70}
             height={40}
-            loading="lazy"
+            loading="eager"
           />
         </div>
         <div className={styles.containerInfo}>
