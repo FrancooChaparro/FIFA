@@ -8,7 +8,8 @@ import Image from "next/image";
 const Banner = () => {
   const [num, setNum] = useState<number>(1);
   const { poster }: Data = data;
-  const posterInfo = poster[num];
+  const posterInfo = poster?.[num] ?? {};
+  // const posterInfo = poster[num];
 
   useEffect(() => {
     const interval = startInterval();
