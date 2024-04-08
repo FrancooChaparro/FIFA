@@ -54,10 +54,11 @@
     justify-content: center;
   }
   
-  /* .icons img {
-    fill: blue; 
-    max-width: 90%;
-    max-height: 90%; 
-    width: 28px;
-    height: 28px;
-  } */
+
+  @media screen and (max-width: 783px) {
+    .container_buttons {
+      display: none;
+    }
+  }
+  
+  

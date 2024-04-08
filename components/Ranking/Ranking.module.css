@@ -64,46 +64,6 @@
  }
  
  
- @media screen and (max-width: 680px) {
-     .containerAll {
-         display: flex;
-         flex-direction: column;
-         justify-content: space-around;
-         align-items: center;
-      }   
-      .containerTableGreen { 
-         width: 80%;
-         height: 700px;
-         margin-bottom: 15px;
-     }
-     
-     .containerTableYellow { 
-         width: 80%;
-         height: 700px;
-         margin-bottom: 15px;
-     }
-     
-     .containerTableRed { 
-         width: 80%;
-         height: 700px;  
-         margin-bottom: 15px;
-     }
-     .containerPicture2 img {
-         width: 90%;
-         height: 50%;
-     }
-     .containerPicture1 {
-         font-size: 19px;
-     }
- 
-     .containerPicture3 {
-         font-size: 19px;
-     }
-     .containerPicture4 {  
-         font-size: 19px;
-     }
- }    
-
 
 
 .containerNews {
@@ -142,13 +102,50 @@
   .noticeInfo  p {
     padding-left: 1rem;
   }
-  @media screen and (max-width: 480px) {
+
+
+  @media screen and (max-width: 795px) {
+    .containerAll {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+     }   
+     .containerTable {
+        width: 70%;
+     }
+     .containerPicture {
+      height: 60px;
+    }
+    .containerPicture2 img {
+        width: 60px;
+        height: 60px;
+    }
+    .containerPicture1 {
+        font-size: 23px;
+    }
+
+    .containerPicture3 {
+        font-size: 19px;
+        margin-left: 9px;
+    }
+    .containerPicture4 {  
+        font-size: 23px;
+    }
+}    
+
+
+
+  @media screen and (max-width: 495px) {
     .containerNews {
       flex-direction: column;
       width: 100%;
       height: 1200px;
     }
-  
+    .containerTable {
+      width: 80%;
+   }
     .containerNotice {
       width: 80%;
       height: 360px;

@@ -138,21 +138,21 @@ export const Nav = () => {
             Finals & PopularMatchs
           </span>
           <span
-            onClick={() => router.push("/franco")}
+            onClick={() => router.push("/user/franco")}
             className={styles.span1}
             onMouseEnter={handleMouseLeaveCor}
           >
             Franco
           </span>
           <span
-            onClick={() => router.push("/gaston")}
+            onClick={() => router.push("/user/gaston")}
             className={styles.span1}
             onMouseEnter={handleMouseLeaveCor}
           >
             Flaki
           </span>
           <span
-            onClick={() => router.push("/marcos")}
+            onClick={() => router.push("/user/marcos")}
             className={styles.span1}
             onMouseEnter={handleMouseLeaveCor}
           >
@@ -174,9 +174,9 @@ export const Nav = () => {
               <p onClick={() => router.push("/results")}>
                 Finals & PopularMatchs
               </p>
-              <p onClick={() => router.push("/franco")}>Franco</p>
-              <p onClick={() => router.push("/gaston")}>Flaki</p>
-              <p onClick={() => router.push("/marcos")}>Marcos</p>
+              <p onClick={() => router.push("/user/franco")}>Franco</p>
+              <p onClick={() => router.push("/user/gaston")}>Flaki</p>
+              <p onClick={() => router.push("/user/marcos")}>Marcos</p>
             </div>
           )}
         </div>

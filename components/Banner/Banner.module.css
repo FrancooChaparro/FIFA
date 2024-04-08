@@ -37,16 +37,26 @@
   
   @media screen and (max-width: 783px) {
     .containerData {
-      width: 400px;
+      width: 600px;
+      bottom: 80px;
+      left: 20px;
+    }
+    .title {
+      margin-bottom: 15px;
+    }
+    .description {
+      margin-bottom: 10px;
     }
   }
   
-  @media screen and (max-width: 490px) {
+  @media screen and (max-width: 495px) {
     .ContainerBackground {
       height: 100vh;
     }
     .containerData {
-      width: 440px;
+      width: 420px;
+      bottom: 80px;
+      left: 20px;
     }
   }
   
