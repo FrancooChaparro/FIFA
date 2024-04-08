@@ -671,9 +671,9 @@ export const stats_marcos = {
       },
     ],
     stats: {
-      win: 8,
+      win: 9,
       loss: 14,
-      porcent: "36%",
+      porcent: "39%",
     },
   },
   clasics: {
@@ -1403,8 +1403,8 @@ export const stats_gaston = {
       },
     ],
     stats: {
-      win: 11,
-      loss: 11,
+      win: 12,
+      loss: 12,
       porcent: "50%",
     },
   },
@@ -1814,36 +1814,37 @@ export const data = {
       titles: 0,
     },
     {
-      logo: "/images/SportingLisboa.png",
+      logo: "/images/Benfica.png",
       rank: 25,
+      name: "BENFICA",
+      titles: 0,
+    },
+    {
+      logo: "/images/SportingLisboa.png",
+      rank: 26,
       name: "SPORTING LISBOA",
       titles: 0,
     },
     
     {
       logo: "/images/AtleticoMadrid.png",
-      rank: 26,
+      rank: 27,
       name: "ATL. MADRID",
       titles: 0,
     },
     {
       logo: "/images/evertonfc.png",
-      rank: 27,
+      rank: 28,
       name: "EVERTON",
       titles: 0,
     },
     {
       logo: "/images/ASRoma.png",
-      rank: 28,
+      rank: 29,
       name: "AS ROMA",
       titles: 0,
     },
-    {
-      logo: "/images/Benfica.png",
-      rank: 29,
-      name: "BENFICA",
-      titles: 0,
-    },
+    
     {
       logo: "/images/wolfburgo.png",
       rank: 30,

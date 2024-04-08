@@ -19,42 +19,42 @@ const Azar = () => {
       let bombo2 = [
         { nombre: "Barcelona", escudo: "/images/Barcelona.webp" , rank: "#6"},
         { nombre: "Manchester United", escudo: "/images/ManchesterUnited.png" , rank: "#3"},
-        { nombre: "Liverpool", escudo:"/images/Liverpool.png" , rank: "#18"},
+        { nombre: "Liverpool", escudo:"/images/Liverpool.png" , rank: "#19"},
       ];
       let bombo3 = [
-        { nombre: "Inter", escudo:"/images/Internazionale.png" , rank: "#14"},
+        { nombre: "Inter", escudo:"/images/Internazionale.png" , rank: "#15"},
         { nombre: "Milan", escudo: "/images/Milan.png" , rank: "#23"},
         { nombre: "Dortmund", escudo: "/images/BorussiaDortmund.png" , rank: "#22"},
       ];
       let bombo4 = [
         { nombre: "Tottenham", escudo: "/images/Tottenham.png" , rank: "#7"},
         { nombre: "Newcastle", escudo: "/images/newcastlee.png" , rank: "#8"},
-        { nombre: "Napoli", escudo:"/images/SSC_Neapel.svg.png", rank: "#11"},
+        { nombre: "Napoli", escudo:"/images/SSC_Neapel.svg.png", rank: "#13"},
       ];
       let bombo5 = [
-        { nombre: "Roma", escudo: "/images/ASRoma.png", rank: "#28"},
-        { nombre: "Arsenal", escudo: "/images/arsenalfc.png" , rank: "#15"},
-        { nombre: "Atletico Madrid", escudo: "/images/AtleticoMadrid.png" , rank: "#26"},
+        { nombre: "Roma", escudo: "/images/ASRoma.png", rank: "#29"},
+        { nombre: "Arsenal", escudo: "/images/arsenalfc.png" , rank: "#16"},
+        { nombre: "Atletico Madrid", escudo: "/images/AtleticoMadrid.png" , rank: "#27"},
       ];
       let bombo6 = [
-        { nombre: "Sevilla", escudo: "/images/sevillaa.png", rank: "#12"},
-        { nombre: "Valencia", escudo:  "/images/valenciafc.png" , rank: "#13"},
-        { nombre: "Aston Villa", escudo:  "/images/AstonVilla.png", rank: "#10"},
+        { nombre: "Sevilla", escudo: "/images/sevillaa.png", rank: "#11"},
+        { nombre: "Valencia", escudo:  "/images/valenciafc.png" , rank: "#14"},
+        { nombre: "Aston Villa", escudo:  "/images/AstonVilla.png", rank: "#12"},
       ];
       let bombo7 = [
         { nombre: "Zenit", escudo: "/images/Zenit.png", rank: "#21"},
-        { nombre: "Lyon", escudo:  "/images/Lyon.png", rank: "#32"},
-        { nombre: "Everton", escudo:  "/images/evertonfc.png" , rank: "#27"},
+        { nombre: "Lyon", escudo:  "/images/Lyon.png", rank: "#31"},
+        { nombre: "Everton", escudo:  "/images/evertonfc.png" , rank: "#28"},
       ];
       let bombo8 = [
         { nombre: "Porto", escudo:"/images/oporto.png" , rank: "#9"},
-        { nombre: "Benfica", escudo: "/images/Benfica.png" , rank: "#29"},
-        { nombre: "Sporting Lisboa", escudo: "/images/SportingLisboa.png" , rank: "#24"},
+        { nombre: "Benfica", escudo: "/images/Benfica.png" , rank: "#25"},
+        { nombre: "Sporting Lisboa", escudo: "/images/SportingLisboa.png" , rank: "#26"},
       ];
       let bombo9 = [
-        { nombre: "Villa Real", escudo: "/images/villar.png" , rank: "#17"},
-        { nombre: "Wolfburgo", escudo:"/images/wolfburgo.png" , rank: "#31"},
-        { nombre: "Galatasaray", escudo:"/images/galatasaray.png" , rank: "#30"},
+        { nombre: "Villa Real", escudo: "/images/villar.png" , rank: "#18"},
+        { nombre: "Wolfburgo", escudo:"/images/wolfburgo.png" , rank: "#30"},
+        { nombre: "Galatasaray", escudo:"/images/galatasaray.png" , rank: "#32"},
       ];
 
       
@@ -106,13 +106,13 @@ const Azar = () => {
     }
 
     if (bombo9.length === 0) {
-      marcos = [{ nombre: "Chelsea", escudo: "/images/Chelsea.png", rank: "#20" }, ...marcos];
+      marcos = [{ nombre: "Chelsea", escudo: "/images/Chelsea.png", rank: "#10" }, ...marcos];
 
-      gaston = [{ nombre: "Juventus", escudo: "/images/da-removebg-preview.png", rank: "#16" }, ...gaston];
+      gaston = [{ nombre: "Juventus", escudo: "/images/da-removebg-preview.png", rank: "#17" }, ...gaston];
 
       franco = [{ nombre: "Paris Saint Germain", escudo: "/images/ParisSaintGermain.png", rank: "#1" }, ...franco];
 
-      marcos.push({ nombre: "Lazio", escudo: "/images/laziofc.png" , rank: "#25"});
+      marcos.push({ nombre: "Lazio", escudo: "/images/laziofc.png" , rank: "#24"});
 
       let Gaston_Franco = Math.random() * 1;
       if (Gaston_Franco > 0.5) {
