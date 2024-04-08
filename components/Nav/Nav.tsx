@@ -104,7 +104,6 @@ export const Nav = () => {
                         width={33}
                         height={33}
                         loading="lazy"
-                        placeholder="blur"
                       />
                     </div>
                     <div className={styles.container_picture_name}>

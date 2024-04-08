@@ -1482,7 +1482,7 @@ export const data = {
     },
     {
       image:
-        "/images/ajax_poster.jpg",
+        "/images/ajax_poster.webp",
       alt: "poster_image",
       title: "AJAX CAMPEON",
       description:

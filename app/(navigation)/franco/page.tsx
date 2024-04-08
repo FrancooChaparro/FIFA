@@ -32,9 +32,9 @@ const Franco = () => {
         alt="poster"
         width={144}
         height={144}
-        loading="lazy"
         placeholder="blur" 
           blurDataURL="/images/ajax_poster_blur.webp"
+          loading="lazy"
         />
         </div>
         <div className={styles.container_rank}>
