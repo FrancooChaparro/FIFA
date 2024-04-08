@@ -56,7 +56,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           objectFit="cover"
           objectPosition="center"
           placeholder="blur" 
-          blurDataURL="/images/shield_blur.webp"
+          blurDataURL="/images/portada_blur.webp"
           loading="lazy"
         />
         <div className={styles.photo}>

@@ -1730,21 +1730,21 @@ export const data = {
       titles: 2,
     },
     {
-      logo: "/images/AstonVilla.png",
+      logo: "/images/sevillaa.png",
       rank: 11,
+      name: "SEVILLA",
+      titles: 2,
+    },
+    {
+      logo: "/images/AstonVilla.png",
+      rank: 12,
       name: "ASTON VILLA",
       titles: 1,
     },
     {
       logo: "/images/SSC_Neapel.svg.png",
-      rank: 12,
-      name: "NAPOLI",
-      titles: 1,
-    },
-    {
-      logo: "/images/sevillaa.png",
       rank: 13,
-      name: "SEVILLA",
+      name: "NAPOLI",
       titles: 1,
     },
     {
