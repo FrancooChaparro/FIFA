@@ -65,7 +65,7 @@ export const Nav = () => {
       <div className={styles.flex}>
         <div className={styles.containerLogo}>
           <Image
-            src="/images/logo-ESPN.png"
+            src="/images/logo-ESPN.webp"
             alt="LogoNetflix"
             onClick={() => handleClick(0)}
             width={70}
@@ -104,6 +104,8 @@ export const Nav = () => {
                         width={33}
                         height={33}
                         loading="lazy"
+                        placeholder="blur"
+                        blurDataURL="/images/shield_blur.webp"
                       />
                     </div>
                     <div className={styles.container_picture_name}>

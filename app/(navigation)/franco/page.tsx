@@ -17,14 +17,14 @@ const Franco = () => {
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
         <Image 
-        src="/images/ps.jpg"
+        src="/images/ps.webp"
         alt="poster"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
         loading="lazy"
         placeholder="blur" 
-          blurDataURL="/images/ajax_poster_blur.webp"
+        blurDataURL="/images/ps_blur.webp"
         />
         <div className={styles.photo}>
           <Image 
@@ -33,7 +33,7 @@ const Franco = () => {
         width={144}
         height={144}
         placeholder="blur" 
-          blurDataURL="/images/ajax_poster_blur.webp"
+          blurDataURL="/images/shield_blur.webp"
           loading="lazy"
         />
         </div>

@@ -17,12 +17,14 @@ const Marcos = () => {
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
         <Image
-          src="/images/che.jpg"
+          src="/images/che.webp"
           alt="poster"
           layout="fill"
           objectFit="cover"
           objectPosition="center"
           loading="lazy"
+        placeholder="blur" 
+        blurDataURL="/images/che_blur.webp"
         />
         <div className={styles.photo}>
           <Image

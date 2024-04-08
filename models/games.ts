@@ -1,6 +1,17 @@
 export const History = {
   Games: [
     {
+      Player1: "F",
+      Player2: "G",
+      Result: "L",
+      LocalEscudo: "/images/ParisSaintGermain.png",
+      LocalNombre: "PARIS SAINT GERMAIN",
+      LocalResultado: 1,
+      VisitanteEscudo: "/images/sevillaa.png",
+      VisitanteNombre: "SEVILLA",
+      VisitanteResultado: 2,
+    },
+    {
       Player1: "M",
       Player2: "G",
       Result: "L",
@@ -718,6 +729,16 @@ export const stats_marcos = {
         VisitanteResultado: 3,
       },
       {
+        Result: "Defeat",
+        Raiz: "Cuartos de final",
+        LocalEscudo: "/images/Chelsea.png",
+        LocalNombre: "CHELSEA",
+        LocalResultado: 0,
+        VisitanteEscudo: "/images/ParisSaintGermain.png",
+        VisitanteNombre: "PSG",
+        VisitanteResultado: 1,
+      },
+      {
         Result: "Victory",
         Raiz: "16avos de final",
         LocalEscudo: "/images/Chelsea.png",
@@ -770,7 +791,7 @@ export const stats_marcos = {
     ],
     stats: {
       win: 2,
-      loss: 7,
+      loss: 8,
       draw: 1,
       porcent: "20%",
     },
@@ -1014,11 +1035,20 @@ export const stats_franco = {
         VisitanteNombre: "MANCHESTER UNITED",
         VisitanteResultado: 0,
       },
+      {
+        Result: "Defeat",
+        LocalEscudo: "/images/ParisSaintGermain.png",
+        LocalNombre: "PARIS SAINT GERMAIN",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/sevillaa.png",
+        VisitanteNombre: "SEVILLA",
+        VisitanteResultado: 2,
+      },
     ],
     stats: {
       win: 17,
-      loss: 9,
-      porcent: "66%",
+      loss: 10,
+      porcent: "63%",
     },
   },
   clasics: {
@@ -1072,6 +1102,16 @@ export const stats_franco = {
         VisitanteEscudo: "/images/Chelsea.png",
         VisitanteNombre: "CHELSEA",
         VisitanteResultado: 1,
+      },
+      {
+        Result: "Victory",
+        Raiz: "Cuartos de final",
+        LocalEscudo: "/images/ParisSaintGermain.png",
+        LocalNombre: "PSG",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/Chelsea.png",
+        VisitanteNombre: "CHELSEA",
+        VisitanteResultado: 0,
       },
       {
         Result: "Victory",
@@ -1135,8 +1175,8 @@ export const stats_franco = {
       },
     ],
     stats: {
-      porcent: "76%",
-      win: 8,
+      porcent: "75%",
+      win: 9,
       loss: 2,
     },
   },
@@ -1343,6 +1383,24 @@ export const stats_gaston = {
         VisitanteNombre: "CHELSEA",
         VisitanteResultado: "1 (7)",
       },
+      {
+        Result: "Defeat",
+        LocalEscudo: "/images/BayernMunchen.png",
+        LocalNombre: "BAYERN MUNICH",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/Chelsea.png",
+        VisitanteNombre: "CHELSEA",
+        VisitanteResultado: 2,
+      },
+      {
+        Result: "Victory",
+        LocalEscudo: "/images/sevillaa.png",
+        LocalNombre: "SEVILLA",
+        LocalResultado: 2,
+        VisitanteEscudo: "/images/ParisSaintGermain.png",
+        VisitanteNombre: "PARIS SAINT GERMAIN",
+        VisitanteResultado: 1,
+      },
     ],
     stats: {
       win: 11,
@@ -1505,7 +1563,7 @@ export const data = {
     },
     {
       image:
-        "/images/alnassar_poster.jpg",
+        "/images/alnassar_poster.webp",
       alt: "poster_image",
       title: "AL NASSAR PIERDE LA CATEGORIA",
       description: "Al Nassar eliminado del torneo, baja de categoria.",
@@ -1521,7 +1579,7 @@ export const data = {
     },
     {
       image:
-        "/images/ajax_poster.jpg",
+        "/images/ajax_poster.webp",
       alt: "poster_image",
       title: "AJAX CAMPEON",
       description:
@@ -1544,14 +1602,14 @@ export const data = {
     },
     {
       image:
-        "/images/alnassar_poster.jpg",
+        "/images/alnassar_poster.webp",
       alt: "poster_image",
       title: "AL NASSAR PIERDE LA CATEGORIA",
       description: "Al Nassar eliminado del torneo, baja de categoria.",
     },
     {
       image:
-        "/images/ajax_poster.jpg",
+        "/images/ajax_poster.webp",
       alt: "poster_image",
       title: "AJAX CAMPEON",
       description:
@@ -1574,14 +1632,14 @@ export const data = {
     },
     {
       image:
-        "/images/alnassar_poster.jpg",
+        "/images/alnassar_poster.webp",
       alt: "poster_image",
       title: "AL NASSAR PIERDE LA CATEGORIA",
       description: "Al Nassar eliminado del torneo, baja de categoria.",
     },
     {
       image:
-        "/images/ajax_poster.jpg",
+        "/images/ajax_poster.webp",
       alt: "poster_image",
       title: "AJAX CAMPEON",
       description:
@@ -1604,7 +1662,7 @@ export const data = {
     },
     {
       image:
-        "/images/alnassar_poster.jpg",
+        "/images/alnassar_poster.webp",
       alt: "poster_image",
       title: "AL NASSAR PIERDE LA CATEGORIA",
       description: "Al Nassar eliminado del torneo, baja de categoria.",

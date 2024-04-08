@@ -50,13 +50,13 @@ export default function Page({ params }: { params: { slug: string } }) {
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
         <Image
-          src="/images/portada.jpg"
+          src="/images/portada.webp"
           alt="poster"
           layout="fill"
           objectFit="cover"
           objectPosition="center"
           placeholder="blur" 
-          blurDataURL="/images/ajax_poster_blur.webp"
+          blurDataURL="/images/shield_blur.webp"
           loading="lazy"
         />
         <div className={styles.photo}>
@@ -66,8 +66,8 @@ export default function Page({ params }: { params: { slug: string } }) {
             width={144}
             height={144}
             placeholder="blur" 
-          blurDataURL="/images/ajax_poster_blur.webp"
-          loading="lazy"
+            blurDataURL="/images/shield_blur.webp"
+            loading="lazy"
           />
         </div>
         <div className={styles.container_rank}>
