@@ -17,6 +17,17 @@ export interface Match {
     Raiz?: string;
   }
   
+export interface Info {
+  photo_profile: string;
+  background_profile: string;
+  rank_profile: string;
+  shield_profile: string;
+  background_blur_profile: string;
+  photo_blur_profile: string;
+  name_profile: string; 
+  team_profile: string; 
+}
+
   export type MatchWithoutPlayers = Omit<Match, 'Player1' | 'Player2'>;
 
   export interface MatchStats {
@@ -27,6 +38,7 @@ export interface Match {
   }
   
   export interface Person { 
+    info : Info;
     finals: { 
       matchs: MatchWithoutPlayers[];
       stats: MatchStats;

@@ -460,6 +460,16 @@ export const History = {
 };
 
 export const stats_marcos = {
+  info: {
+    photo_profile: "/images/Marcos.jpg",
+    background_profile: "/images/che.webp",
+    rank_profile: "10",
+    shield_profile: "/images/Chelsea.png",
+    background_blur_profile: "/images/che_blur.webp",
+    photo_blur_profile: "/images/shield_blur.webp",
+    name_profile: "Marcos Aquino",
+    team_profile: "CHELSEA",
+  },
   finals: {
     matchs: [
       {
@@ -799,6 +809,16 @@ export const stats_marcos = {
 };
 
 export const stats_franco = {
+  info: {
+    photo_profile: "/images/fran.jpg",
+    background_profile: "/images/ps.webp",
+    rank_profile: "1",
+    shield_profile: "/images/ParisSaintGermain.png",
+    background_blur_profile: "/images/ps_blur.webp",
+    photo_blur_profile: "/images/shield_blur.webp",
+    name_profile: "Franco Chaparro",
+    team_profile: "PARIS SAINT GERMAIN",
+  },
   finals: {
     matchs: [
       {
@@ -1183,6 +1203,16 @@ export const stats_franco = {
 };
 
 export const stats_gaston = {
+  info: {
+    photo_profile: "/images/gaston.jpg",
+    background_profile: "/images/juv.webp",
+    rank_profile: "17",
+    shield_profile: "/images/da-removebg-preview.png",
+    background_blur_profile: "/images/juv_blur.webp",
+    photo_blur_profile: "/images/shield_blur.webp",
+    name_profile: "Gaston Chaparro",
+    team_profile: "JUVENTUS",
+  },
   finals: {
     matchs: [
       {

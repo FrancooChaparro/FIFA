@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import styles from "@/app/(navigation)/franco/franco.module.css";
+import styles from "@/app/(navigation)/user/[slug]/franco.module.css";
 import { data, History } from "@/models/games";
 import { Rank, Match } from "@/app/types";
 import { useRouter } from "next/navigation";
