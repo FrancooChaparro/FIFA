@@ -178,9 +178,9 @@ export const Nav = () => {
               <p onClick={()=> rute("results")}>
                 Finals & PopularMatchs
               </p>
-              <p onClick={() => rute("franco")}>Franco</p>
-              <p onClick={() => rute("gaston")}>Flaki</p>
-              <p onClick={() => rute("marcos")}>Marcos</p>
+              <p onClick={() => rute("user/franco")}>Franco</p>
+              <p onClick={() => rute("user/gaston")}>Flaki</p>
+              <p onClick={() => rute("user/marcos")}>Marcos</p>
             </div>
           )}
         </div>
