@@ -45,7 +45,8 @@ export default function Page({ params }: { params: { slug: string } }) {
   const titles = teamID.titles;
   const finalsLength = finales?.length || 0;
   const por = (100 / (titles + (finalsLength - titles))) * titles;
-
+  console.log(por);
+  
   return (
     <div className={styles.container_all}>
       <div className={styles.container_poster}>
@@ -88,8 +89,8 @@ export default function Page({ params }: { params: { slug: string } }) {
               <span>EFECTIVIDAD FINALES</span>
             </div>
             <div className={styles.bot}>
-              <span style={{ color: Math.round(por) > 50 ? "green" : "red" }}>
-                {Math.round(por)}%
+              <span style={{ color: !isNaN(por) && Math.round(por) > 50 ? "green" : "red" }}>
+              {!isNaN(por) ? Math.round(por) + "%" : "0%"}
               </span>
               <span style={{ color: "green" }}>{teamID.titles}</span>
               <span style={{ color: "red" }}>{finalsLength - titles}</span>

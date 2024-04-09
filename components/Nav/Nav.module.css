@@ -178,6 +178,9 @@
     width: 130px;
     font-size: 21px;
   }
+  .containerInfo span {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 490px) {
@@ -185,9 +188,7 @@
     padding-right: 15px;
     padding-left: 15px;
   }
-  .containerInfo span {
-    font-size: 16px;
-  }
+ 
   .containerAllOpacity {
     padding-left: 15px;
     padding-right: 15px;
