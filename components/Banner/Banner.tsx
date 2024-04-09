@@ -35,7 +35,7 @@ const Banner = () => {
       />
        <div className={styles.containerData}>
         <p className={styles.title}>{posterInfo?.title}</p>
-        <p className={styles.description}>{posterInfo?.description}</p>
+        <span className={styles.description}>{posterInfo?.description}</span>
       </div> 
     </div>
   );
