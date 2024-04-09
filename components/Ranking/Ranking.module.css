@@ -151,7 +151,14 @@
       height: 360px;
       margin-top: 18px;
     }
-    
+    .containerPicture2 img {
+      width: 40px;
+      height: 40px;
+  }
+    .containerPicture3 {
+      font-size: 11px;
+      margin-left: 9px;
+  }
   .noticeInfo h1 {
    font-size: 19px;
   }
