@@ -77,4 +77,29 @@
         .containerGame {
             width: 100%;
           }
+
+          .containerGameName {
+            width: 180px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 8px;
+            font-weight: 500;
+          }
+
+          .containerFinished span {
+        
+            font-size: 8px;
+        
+          }
+          .raiz {
+            width: 170px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 8px;
+            transition: all 0.3s ease;
+            transition: height 0.5s ease;
+          }
       }
