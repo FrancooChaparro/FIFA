@@ -56,6 +56,10 @@ export const Nav = () => {
     setShowBrowse(!showBrowse);
   };
 
+  const rute = (string: string) => {
+    setShowBrowse(!showBrowse);
+    router.push(`/${string}`)
+  }
   return (
     <div
       className={
@@ -168,15 +172,15 @@ export const Nav = () => {
             <div
               className={showBackground ? styles.Browse : styles.BrowseOpacity}
             >
-              <p onClick={() => router.push("/")}>Home</p>
-              <p onClick={() => router.push("/azar")}>Azar</p>
-              <p onClick={() => router.push("/draft")}>Draft</p>
-              <p onClick={() => router.push("/results")}>
+              <p onClick={() => rute("")}>Home</p>
+              <p onClick={() => rute("azar")}>Azar</p>
+              <p onClick={() => rute("azar")}>Draft</p>
+              <p onClick={()=> rute("results")}>
                 Finals & PopularMatchs
               </p>
-              <p onClick={() => router.push("/user/franco")}>Franco</p>
-              <p onClick={() => router.push("/user/gaston")}>Flaki</p>
-              <p onClick={() => router.push("/user/marcos")}>Marcos</p>
+              <p onClick={() => rute("franco")}>Franco</p>
+              <p onClick={() => rute("gaston")}>Flaki</p>
+              <p onClick={() => rute("marcos")}>Marcos</p>
             </div>
           )}
         </div>

@@ -273,10 +273,16 @@
       padding-right: 15px;
       padding-left: 15px;
     }
- 
+ .containerInfo span  {
+  font-size: 16px;
+ }
     .containerAllOpacity {
       padding-left: 15px;
       padding-right: 15px;
     }
+    .container_picture_name span{
+      font-size: 12px;
+    }
+  
   }
   
