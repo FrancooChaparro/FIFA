@@ -253,3 +253,20 @@
   }
 
   }
+
+  @media screen and (max-width: 435px) { 
+    .containerGames {
+      width: 390px;
+    }
+    .section {
+      width: 390px;
+      margin-top: 0.5rem;
+  }
+  .containerMidlane {
+    width: 390px;
+  }
+  .containerMidlane button {
+    width: 185px;
+   
+  }
+  }
