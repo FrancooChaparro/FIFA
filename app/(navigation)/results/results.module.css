@@ -9,45 +9,35 @@
   border: 1px solid grey;
   margin-bottom: 4px;
   margin-top: 3px;
-  background-color: #070a3f;
+  background-color: var(--background-game);
   border-radius: 0.5rem;
   padding-left: 0.2rem;
+}
+.containerEscudo, .containerGameName, .containerFinished, .containerWiki, .containerGameResult, .spansito, .bend, .containerFinished span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-white)
 }
 .containerEscudo {
   width: 9%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-
 .containerGameName {
   width: 25%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 13px;
   font-weight: 500;
-  color: white;
 }
-
 .containerFinished {
   width: 8%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .containerFinished span {
   border-radius: 50%;
   height: 60%;
   font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 25px;
-  color: white;
 }
 .containerHeader {
   width: 50%;
@@ -56,28 +46,18 @@
   justify-content: space-around;
   margin-bottom: 0.5rem;
   border: 1px solid grey;
-  background-color: #070a3f;
+  background-color: var(--background-game);
   margin-top: 55px;
   border-radius: 0.5rem;
 }
-
 .containerWiki {
   width: 30%;
   height: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 5%;
-  color: white;
 }
-
 .containerGameResult {
   width: 8%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
 }
 
 .spansito {
@@ -86,89 +66,54 @@
   width: 60%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  display: flex;
   border-radius: 0.5rem;
-  background-color: #070a3f;
-  color: white;
-  justify-content: center;
-  align-items: center;
+  background-color: var(--background-game);
   margin: 0 auto;
   border: 2px solid grey;
   margin-bottom: 1rem;
 }
-
 .bend {
   width: 4%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.bend_marcos {
-  border-radius: 50%;
-  background-color: rgb(255, 33, 33);
-  width: 40%;
-  height: 30%;
-}
-.bend_franco {
-  border-radius: 50%;
-  background-color: rgb(39, 186, 255);
-  width: 40%;
-  height: 30%;
-}
+.icon_marcos,
+.icon_franco,
+.icon_gaston,
+.bend_marcos,
+.bend_franco,
 .bend_gaston {
   border-radius: 50%;
-  background-color: rgb(251, 255, 32);
-  width: 40%;
-  height: 30%;
-}
-
-.icon_marcos {
-  border-radius: 50%;
-  margin-right: 0.3rem;
-  background-color: rgb(255, 33, 33);
-  width: 15px;
-  height: 15px;
-}
-.icon_franco {
-  border-radius: 50%;
-  margin-right: 0.3rem;
-  background-color: rgb(39, 186, 255);
-  width: 15px;
-  height: 15px;
-}
-.icon_gaston {
-  border-radius: 50%;
   border: 1px solid black;
-  margin-right: 0.3rem;
-  background-color: rgb(251, 255, 32);
   width: 15px;
   height: 15px;
 }
+.icon_marcos,
+.icon_franco,
+.icon_gaston { 
+  margin-right: 0.3rem;
+}
+.bend_marcos, .icon_marcos {
+  background-color: var(--icon-marcos);
+}
+.bend_franco, .icon_franco {
+  background-color: var(--icon-franco);
+}
+.bend_gaston, .icon_gaston {
+  background-color: var(--icon-gaston);
+} 
+
+
 
 @media screen and (max-width: 795px) {
   .containerHeader {
     width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 0.5rem;
-    border: 1px solid grey;
-    background-color: #070a3f;
-    margin-top: 55px;
-    border-radius: 0.5rem;
   }
-  
   .spansito {
     font-size: 20px;
-    height: 40px;
     width: 70%;
   }
-
   .containerGames {
     width: 70%;
-    margin: 0 auto;
   }
-
   .containerGameName {
     font-size: 11px;
   }
@@ -179,79 +124,35 @@
     width: 100%;
   }
   .containerGame {
-    width: 97%;
-    height: 40px;
-    display: flex;
-    border-bottom: 1px solid grey;
+    width: 99%;
     margin-bottom: 5px;
   }
   .containerEscudo {
     width: 10%;
-    height: 100%;
   }
   .containerEscudo img {
     width: 30px;
     height: 30px;
   }
   .containerGameName {
-    width: 25%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 8px;
-    font-weight: 500;
   }
-
   .containerFinished {
     width: 10%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .containerFinished span {
-    border-radius: 50%;
-    height: 60%;
     font-size: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25px;
-    color: white;
   }
   .containerHeader {
     height: 40px;
     width: 95%;
-    display: flex;
-    justify-content: space-around;
   }
-  
   .spansito {
     font-size: 22px;
     width: 97%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
     margin-bottom: 10px;
-    display: flex;
-    border-radius: 5%;
-    background-color: rgb(197, 197, 197);
-    justify-content: center;
-    align-items: center;
   }
-
-  .bend_marcos {
-    border-radius: 50%;
-    width: 40%;
-    height: 20%;
-  }
-  .bend_franco {
-    border-radius: 50%;
-    width: 40%;
-    height: 20%;
-  }
-  .bend_gaston {
-    border-radius: 50%;
+  .bend_marcos, .bend_franco, .bend_gaston {
     width: 40%;
     height: 20%;
   }

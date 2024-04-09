@@ -6,19 +6,16 @@
   display: flex;
   justify-content: center;
 }
-
 .container_title {
   padding: 3rem;
   color: rgb(255, 255, 255);
   font-size: 32px;
 }
-
 .container_btn {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-
 .container_btn button {
   background-color: yellowgreen;
   color: aliceblue;
@@ -27,18 +24,16 @@
   font-size: 20px;
   border-radius: 10px;
 }
-
 .container_btn button:hover {
   cursor: pointer;
   opacity: 0.8;
 }
-
 .container_main {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding: 3rem;
-    padding-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  padding-top: 1.5rem;
 }
 .container {
   width: 28%;
@@ -47,7 +42,6 @@
   border: 2px solid #070a3f;
   border-radius: 1rem;
 }
-
 .container h4 {
   color: rgb(255, 255, 255);
   font-size: 23px;
@@ -55,44 +49,26 @@
   justify-content: center;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-
 }
-/* 
-.container span {
-  width: 100%;
-  font-size: 22px;
-  background-color:#070a3f;
-  height: 35px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  background-color: 1px solid black;
-  border-radius: 1rem;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-top: 0.4rem;
-} */
-
 
 @media screen and (max-width: 495px) {
   .container_main {
     padding: 1rem;
     padding-top: 0.1rem;
-}
-
-.container_title {
-  padding: 3rem;
-  color: rgb(255, 255, 255);
-  font-size: 32px;
-}
+  }
+  .container_title {
+    padding: 3rem;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+  }
   .container_title {
     padding-top: 1rem;
-   }
+  }
   .container_title {
     padding: 3rem;
     font-size: 22px;
   }
-  .container h4 { 
+  .container h4 {
     font-size: 10px;
   }
   .container {

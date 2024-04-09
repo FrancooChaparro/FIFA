@@ -1,12 +1,12 @@
 .containerAll { 
     margin-top: 2.5rem;
-    width: 100wv;
+    width: 100vw;
     height: 135vh;
     display: flex;
     margin-bottom: 3rem;
 }
 
-.containerBraket { 
+.containerBraket, .octavosLeft, .cuartosLeft, .semifinalesLeft, .FianalsLeft  { 
     width: 10%;
 }
 
@@ -16,75 +16,33 @@
     display: flex;
 }
 
-.octavosLeft { 
-    width: 10%;
-}
-
-.octavosLeft div { 
-    width: 45%;
-    height: 47px;
-    margin: 0 auto;
-    margin-bottom: 45px;
-    background-color: aliceblue;
-    border-radius: 3px;
+.octavosLeft div,.cuartosLeft div, .semifinalesLeft div, .FianalsLeft, .FianalsLeft div, .containerBraket div, .top, .champions, .championsPicture, .box, .izq, .box_top, .box_bot {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-.cuartosLeft {
-    width: 10%;
-}
-
-.cuartosLeft div { 
+.octavosLeft div, .cuartosLeft div, .semifinalesLeft div, .FianalsLeft div  { 
     width: 45%;
     height: 47px;
     margin: 0 auto;
-    margin-bottom: 45px;
-    background-color: aliceblue;
+    background-color: var(--primary-white);
     border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.semifinalesLeft {
-    width: 10%;
+.octavosLeft div, .cuartosLeft div, .semifinalesLeft div  {  
+    margin-bottom: 45px;
+
 }
 
-.semifinalesLeft div { 
-    width: 45%;
-    height: 47px;
-    margin: 0 auto;
-    margin-bottom: 45px;
-    background-color: aliceblue;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .FianalsLeft { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 10%;
     height:100%;   
 }
-.FianalsLeft div { 
-    width: 45%;
-    height: 47px;
-    margin: 0 auto;
-    background-color: aliceblue;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .btn { 
     font-size: 25px;
     width: 45%;
-    color: white;
+    color: var(--primary-white);
     height: 60px;
     font-weight: bold;
     background-color: yellowgreen;
@@ -102,11 +60,8 @@
     height: 47px;
     margin: 0 auto;
     margin-bottom: 4px;
-    background-color: aliceblue;
+    background-color: var(--primary-white);
     border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .img { 
@@ -125,9 +80,7 @@
 
 .top {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .bot {
@@ -139,20 +92,13 @@
 .champions { 
     width: 100%;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    color: var(--primary-white);
     font-weight: bold;
-
 }
 
 .championsPicture {  
         width: 100%;
         font-size: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         color: rgb(0, 0, 0);
         font-weight: bold; 
 }
@@ -161,15 +107,13 @@
     width: 88%;
     height: 4rem;
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--primary-white);
     border-radius: 11%;
 }
 
 .izq { 
     width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
 }
 .der { 
     width: 70%;
@@ -178,22 +122,15 @@
     align-items: center;
 }
 
-
 .box {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
 .box_top {
     width: 95%;
     height: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+    background-color: var(--primary-white);
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
@@ -206,10 +143,7 @@
 .box_bot {
     width: 95%;
     height: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+    background-color: var(--primary-white);
 
 }
 

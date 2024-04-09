@@ -3,7 +3,12 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
     --primary-white: #ffffff;
+    --background-game: #070a3f;
+    --icon-marcos: rgb(255, 33, 33);
+    --icon-franco: rgb(39, 186, 255);
+    --icon-gaston:rgb(251, 255, 32);
 }
+
 
 
 * {
