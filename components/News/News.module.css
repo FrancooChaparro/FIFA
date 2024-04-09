@@ -4,7 +4,7 @@
     border: 1px solid black;
     border-radius: 0.4rem;
     margin-right: 1rem;
-    background-color: white;
+    background-color: var(--primary-white);
     display: flex;
     flex-direction:column ;
 }
