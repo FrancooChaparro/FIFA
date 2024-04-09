@@ -8,7 +8,7 @@
 }
 .container_title {
   padding: 3rem;
-  color: rgb(255, 255, 255);
+  color: var(--primary-white);
   font-size: 32px;
 }
 .container_btn {
@@ -18,7 +18,7 @@
 }
 .container_btn button {
   background-color: yellowgreen;
-  color: aliceblue;
+  color: var(--primary-white);
   width: 49%;
   height: 40px;
   font-size: 20px;
@@ -38,12 +38,12 @@
 .container {
   width: 28%;
   padding: 0.3rem;
-  color: white;
-  border: 2px solid #070a3f;
+  color:var(--primary-white);
+  border: 2px solid var(--background-game);
   border-radius: 1rem;
 }
 .container h4 {
-  color: rgb(255, 255, 255);
+  color:var(--primary-white);
   font-size: 23px;
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@
   }
   .container_title {
     padding: 3rem;
-    color: rgb(255, 255, 255);
+    color: var(--primary-white);
     font-size: 32px;
   }
   .container_title {

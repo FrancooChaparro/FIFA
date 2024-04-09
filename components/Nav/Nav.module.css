@@ -1,288 +1,198 @@
+.containerAll,
+.containerAllOpacity {
+  display: flex;
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+  transition: background-color 0.5s ease;
+  padding-left: 55px;
+  padding-right: 55px;
+  justify-content: space-between;
+}
 .containerAll {
-    background-color: rgba(0, 0, 0, 0.9);
-    display: flex;
-    height: 50px;
-    width: 100vw;
-    position: fixed;
-    z-index: 1000;
-    transition: background-color 0.5s ease;
-    padding-left: 55px;
-    padding-right: 55px;
-    justify-content: space-between;
-  }
-  
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.containerAllOpacity {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.containerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+.containerLogo img {
+  cursor: pointer;
+}
 
-  .containerAllOpacity {
-    background-color: rgba(0, 0, 0, 0.05);
-    display: flex;
-    height: 50px;
-    width: 100vw;
-    position: fixed;
-    z-index: 1000;
-    transition: background-color 0.5s ease;
-    padding-left: 55px;
-    padding-right: 55px;
-    justify-content: space-between;
-  }
-  .containerLogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 12px;
-  }
-  .containerLogo img {
-    cursor: pointer;
-  }
-  
-  .containerInfo {
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-  .cor {
-    position: absolute;
-    position: fixed;
-    top: 50px;
-    left: 0;
-    min-width:1px ;
-    background-color:  rgba(0, 0, 0, 0.9);
-    padding: 1.2rem;
-    display: flex;
-    flex-wrap: wrap;
-  transition: background-color 0.3s;
+.containerInfo {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
 
-  }
-  
+.cor,
 .co {
   position: absolute;
   position: fixed;
   top: 50px;
   left: 0;
-  min-width:1px ;
-  background-color:none;
+  min-width: 1px;
   padding: 1.2rem;
   display: flex;
   flex-wrap: wrap;
 }
-  
 
-  .container_picture {
-    width: 250px;
-    height: 40px;
-    margin: 0.3rem;
-    display: flex;
+.cor {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: background-color 0.3s;
+}
+
+.co {
+  background-color: none;
+}
+
+.container_picture {
+  width: 250px;
+  height: 40px;
+  margin: 0.3rem;
+  display: flex;
+}
+
+.container_picture_img {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_picture_img img {
+  width: 33x;
+  height: 33px;
+}
+
+.container_picture_name {
+  width: 190px;
+  height: 40px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: black !important;
+}
+
+.containerInfo span {
+  color: var(--primary-white);
+  filter: contrast(150%) saturate(150%);
+  font-size: 12px;
+  margin-right: 23px;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+
+.containerInfo span:hover {
+  text-shadow: 0 0 10px #b3aeae;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.Browse {
+  display: none;
+}
+
+.btnBrowse {
+  display: none;
+  margin-right: 6px;
+  color: var(--primary-white);
+}
+
+.containerBrowse {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.Browse,
+.BrowseOpacity {
+  display: flex;
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+  z-index: 22;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 1px);
+  font-size: 15px;
+  color: var(--primary-white);
+}
+
+.Browse {
+  background-color: rgb(0, 0, 0);
+}
+.BrowseOpacity {
+  background-color: rgb(0, 0, 0, 0.9);
+}
+.Browse p,
+.BrowseOpacity p {
+  margin-bottom: 8px;
+  width: max-content;
+  padding: 5px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 783px) {
+  .containerLogo img {
+    height: 38px;
+  }
+  .span1 {
+    display: none;
   }
 
- 
-  .container_picture_img {
-    width: 60px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-  .container_picture_img img {
-    width: 33x;
-    height: 33px;
+  .btnBrowse {
+    display: block;
   }
 
-  .container_picture_name {
-    width: 190px;
-    height: 40px;
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    color: black!important; 
+  .containerAll {
+    padding-right: 55px;
   }
 
- 
-
-  .containerInfo span {
-    color: var(--primary-white);
-    filter: contrast(150%) saturate(150%);
-    font-size: 12px;
-    margin-right: 23px;
-    cursor: pointer;
+  .containerAllOpacity {
+    padding-right: 55px;
   }
-  .flex {
-    display: flex;
-  }
-  
-  .containerInfo span:hover {
-    text-shadow: 0 0 10px #b3aeae;
-  }
-  
   .containerUser {
-    height: 100%;
-    width: 170px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 12px;
-    align-items: center;
+    width: 130px;
+    font-size: 21px;
   }
-  
-  .userDiv1 {
-    display: flex;
-    font-size: 14px;
-    color: var(--primary-white);
+  .containerUser1 {
+    width: 130px;
+    font-size: 21px;
   }
-  
-  .userDiv1 img {
-    border-radius: 4px;
-    height: 25px;
-    width: 25px;
-    cursor: pointer;
+}
+
+@media screen and (max-width: 490px) {
+  .containerAll {
+    padding-right: 15px;
+    padding-left: 15px;
   }
-  
-  .arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 5px;
+  .containerInfo span {
     font-size: 16px;
   }
-  
-  .show {
-    cursor: pointer;
-    font-size: 0.85rem;
+  .containerAllOpacity {
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  
-  .showOpen {
-    cursor: pointer;
-    transform: rotate(180deg);
-    font-size: 0.85rem; 
+  .container_picture_name span {
+    font-size: 12px;
   }
-  
-  .link {
-    text-decoration: none;
-  }
-  
-  .Browse {
-    display: none;
-  }
-  
-  .btnBrowse {
-    display: none;
-    margin-right: 6px;
-    color: var(--primary-white);
-  }
-  
-  .containerBrowse {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    position: relative;
-  }
-  .containerUser {
-    height: 100%;
-    width: 130px;
-    display: flex;
-    font-size: 28px;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-  }
-  
-  .containerUser1 {
-    height: 100%;
-    width: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 55;
-  }
-  
-  .Browse {
-    display: flex;
-    display: block;
-    justify-content: center;
-    flex-direction: column;
-    border: 2px solid black;
-    background-color: rgb(0, 0, 0);
-    z-index: 22;
-    position: absolute;
-    left: 0;
-    top: calc(100% + 1px);
-    font-size: 15px;
-    color: var(--primary-white);
-
-  }
-  .BrowseOpacity {
-    display: flex;
-    display: block;
-    justify-content: center;
-    flex-direction: column;
-    border: 2px solid black;
-    background-color: rgb(0, 0, 0, 0.9);
-    z-index: 22;
-    position: absolute;
-    left: 0;
-    top: calc(100% + 1px);
-    font-size: 15px;
-    color: var(--primary-white);
-
-  }
-  .Browse p {
-    margin-bottom: 8px;
-    width: max-content;
-    padding: 5px;
-  }
-  .BrowseOpacity p {
-    margin-bottom: 8px;
-    width: max-content;
-    padding: 5px;
-  }
-  .icon { 
-    cursor: pointer;
-    font-size: 1.3rem;
-  }
-  
-  @media screen and (max-width: 783px) {
-    .containerLogo img {
-      height: 38px;
-    }
-    .span1 {
-      display: none;
-    }
-  
-    .btnBrowse {
-      display: block;
-    }
-  
-    .containerAll {
-      padding-right: 55px;
-    }
-  
-    .containerAllOpacity {
-      padding-right: 55px;
-    }
-    .containerUser {
-      width: 130px;
-      font-size: 21px;
-    }
-    .containerUser1 {
-      width: 130px;
-      font-size: 21px;
-    }
-  }
-  
-  @media screen and (max-width: 490px) {
-    .containerAll {
-      padding-right: 15px;
-      padding-left: 15px;
-    }
- .containerInfo span  {
-  font-size: 16px;
- }
-    .containerAllOpacity {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-    .container_picture_name span{
-      font-size: 12px;
-    }
-  
-  }
-  
+}
