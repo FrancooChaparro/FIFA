@@ -1,0 +1,8 @@
+[
+    { "path": "/azar", "label": "Azar" },
+    { "path": "/draft", "label": "Draft" },
+    { "path": "/results", "label": "Finals & PopularMatchs" },
+    { "path": "/user/franco", "label": "Franco" },
+    { "path": "/user/gaston", "label": "Flaki" },
+    { "path": "/user/marcos", "label": "Marcos" }
+  ]

@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { data } from "@/models/games";
 import { Data } from "@/app/types";
 import Image from "next/image";
+import { TeamList } from "../TeamList/TeamList";
+import routes from "@/models/route.json";
 
 export const Nav = () => {
   const info: Data = data;
@@ -58,8 +60,8 @@ export const Nav = () => {
 
   const rute = (string: string) => {
     setShowBrowse(!showBrowse);
-    router.push(`/${string}`)
-  }
+    router.push(string);
+  };
   return (
     <div
       className={
@@ -96,72 +98,26 @@ export const Nav = () => {
                 onMouseLeave={handleMouseLeaveCor}
               >
                 {info.ranking.map((team, index) => (
-                  <div
-                    className={styles.container_picture}
+                  <TeamList
                     key={index}
-                    onClick={() => handleShow(`/details/${team.name}`)}
-                  >
-                    <div className={styles.container_picture_img}>
-                      <Image
-                        src={team.logo}
-                        alt={team.name}
-                        width={33}
-                        height={33}
-                        loading="lazy"
-                        placeholder="blur"
-                        blurDataURL="/images/shield_blur.webp"
-                      />
-                    </div>
-                    <div className={styles.container_picture_name}>
-                      <span>{team.name}</span>
-                    </div>
-                  </div>
+                    handleShow={() => handleShow(`/details/${team.name}`)}
+                    logo={team.logo}
+                    name={team.name}
+                  />
                 ))}
               </div>
             )}
           </div>
-          <span
-            onClick={() => router.push("/azar")}
-            className={styles.span1}
-            onMouseEnter={handleMouseLeaveCor}
-          >
-            Azar
-          </span>
-          <span
-            onClick={() => router.push("/draft")}
-            className={styles.span1}
-            onMouseEnter={handleMouseLeaveCor}
-          >
-            Draft
-          </span>
-          <span
-            onClick={() => router.push("/results")}
-            className={styles.span1}
-            onMouseEnter={handleMouseLeaveCor}
-          >
-            Finals & PopularMatchs
-          </span>
-          <span
-            onClick={() => router.push("/user/franco")}
-            className={styles.span1}
-            onMouseEnter={handleMouseLeaveCor}
-          >
-            Franco
-          </span>
-          <span
-            onClick={() => router.push("/user/gaston")}
-            className={styles.span1}
-            onMouseEnter={handleMouseLeaveCor}
-          >
-            Flaki
-          </span>
-          <span
-            onClick={() => router.push("/user/marcos")}
-            className={styles.span1}
-            onMouseEnter={handleMouseLeaveCor}
-          >
-            Marcos
-          </span>
+          {routes.map((route, index) => (
+            <span
+              key={index}
+              onClick={() => router.push(route.path)}
+              className={styles.span1}
+              onMouseEnter={handleMouseLeaveCor}
+            >
+              {route.label}
+            </span>
+          ))}
         </div>
 
         <div className={styles.containerBrowse}>
@@ -173,14 +129,11 @@ export const Nav = () => {
               className={showBackground ? styles.Browse : styles.BrowseOpacity}
             >
               <p onClick={() => rute("")}>Home</p>
-              <p onClick={() => rute("azar")}>Azar</p>
-              <p onClick={() => rute("azar")}>Draft</p>
-              <p onClick={()=> rute("results")}>
-                Finals & PopularMatchs
-              </p>
-              <p onClick={() => rute("user/franco")}>Franco</p>
-              <p onClick={() => rute("user/gaston")}>Flaki</p>
-              <p onClick={() => rute("user/marcos")}>Marcos</p>
+              {routes.map((route, index) => (
+                <p key={index} onClick={() => rute(route.path)}>
+                  {route.label}
+                </p>
+              ))}
             </div>
           )}
         </div>
@@ -188,3 +141,4 @@ export const Nav = () => {
     </div>
   );
 };
+
