@@ -372,7 +372,7 @@ export const History = {
       LocalNombre: "SEVILLA",
       LocalResultado: 1,
       VisitanteEscudo: "/images/mancity.png",
-      VisitanteNombre: "MAN. CITY",
+      VisitanteNombre: "MANCHESTER CITY",
       VisitanteResultado: 2,
     },
     {
