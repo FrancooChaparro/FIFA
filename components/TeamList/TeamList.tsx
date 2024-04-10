@@ -22,8 +22,8 @@ export const TeamList: React.FC<MyPropsCard> = ({  logo, name, handleShow}) => {
         width={33}
         height={33}
         loading="lazy"
-        placeholder="blur"
-        blurDataURL="/images/shield_blur.webp"
+        // placeholder="blur"
+        // blurDataURL="/images/shield_blur.webp"
       />
     </div>
     <div className={styles.container_picture_name}>

@@ -18,6 +18,8 @@
 .container_image img {
     transition: transform 0.2s ease-in-out; 
     filter: brightness(110%);
+    object-fit: cover;
+    object-position: center;
 }
 
 .container_image:hover img {

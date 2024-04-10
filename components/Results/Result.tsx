@@ -33,7 +33,7 @@ export const Result: React.FC<MyPropsCard> = ({
       <div className={styles.containerGameResultWin}>{VisitanteResultado}</div>
       <div className={styles.containerGameName}>{VisitanteNombre}</div>
       <div className={styles.containerEscudo}>
-        <img src={VisitanteEscudo} alt={VisitanteNombre} />
+      <Image src={VisitanteEscudo} alt={VisitanteNombre} width={50} height={50}/>
       </div>
       <div className={styles.containerFinished}>
       {Result === "Defeat" ?  

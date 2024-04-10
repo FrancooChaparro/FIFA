@@ -1,7 +1,8 @@
+"use client"
 import React from "react";
 import styles from "../Ranking/Ranking.module.css";
 import Image from "next/image";
-
+import { useRouter } from "next/navigation";
 
 interface MyPropsCard {
     img: any;
@@ -11,9 +12,10 @@ interface MyPropsCard {
   }
 
 export const Picture: React.FC<MyPropsCard> = ({ img, name, titles, rank}) => {
+  const router = useRouter();
 
   return (
-    <div className={styles.containerPicture}>
+    <div className={styles.containerPicture} onClick={() => router.push(`/details/${name}`)}>
      {rank !== undefined && (
        <div className={styles.containerPicture1}>
         <span>{rank}</span>

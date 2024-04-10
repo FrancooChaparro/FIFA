@@ -12,7 +12,6 @@ const Draft = () => {
   let gaston: Array<Team> | [] = GastonCopy;
   let marcos: Array<Team> | [] = MarcosCopy;
 
-  console.log(franco, "aver");
 
   let base = {
     nombre: "",

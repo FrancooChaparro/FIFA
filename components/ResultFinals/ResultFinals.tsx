@@ -42,14 +42,14 @@ export const ResultFinals: React.FC<MyPropsCard> = ({
         <div className={getPlayerClass(Player1)}></div>
       </div>
       <div className={styles.containerEscudo}>
-        <Image src={LocalEscudo} alt={LocalNombre} width={40} height={35} />
+        <Image src={LocalEscudo} alt={LocalNombre} width={50} height={50} />
       </div>
       <div className={styles.containerGameName}>{LocalNombre}</div>
       <div className={styles.containerGameResult}>{LocalResultado}</div>
       <div className={styles.containerGameResult}>{VisitanteResultado}</div>
       <div className={styles.containerGameName}>{VisitanteNombre}</div>
       <div className={styles.containerEscudo}>
-        <Image src={VisitanteEscudo} alt={VisitanteNombre} width={40} height={35} />
+        <Image src={VisitanteEscudo} alt={VisitanteNombre} width={50} height={50} />
       </div>
       <div className={styles.bend}>
         <div className={getPlayerClass(Player2)}></div>

@@ -15,9 +15,7 @@ export const News = () => {
               <Image
                 src={notice.image}
                 alt={notice.alt}
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center"
+                fill
                 loading="lazy"
               />
             </div>

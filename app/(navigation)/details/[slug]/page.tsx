@@ -45,7 +45,6 @@ export default function Page({ params }: { params: { slug: string } }) {
   const titles = teamID.titles;
   const finalsLength = finales?.length || 0;
   const por = (100 / (titles + (finalsLength - titles))) * titles;
-  console.log(por);
   
   return (
     <div className={styles.container_all}>
@@ -53,9 +52,8 @@ export default function Page({ params }: { params: { slug: string } }) {
         <Image
           src="/images/portada.webp"
           alt="poster"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
+          fill
+          className={styles.poster_img}
           placeholder="blur" 
           blurDataURL="/images/portada_blur.webp"
           loading="lazy"

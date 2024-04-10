@@ -76,6 +76,7 @@ export const Nav = () => {
             onClick={() => handleClick(0)}
             width={70}
             height={40}
+            priority
             loading="eager"
           />
         </div>

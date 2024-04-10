@@ -26,13 +26,15 @@ const Banner = () => {
       <Image
         src={posterInfo?.image}
         alt={posterInfo?.alt}
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center"
+        fill
         loading="lazy"
         placeholder="blur" 
         blurDataURL="/images/ajax_poster_blur.webp"
       />
+       <div className={styles.containerData}>
+        <p className={styles.title}>{posterInfo?.title}</p>
+        <span className={styles.description}>{posterInfo?.description}</span>
+      </div> 
     </div>
   );
 };

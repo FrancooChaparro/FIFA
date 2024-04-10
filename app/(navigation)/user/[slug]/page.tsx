@@ -26,9 +26,8 @@ export default function Page({ params }: { params: { slug: string } }) {
         <Image
           src={games.info.background_profile}
           alt="poster"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
+          fill
+          className={styles.poster_img}
           loading="lazy"
           placeholder="blur"
           blurDataURL={games.info?.background_blur_profile}
