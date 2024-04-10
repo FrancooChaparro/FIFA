@@ -163,37 +163,21 @@
     display: block;
   }
 
-  .containerAll {
+  .containerAll,.containerAllOpacity  {
     padding-right: 55px;
   }
 
-  .containerAllOpacity {
-    padding-right: 55px;
-  }
-  .containerUser {
-    width: 130px;
-    font-size: 21px;
-  }
-  .containerUser1 {
-    width: 130px;
-    font-size: 21px;
-  }
   .containerInfo span {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 490px) {
-  .containerAll {
+  .containerAll, .containerAllOpacity {
     padding-right: 15px;
     padding-left: 15px;
-  }
- 
-  .containerAllOpacity {
-    padding-left: 15px;
-    padding-right: 15px;
   }
   .container_picture_name span {
-    font-size: 12px;
+    font-size: var(--font-name);
   }
 }

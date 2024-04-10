@@ -38,7 +38,7 @@
 
 .container_description h3 {
     margin-bottom: 0.3rem;
-    font-size: 22px;
+    font-size: var(--font-titles);
 }
 
 @media screen and (max-width: 790px) {

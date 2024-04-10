@@ -22,6 +22,7 @@
   width: 49%;
   height: 40px;
   font-size: 20px;
+  font-weight: bold;
   border-radius: 10px;
 }
 .container_btn button:hover {
@@ -44,7 +45,7 @@
 }
 .container h4 {
   color:var(--primary-white);
-  font-size: 23px;
+  font-size: var(--font-titles);
   display: flex;
   justify-content: center;
   padding-bottom: 0.5rem;
@@ -66,7 +67,7 @@
   }
   .container_title {
     padding: 3rem;
-    font-size: 22px;
+    font-size: var(--font-titles);
   }
   .container h4 {
     font-size: 10px;

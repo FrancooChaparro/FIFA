@@ -122,16 +122,13 @@
     width: 60px;
     height: 60px;
   }
-  .containerPicture1 {
-    font-size: 23px;
+  .containerPicture1, .containerPicture4 {
+    font-size: var(--font-titles);
   }
 
   .containerPicture3 {
     font-size: 19px;
     margin-left: 9px;
-  }
-  .containerPicture4 {
-    font-size: 23px;
   }
 }
 

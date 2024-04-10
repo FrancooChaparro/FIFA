@@ -37,7 +37,7 @@
     .containerGameName {
       width: 180px;
       height: 100%;
-      font-size: 13px;
+      font-size: var(--font-name);
       font-weight: 500;
     }
     .containerGameResultWin {
@@ -53,7 +53,7 @@
     .containerFinished span {
       border-radius: 0.5rem;
       height: 60%;
-      font-size: 12px;
+      font-size: var(--font-name);
       border: 1px solid black;
       width: 85%;
       color: var(--primary-white);
@@ -63,14 +63,8 @@
         .containerGame {
             width: 100%;
           }
-          .containerGameName {
-            font-size: 8px;
-          }
-          .containerFinished span {
-            font-size: 8px;
-          }
-          .raiz {
-            font-size: 8px;
+          .containerGameName, .containerFinished span, .raiz  {
+            font-size: var(--font-responsive);
           }
           .containerEscudo img {
             width: 40px;

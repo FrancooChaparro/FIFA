@@ -29,7 +29,7 @@
   padding: 1rem;
   border-top: 0.1rem solid var(--primary-white);
   color: var(--primary-white);
-  font-size: 1.2rem;
+  font-size: var(--font-titles);
 }
 .photo {
   position: absolute;
@@ -66,14 +66,14 @@
 .top {
   width: 100%;
   margin-right: 1rem;
-  font-size: 22px;
+  font-size: var(--font-titles);
   font-weight: bold;
   display: flex;
   justify-content: center;
 }
 .bot {
   width: 100%;
-  font-size: 22px;
+  font-size: var(--font-titles);
   display: flex;
   justify-content: space-around;
 }
