@@ -41,7 +41,6 @@ export default function Page({ params }: { params: { slug: string } }) {
       </div>
     );
   }
-console.log(finales);
 
   const titles = teamID.titles;
   const finalsLength = finales?.length || 0;
