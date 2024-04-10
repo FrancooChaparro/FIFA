@@ -78,14 +78,14 @@
   padding: 0.5rem;
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 0.938rem;
   color: black !important;
 }
 
 .containerInfo span {
   color: var(--primary-white);
   filter: contrast(150%) saturate(150%);
-  font-size: 12px;
+  font-size: 0.75rem;
   margin-right: 23px;
   cursor: pointer;
 }
@@ -129,7 +129,7 @@
   position: absolute;
   left: 0;
   top: calc(100% + 1px);
-  font-size: 15px;
+  font-size: 0.75rem;
   color: var(--primary-white);
 }
 
@@ -168,7 +168,7 @@
   }
 
   .containerInfo span {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 

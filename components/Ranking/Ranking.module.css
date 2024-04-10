@@ -48,13 +48,13 @@
 .containerPicture1 {
   width: 10%;
   height: 100%;
-  font-size: 21px;
+  font-size: 1.313rem;
 }
 .containerPicture2 {
   width: 12%;
   height: 90%;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 0.938rem;
   border-radius: 5px;
 }
 .containerPicture3 {
@@ -62,13 +62,13 @@
   height: 100%;
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 0.938rem;
   padding: 2px;
 }
 .containerPicture4 {
   width: 10%;
   height: 100%;
-  font-size: 25px;
+  font-size: 1.563rem;
   font-weight: bold;
 }
 
@@ -127,7 +127,7 @@
   }
 
   .containerPicture3 {
-    font-size: 19px;
+    font-size: 1.188rem;
     margin-left: 9px;
   }
 }
@@ -151,13 +151,13 @@
     height: 40px;
   }
   .containerPicture3 {
-    font-size: 11px;
+    font-size: 0.688rem;
     margin-left: 9px;
   }
   .noticeInfo h1 {
-    font-size: 19px;
+    font-size: 1.188rem;
   }
   .noticeInfo p {
-    font-size: 15px;
+    font-size: 0.938rem;
   }
 }

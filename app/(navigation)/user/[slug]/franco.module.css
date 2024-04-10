@@ -126,7 +126,7 @@
   align-items: center;
 }
 .container_rank_number {
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 .container_rank_image {
   width: 5rem;
@@ -187,7 +187,7 @@
 
   .top,
   .bot {
-    font-size: 15px;
+    font-size: 0.938rem;
   }
 
   .containerMidlane {
