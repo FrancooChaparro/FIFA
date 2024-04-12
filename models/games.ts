@@ -2036,7 +2036,7 @@ export const top20 = {
       rank: 17,
       name: "Gareth Bale",
       team: "Real Madrid",
-      image: "/images/bale.jpg",
+      image: "/images/bale.webp",
     },
     {
       rank: 18,
