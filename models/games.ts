@@ -1940,7 +1940,7 @@ export const top20 = {
       rank: 1,
       name: "Zlatan Ibramovic",
       team: "Paris Saint Germain",
-      image: "/images/ibramovic.jpg",
+      image: "/images/ibramovic.webp",
     },
     {
       rank: 2,
@@ -1952,7 +1952,7 @@ export const top20 = {
       rank: 3,
       name: "Dante Bonfim",
       team: "Bayern Munich",
-      image: "/images/dante.jpg",
+      image: "/images/dante.webp",
     },
     {
       rank: 4,
@@ -1988,7 +1988,7 @@ export const top20 = {
       rank: 9,
       name: "Kun Agüero",
       team: "Manchester City",
-      image: "/images/aguero.jpg",
+      image: "/images/aguero.webp",
     },
     {
       rank: 10,
@@ -2012,13 +2012,13 @@ export const top20 = {
       rank: 13,
       name: "Thibaut Courtois",
       team: "Chelsea",
-      image: "/images/courtois.jpg",
+      image: "/images/courtois.webp",
     },
     {
       rank: 14,
       name: "Edinson Cavani",
       team: "Paris Saint Germain",
-      image: "/images/cavani.jpg",
+      image: "/images/cavani.webp",
     },
     {
       rank: 15,
@@ -2042,13 +2042,13 @@ export const top20 = {
       rank: 18,
       name: "Jackson Martínez",
       team: "Porto",
-      image: "/images/jackson.jpg",
+      image: "/images/jackson.webp",
     },
     {
       rank: 19,
       name: "Eden Hazard",
       team: "Chelsea",
-      image: "/images/hazard.jpg",
+      image: "/images/hazard.webp",
     },
     {
       rank: 20,
