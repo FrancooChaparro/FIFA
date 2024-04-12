@@ -32,7 +32,7 @@
     gap: 16px;
   }
 
-  .accordion li {
+  .accordion .li {
     position: relative;
     overflow: hidden;
     flex: 0 0 40px;
@@ -59,7 +59,7 @@
     font-size: 20px;
   }
 
-  .accordion li img {
+  .accordion .li img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,10 +70,10 @@
     filter: grayscale(0.5);
   }
 
-  .accordion li,
-  .accordion li img,
-  .accordion li .content,
-  .accordion li .content span {
+  .accordion .li,
+  .accordion .li img,
+  .accordion .li .content,
+  .accordion .li .content span {
     transition: 0.3s;
   }
 
@@ -86,7 +86,7 @@
     white-space: nowrap;
   }
 
-  .accordion li .content {
+  .accordion .li .content {
     position: absolute;
     top: 0;
     left: 0;
@@ -105,7 +105,7 @@
     visibility: hidden;
   }
 
-  .accordion li .content span {
+  .accordion .li .content span {
     position: absolute;
     z-index: 3;
     left: 50%;
@@ -115,25 +115,30 @@
     opacity: 0;
   }
 
-  .accordion li:hover {
+  .accordion .li:hover {
     flex: 0 1 260px;
     scale: 1.1;
     z-index: 10;
     opacity: 1;
+
   }
 
-  .accordion li:hover .content {
+  .accordion .li:hover .content {
     opacity: 1;
     visibility: visible;
   }
 
-  .accordion li:hover .toprank {
+  .accordion .li:hover .toprank {
     opacity: 1;
     visibility: visible;
   }
 
-  .accordion li:hover span {
+  .accordion .li:hover span {
     translate: -50% 0;
     opacity: 1;
     visibility: visible;
+  }
+
+  .accordion .li:hover img {
+    filter: brightness(90%);
   }
