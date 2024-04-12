@@ -46,12 +46,14 @@
 
 .cor {
   background-color: rgba(0, 0, 0, 0.9);
-  transition: background-color 0.3s;
+ 
 }
 
 .co {
   background-color: none;
 }
+
+
 
 .container_picture {
   width: 250px;

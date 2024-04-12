@@ -1933,3 +1933,129 @@ export const data = {
     },
   ],
 };
+
+export const top20 = {
+  players: [
+    {
+      rank: 1,
+      name: "Zlatan Ibramovic",
+      team: "Paris Saint Germain",
+      image: "/images/ibramovic.jpg",
+    },
+    {
+      rank: 2,
+      name: "Arjen Robben",
+      team: "Bayern Munich",
+      image: "/images/robben.jpg",
+    },
+    {
+      rank: 3,
+      name: "Dante Bonfim",
+      team: "Bayern Munich",
+      image: "/images/dante.jpg",
+    },
+    {
+      rank: 4,
+      name: "Sergio Ramos",
+      team: "Real Madrid",
+      image: "/images/ramos.jpg",
+    },
+    {
+      rank: 5,
+      name: "Robin van Persie",
+      team: "Manchester United",
+      image: "/images/van persie.jpeg",
+    },
+    {
+      rank: 6,
+      name: "Erling Haaland",
+      team: "Manchester City",
+      image: "/images/haaland.jpg",
+    },
+    {
+      rank: 7,
+      name: "Manuel Neuer",
+      team: "Bayern Munich",
+      image: "/images/never.jpg",
+    },
+    {
+      rank: 8,
+      name: "Blaise Matuidi",
+      team: "Paris Saint Germain",
+      image: "/images/matuidi.webp",
+    },
+    {
+      rank: 9,
+      name: "Kun Agüero",
+      team: "Manchester City",
+      image: "/images/aguero.jpg",
+    },
+    {
+      rank: 10,
+      name: "Thomas Müller",
+      team: "Bayern Munich",
+      image: "/images/muller.jpg",
+    },
+    {
+      rank: 11,
+      name: "Victor Osimhen",
+      team: "Barcelona",
+      image: "/images/oshimen.webp",
+    },
+    {
+      rank: 12,
+      name: "Carlos Tévez",
+      team: "Juventus",
+      image: "/images/tevez.jpg",
+    },
+    {
+      rank: 13,
+      name: "Thibaut Courtois",
+      team: "Chelsea",
+      image: "/images/courtois.jpg",
+    },
+    {
+      rank: 14,
+      name: "Edinson Cavani",
+      team: "Paris Saint Germain",
+      image: "/images/cavani.jpg",
+    },
+    {
+      rank: 15,
+      name: "Neymar",
+      team: "Barcelona",
+      image: "/images/neymar.jpg",
+    },
+    {
+      rank: 16,
+      name: "Gerard Piqué",
+      team: "Barcelona",
+      image: "/images/pique.jpg",
+    },
+    {
+      rank: 17,
+      name: "Gareth Bale",
+      team: "Real Madrid",
+      image: "/images/bale.jpg",
+    },
+    {
+      rank: 18,
+      name: "Jackson Martínez",
+      team: "Porto",
+      image: "/images/jackson.jpg",
+    },
+    {
+      rank: 19,
+      name: "Eden Hazard",
+      team: "Chelsea",
+      image: "/images/hazard.jpg",
+    },
+    {
+      rank: 20,
+      name: "Ramires",
+      team: "Newcastle",
+      image: "/images/ramires.jpg",
+    },
+
+  ]
+}
