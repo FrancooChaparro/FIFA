@@ -38,12 +38,12 @@ const Azar = () => {
       ];
       let bombo6 = [
         { nombre: "Sevilla", escudo: "/images/sevillaa.png", rank: "#11"},
-        { nombre: "Valencia", escudo:  "/images/valenciafc.png" , rank: "#14"},
+        { nombre: "Bayern 04 Leverkusen", escudo:  "/images/bayern04.png" , rank: "#32"},
         { nombre: "Aston Villa", escudo:  "/images/AstonVilla.png", rank: "#12"},
       ];
       let bombo7 = [
         { nombre: "Zenit", escudo: "/images/Zenit.png", rank: "#21"},
-        { nombre: "Lyon", escudo:  "/images/Lyon.png", rank: "#31"},
+        { nombre: "Valencia", escudo:  "/images/valenciafc.png" , rank: "#14"},
         { nombre: "Everton", escudo:  "/images/evertonfc.png" , rank: "#28"},
       ];
       let bombo8 = [
@@ -54,7 +54,7 @@ const Azar = () => {
       let bombo9 = [
         { nombre: "Villa Real", escudo: "/images/villar.png" , rank: "#18"},
         { nombre: "Wolfburgo", escudo:"/images/wolfburgo.png" , rank: "#30"},
-        { nombre: "Galatasaray", escudo:"/images/galatasaray.png" , rank: "#32"},
+        { nombre: "Lyon", escudo:  "/images/Lyon.png", rank: "#31"},
       ];
 
       
@@ -116,9 +116,9 @@ const Azar = () => {
 
       let Gaston_Franco = Math.random() * 1;
       if (Gaston_Franco > 0.5) {
-        gaston.push({ nombre: "Ajax", escudo: "/images/Ajax.png" });
+        gaston.push({ nombre: "Ajax", escudo: "/images/Ajax.png", rank: "#20" });
       } else {
-        franco.push({ nombre: "Ajax", escudo: "/images/Ajax.png" });
+        franco.push({ nombre: "Ajax", escudo: "/images/Ajax.png", rank: "#20" });
       }
       Franco(franco)
       Gaston(gaston)

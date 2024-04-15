@@ -1888,16 +1888,22 @@ export const data = {
       titles: 0,
     },
     
+    {
+      logo: "/images/bayern04.png",
+      rank: 32,
+      name: "BAYERN 04 LEVERKUSEN",
+      titles: 0,
+    },
 
     {
       logo: "/images/galatasaray.png",
-      rank: 32,
+      rank: 33,
       name: "GALATASARAY",
       titles: 0,
     },
     {
       logo: "/images/fiorentina.png",
-      rank: 33,
+      rank: 40,
       name: "FIORENTINA",
       titles: 0,
     },
