@@ -1,6 +1,17 @@
 export const History = {
   Games: [
     {
+      Player1: "G",
+      Player2: "F",
+      Result: "NO",
+      LocalEscudo: "/images/RealMadrid.png",
+      LocalNombre: "REAL MADRID",
+      LocalResultado: 0,
+      VisitanteEscudo: "/images/bayern04.png",
+      VisitanteNombre: "BAYERN 04 LEVERKUSEN",
+      VisitanteResultado: 1,
+    },
+    {
       Player1: "F",
       Player2: "G",
       Result: "L",
@@ -1064,11 +1075,20 @@ export const stats_franco = {
         VisitanteNombre: "SEVILLA",
         VisitanteResultado: 2,
       },
+      {
+        Result: "Victory",
+        LocalEscudo: "/images/bayern04.png",
+        LocalNombre: "BAYERN 04 LEVERKUSEN",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/RealMadrid.png",
+        VisitanteNombre: "REAL MADRID",
+        VisitanteResultado: 0,
+      },
     ],
     stats: {
-      win: 17,
+      win: 18,
       loss: 10,
-      porcent: "63%",
+      porcent: "65%",
     },
   },
   clasics: {
@@ -1431,10 +1451,19 @@ export const stats_gaston = {
         VisitanteNombre: "PARIS SAINT GERMAIN",
         VisitanteResultado: 1,
       },
+      {
+        Result: "Defeat",
+        LocalEscudo: "/images/RealMadrid.png",
+        LocalNombre: "REAL MADRID",
+        LocalResultado: 0,
+        VisitanteEscudo: "/images/bayern04.png",
+        VisitanteNombre: "BAYERN 04 LEVERKUSEN",
+        VisitanteResultado: 1,
+      },
     ],
     stats: {
       win: 12,
-      loss: 12,
+      loss: 13,
       porcent: "50%",
     },
   },
@@ -1813,6 +1842,7 @@ export const data = {
       name: "LIVERPOOL",
       titles: 1,
     },
+    
     {
       logo: "/images/Ajax.png",
       rank: 20,
@@ -1820,81 +1850,80 @@ export const data = {
       titles: 1,
     },
     {
-      logo: "/images/Zenit.png",
+      logo: "/images/bayern04.png",
       rank: 21,
+      name: "BAYERN 04 LEVERKUSEN",
+      titles: 1,
+    },
+    {
+      logo: "/images/Zenit.png",
+      rank: 22,
       name: "ZENIT",
       titles: 0,
     },
     {
       logo: "/images/BorussiaDortmund.png",
-      rank: 22,
+      rank: 23,
       name: "BORUSSIA DORTMUND",
       titles: 0,
     },
     {
       logo: "/images/Milan.png",
-      rank: 23,
+      rank: 24,
       name: "AC MILAN",
       titles: 0,
     },
     {
       logo: "/images/laziofc.png",
-      rank: 24,
+      rank: 25,
       name: "LAZIO",
       titles: 0,
     },
     {
       logo: "/images/Benfica.png",
-      rank: 25,
+      rank: 26,
       name: "BENFICA",
       titles: 0,
     },
     {
       logo: "/images/SportingLisboa.png",
-      rank: 26,
+      rank: 27,
       name: "SPORTING LISBOA",
       titles: 0,
     },
     
     {
       logo: "/images/AtleticoMadrid.png",
-      rank: 27,
+      rank: 28,
       name: "ATL. MADRID",
       titles: 0,
     },
     {
       logo: "/images/evertonfc.png",
-      rank: 28,
+      rank: 29,
       name: "EVERTON",
       titles: 0,
     },
     {
       logo: "/images/ASRoma.png",
-      rank: 29,
+      rank: 30,
       name: "AS ROMA",
       titles: 0,
     },
     
     {
       logo: "/images/wolfburgo.png",
-      rank: 30,
+      rank: 31,
       name: "WOLFSBURGO",
       titles: 0,
     },
     {
       logo: "/images/Lyon.png",
-      rank: 31,
+      rank: 32,
       name: "LYON",
       titles: 0,
-    },
+    }, 
     
-    {
-      logo: "/images/bayern04.png",
-      rank: 32,
-      name: "BAYERN 04 LEVERKUSEN",
-      titles: 0,
-    },
-
     {
       logo: "/images/galatasaray.png",
       rank: 33,
