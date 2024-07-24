@@ -809,12 +809,22 @@ export const stats_marcos = {
         VisitanteNombre: "JUVENTUS",
         VisitanteResultado: 0,
       },
+      {
+        Result: "Victory",
+        Raiz: "Fase Grupos - Invierno",
+        LocalEscudo: "/images/Chelsea.png",
+        LocalNombre: "CHELSEA",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/da-removebg-preview.png",
+        VisitanteNombre: "JUVENTUS",
+        VisitanteResultado: 0,
+      },
     ],
     stats: {
-      win: 2,
+      win: 3,
       loss: 8,
       draw: 1,
-      porcent: "20%",
+      porcent: "25%",
     },
   },
 };
@@ -1471,6 +1481,16 @@ export const stats_gaston = {
     matchs: [
       {
         Result: "Defeat",
+        Raiz: "Fase de grupos - Invierno",
+        LocalEscudo: "/images/da-removebg-preview.png",
+        LocalNombre: "JUVENTUS",
+        LocalResultado: 0,
+        VisitanteEscudo: "/images/Chelsea.png",
+        VisitanteNombre: "CHELSEA",
+        VisitanteResultado: 1,
+      },
+      {
+        Result: "Defeat",
         Raiz: "16avos de final",
         LocalEscudo: "/images/da-removebg-preview.png",
         LocalNombre: "JUVENTUS",
@@ -1581,9 +1601,9 @@ export const stats_gaston = {
       },
     ],
     stats: {
-      win: 4,
+      win: 5,
       loss: 5,
-      porcent: "4   0%",
+      porcent: "50%",
     },
   },
 };
