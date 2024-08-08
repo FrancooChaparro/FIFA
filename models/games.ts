@@ -1,6 +1,17 @@
 export const History = {
   Games: [
     {
+      Player1: "F",
+      Player2: "M",
+      Result: "SI",
+      LocalEscudo: "/images/BayernMunchen.png",
+      LocalNombre: "BAYERN MUNICH",
+      LocalResultado: "2 (4)",
+      VisitanteEscudo: "/images/RealMadrid.png",
+      VisitanteNombre: "REAL MADRID",
+      VisitanteResultado: "2 (3)",
+    },
+    {
       Player1: "G",
       Player2: "F",
       Result: "NO",
@@ -690,11 +701,20 @@ export const stats_marcos = {
         VisitanteNombre: "BAYERN MUNICH",
         VisitanteResultado: 1,
       },
+      {
+        Result: "Defeat",
+        LocalEscudo: "/images/RealMadrid.png",
+        LocalNombre: "REAL MADRID",
+        LocalResultado: "2 (3)",
+        VisitanteEscudo: "/images/BayernMunchen.png",
+        VisitanteNombre: "BAYERN MUNICH",
+        VisitanteResultado: "2 (4)",
+      },
     ],
     stats: {
       win: 9,
-      loss: 14,
-      porcent: "39%",
+      loss: 15,
+      porcent: "37%",
     },
   },
   clasics: {
@@ -1094,11 +1114,20 @@ export const stats_franco = {
         VisitanteNombre: "REAL MADRID",
         VisitanteResultado: 0,
       },
+      {
+        Result: "Victory",
+        VisitanteEscudo: "/images/RealMadrid.png",
+        VisitanteNombre: "REAL MADRID",
+        VisitanteResultado: "2 (3)",
+        LocalEscudo: "/images/BayernMunchen.png",
+        LocalNombre: "BAYERN MUNICH",
+        LocalResultado: "2 (4)",
+      },
     ],
     stats: {
-      win: 18,
+      win: 19,
       loss: 10,
-      porcent: "65%",
+      porcent: "68%",
     },
   },
   clasics: {
@@ -1758,7 +1787,7 @@ export const data = {
       logo: "/images/BayernMunchen.png",
       rank: 2,
       name: "BAYERN MUNICH",
-      titles: 3,
+      titles: 4,
     },
     {
       logo: "/images/ManchesterUnited.png",
