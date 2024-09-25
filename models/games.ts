@@ -1,9 +1,20 @@
 export const History = {
   Games: [
     {
+      Player1: "M",
+      Player2: "G",
+      Result: "L",
+      LocalEscudo: "/images/oporto.png",
+      LocalNombre: "PORTO",
+      LocalResultado: "0",
+      VisitanteEscudo: "/images/arsenalfc.png",
+      VisitanteNombre: "ARSENAL",
+      VisitanteResultado: "2",
+    },
+    {
       Player1: "F",
       Player2: "M",
-      Result: "SI",
+      Result: "L",
       LocalEscudo: "/images/BayernMunchen.png",
       LocalNombre: "BAYERN MUNICH",
       LocalResultado: "1",
@@ -14,7 +25,7 @@ export const History = {
     {
       Player1: "F",
       Player2: "M",
-      Result: "SI",
+      Result: "L",
       LocalEscudo: "/images/ParisSaintGermain.png",
       LocalNombre: "PARIS SAINT GERMAIN",
       LocalResultado: "1",
@@ -25,7 +36,7 @@ export const History = {
     {
       Player1: "F",
       Player2: "M",
-      Result: "SI",
+      Result: "L",
       LocalEscudo: "/images/BayernMunchen.png",
       LocalNombre: "BAYERN MUNICH",
       LocalResultado: "2 (4)",
@@ -511,7 +522,7 @@ export const stats_marcos = {
     shield_profile: "/images/Chelsea.png",
     background_blur_profile: "/images/che_blur.webp",
     photo_blur_profile: "/images/shield_blur.webp",
-    name_profile: "Marcos Aquino",
+    name_profile: "Marcos",
     team_profile: "CHELSEA",
   },
   finals: {
@@ -750,11 +761,20 @@ export const stats_marcos = {
         VisitanteNombre: "BAYERN MUNICH",
         VisitanteResultado: 1,
       },
+      {
+        Result: "Defeat",
+        LocalEscudo: "/images/oporto.png",
+        LocalNombre: "PORTO",
+        LocalResultado: 0,
+        VisitanteEscudo: "/images/arsenalfc.png",
+        VisitanteNombre: "ARSENAL",
+        VisitanteResultado: 2,
+      },
     ],
     stats: {
       win: 9,
-      loss: 17,
-      porcent: "34%",
+      loss: 18,
+      porcent: "33%",
     },
   },
   clasics: {
@@ -907,7 +927,7 @@ export const stats_franco = {
     shield_profile: "/images/ParisSaintGermain.png",
     background_blur_profile: "/images/ps_blur.webp",
     photo_blur_profile: "/images/shield_blur.webp",
-    name_profile: "Franco Chaparro",
+    name_profile: "Franco",
     team_profile: "PARIS SAINT GERMAIN",
   },
   finals: {
@@ -1337,7 +1357,7 @@ export const stats_gaston = {
     shield_profile: "/images/da-removebg-preview.png",
     background_blur_profile: "/images/juv_blur.webp",
     photo_blur_profile: "/images/shield_blur.webp",
-    name_profile: "Gaston Chaparro",
+    name_profile: "Gaston",
     team_profile: "JUVENTUS",
   },
   finals: {
@@ -1567,9 +1587,18 @@ export const stats_gaston = {
         VisitanteNombre: "BAYERN 04 LEVERKUSEN",
         VisitanteResultado: 1,
       },
+      {
+        Result: "Victory",
+        LocalEscudo: "/images/arsenalfc.png",
+        LocalNombre: "ARSENAL",
+        LocalResultado: 2,
+        VisitanteEscudo: "/images/oporto.png",
+        VisitanteNombre: "PORTO",
+        VisitanteResultado: 0,
+      },
     ],
     stats: {
-      win: 12,
+      win: 13,
       loss: 13,
       porcent: "50%",
     },
@@ -1922,33 +1951,33 @@ export const data = {
       titles: 2,
     },
     {
-      logo: "/images/AstonVilla.png",
+      logo: "/images/arsenalfc.png",
       rank: 12,
+      name: "ARSENAL",
+      titles: 2,
+    },
+    {
+      logo: "/images/AstonVilla.png",
+      rank: 13,
       name: "ASTON VILLA",
       titles: 1,
     },
     {
       logo: "/images/SSC_Neapel.svg.png",
-      rank: 13,
+      rank: 14,
       name: "NAPOLI",
       titles: 1,
     },
     {
       logo: "/images/valenciafc.png",
-      rank: 14,
+      rank: 15,
       name: "VALENCIA",
       titles: 1,
     },
     {
       logo: "/images/Internazionale.png",
-      rank: 15,
-      name: "INTER",
-      titles: 1,
-    },
-    {
-      logo: "/images/arsenalfc.png",
       rank: 16,
-      name: "ARSENAL",
+      name: "INTER",
       titles: 1,
     },
     {
