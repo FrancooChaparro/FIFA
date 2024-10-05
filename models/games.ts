@@ -4,6 +4,17 @@ export const History = {
       Player1: "M",
       Player2: "G",
       Result: "L",
+      LocalEscudo: "/images/BayernMunchen.png",
+      LocalNombre: "BAYERN MUNICH",
+      LocalResultado: "0",
+      VisitanteEscudo: "/images/mancity.png",
+      VisitanteNombre: "MANCHESTER CITY",
+      VisitanteResultado: "1",
+    },
+    {
+      Player1: "M",
+      Player2: "G",
+      Result: "L",
       LocalEscudo: "/images/oporto.png",
       LocalNombre: "PORTO",
       LocalResultado: "0",
@@ -514,6 +525,8 @@ export const History = {
   ],
 };
 
+
+
 export const stats_marcos = {
   info: {
     photo_profile: "/images/Marcos.jpg",
@@ -770,11 +783,20 @@ export const stats_marcos = {
         VisitanteNombre: "ARSENAL",
         VisitanteResultado: 2,
       },
+      {
+        Result: "Defeat",
+        LocalEscudo: "/images/BayernMunchen.png",
+        LocalNombre: "BAYERN MUNICH",
+        LocalResultado: 0,
+        VisitanteEscudo: "/images/mancity.png",
+        VisitanteNombre: "MANCHESTER CITY",
+        VisitanteResultado: 1,
+      },
     ],
     stats: {
       win: 9,
-      loss: 18,
-      porcent: "33%",
+      loss: 19,
+      porcent: "32%",
     },
   },
   clasics: {
@@ -832,6 +854,16 @@ export const stats_marcos = {
       {
         Result: "Defeat",
         Raiz: "Cuartos de final",
+        LocalEscudo: "/images/Chelsea.png",
+        LocalNombre: "CHELSEA",
+        LocalResultado: 0,
+        VisitanteEscudo: "/images/ParisSaintGermain.png",
+        VisitanteNombre: "PSG",
+        VisitanteResultado: 1,
+      },
+      {
+        Result: "Defeat",
+        Raiz: "Octavos de final",
         LocalEscudo: "/images/Chelsea.png",
         LocalNombre: "CHELSEA",
         LocalResultado: 0,
@@ -912,12 +944,14 @@ export const stats_marcos = {
     ],
     stats: {
       win: 4,
-      loss: 8,
+      loss: 9,
       draw: 1,
-      porcent: "31%",
+      porcent: "29%",
     },
   },
 };
+
+
 
 export const stats_franco = {
   info: {
@@ -1282,6 +1316,16 @@ export const stats_franco = {
       },
       {
         Result: "Victory",
+        Raiz: "Octavos de final",
+        LocalEscudo: "/images/ParisSaintGermain.png",
+        LocalNombre: "PSG",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/Chelsea.png",
+        VisitanteNombre: "CHELSEA",
+        VisitanteResultado: 0,
+      },
+      {
+        Result: "Victory",
         Raiz: "Semifinal",
         LocalEscudo: "/images/ParisSaintGermain.png",
         LocalNombre: "PSG",
@@ -1342,8 +1386,8 @@ export const stats_franco = {
       },
     ],
     stats: {
-      porcent: "75%",
-      win: 9,
+      porcent: "83%",
+      win: 10,
       loss: 2,
     },
   },
@@ -1589,18 +1633,18 @@ export const stats_gaston = {
       },
       {
         Result: "Victory",
-        LocalEscudo: "/images/arsenalfc.png",
-        LocalNombre: "ARSENAL",
-        LocalResultado: 2,
-        VisitanteEscudo: "/images/oporto.png",
-        VisitanteNombre: "PORTO",
+        LocalEscudo: "/images/mancity.png",
+        LocalNombre: "MANCHESTER CITY",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/BayernMunchen.png",
+        VisitanteNombre: "BAYERN MUNICH",
         VisitanteResultado: 0,
       },
     ],
     stats: {
-      win: 13,
+      win: 14,
       loss: 13,
-      porcent: "50%",
+      porcent: "51%",
     },
   },
   clasics: {
@@ -1743,6 +1787,8 @@ export const stats_gaston = {
     },
   },
 };
+
+
 
 export const data = {
   poster: [
@@ -1897,15 +1943,15 @@ export const data = {
       titles: 5,
     },
     {
-      logo: "/images/ManchesterUnited.png",
+      logo: "/images/mancity.png",
       rank: 3,
-      name: "MANCHESTER UNITED",
-      titles: 3,
+      name: "MANCHESTER CITY",
+      titles: 4,
     },
     {
-      logo: "/images/mancity.png",
+      logo: "/images/ManchesterUnited.png",
       rank: 4,
-      name: "MANCHESTER CITY",
+      name: "MANCHESTER UNITED",
       titles: 3,
     },
     {
