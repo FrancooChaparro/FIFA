@@ -1,6 +1,17 @@
 export const History = {
   Games: [
     {
+      Player1: "F",
+      Player2: "G",
+      Result: "L",
+      LocalEscudo: "/images/bayern04.png",
+      LocalNombre: "BAYERN 04 LEVERKUSEN",
+      LocalResultado: "0",
+      VisitanteEscudo: "/images/Barcelona.webp",
+      VisitanteNombre: "BARCELONA",
+      VisitanteResultado: "2",
+    },
+    {
       Player1: "M",
       Player2: "G",
       Result: "L",
@@ -1245,11 +1256,20 @@ export const stats_franco = {
         LocalNombre: "CHELSEA",
         LocalResultado: 0,
       },
+      {
+        Result: "Defeat",
+        VisitanteEscudo: "/images/bayern04.png",
+        VisitanteNombre: "BAYERN 04 LEVERKUSEN",
+        VisitanteResultado: 0,
+        LocalEscudo: "/images/Barcelona.webp",
+        LocalNombre: "BARCELONA",
+        LocalResultado: 2,
+      },
     ],
     stats: {
       win: 21,
-      loss: 10,
-      porcent: "70%",
+      loss: 11,
+      porcent: "65%",
     },
   },
   clasics: {
@@ -1640,11 +1660,20 @@ export const stats_gaston = {
         VisitanteNombre: "BAYERN MUNICH",
         VisitanteResultado: 0,
       },
+      {
+        Result: "Victory",
+        LocalEscudo: "/images/Barcelona.webp",
+        LocalNombre: "BARCELONA",
+        LocalResultado: 2,
+        VisitanteEscudo: "/images/bayern04.png",
+        VisitanteNombre: "BAYERN 04 LEVERKUSEN",
+        VisitanteResultado: 0,
+      },
     ],
     stats: {
-      win: 14,
+      win: 15,
       loss: 13,
-      porcent: "51%",
+      porcent: "53%",
     },
   },
   clasics: {
