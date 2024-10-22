@@ -4,6 +4,17 @@ export const History = {
       Player1: "F",
       Player2: "G",
       Result: "L",
+      LocalEscudo: "/images/ParisSaintGermain.png",
+      LocalNombre: "PARIS SAINT GERMAIN",
+      LocalResultado: "0",
+      VisitanteEscudo: "/images/BorussiaDortmund.png",
+      VisitanteNombre: "BORUSSIA DORTMUND",
+      VisitanteResultado: "1",
+    },
+    {
+      Player1: "F",
+      Player2: "G",
+      Result: "L",
       LocalEscudo: "/images/bayern04.png",
       LocalNombre: "BAYERN 04 LEVERKUSEN",
       LocalResultado: "0",
@@ -536,8 +547,6 @@ export const History = {
   ],
 };
 
-
-
 export const stats_marcos = {
   info: {
     photo_profile: "/images/Marcos.jpg",
@@ -962,8 +971,6 @@ export const stats_marcos = {
   },
 };
 
-
-
 export const stats_franco = {
   info: {
     photo_profile: "/images/fran.jpg",
@@ -1265,11 +1272,20 @@ export const stats_franco = {
         LocalNombre: "BARCELONA",
         LocalResultado: 2,
       },
+      {
+        Result: "Defeat",
+        VisitanteEscudo: "/images/ParisSaintGermain.png",
+        VisitanteNombre: "PARIS SAINT GERMAIN",
+        VisitanteResultado: 0,
+        LocalEscudo: "/images/BorussiaDortmund.png",
+        LocalNombre:"BORUSSIA DORTMUND",
+        LocalResultado: 1,
+      },
     ],
     stats: {
       win: 21,
-      loss: 11,
-      porcent: "65%",
+      loss: 12,
+      porcent: "63%",
     },
   },
   clasics: {
@@ -1669,11 +1685,20 @@ export const stats_gaston = {
         VisitanteNombre: "BAYERN 04 LEVERKUSEN",
         VisitanteResultado: 0,
       },
+      {
+        Result: "Victory",
+        LocalEscudo: "/images/BorussiaDortmund.png",
+        LocalNombre: "BORUSSIA DORTMUND",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/ParisSaintGermain.png",
+        VisitanteNombre: "PARIS SAINT GERMAIN",
+        VisitanteResultado: 0,
+      },
     ],
     stats: {
-      win: 15,
+      win: 16,
       loss: 13,
-      porcent: "53%",
+      porcent: "55%",
     },
   },
   clasics: {
@@ -1816,8 +1841,6 @@ export const stats_gaston = {
     },
   },
 };
-
-
 
 export const data = {
   poster: [
@@ -2087,17 +2110,18 @@ export const data = {
       titles: 1,
     },
     {
-      logo: "/images/Zenit.png",
+      logo: "/images/BorussiaDortmund.png",
       rank: 22,
+      name: "BORUSSIA DORTMUND",
+      titles: 1,
+    },
+    {
+      logo: "/images/Zenit.png",
+      rank: 23,
       name: "ZENIT",
       titles: 0,
     },
-    {
-      logo: "/images/BorussiaDortmund.png",
-      rank: 23,
-      name: "BORUSSIA DORTMUND",
-      titles: 0,
-    },
+  
     {
       logo: "/images/Milan.png",
       rank: 24,
@@ -2326,3 +2350,4 @@ export const top20 = {
 
   ]
 }
+
