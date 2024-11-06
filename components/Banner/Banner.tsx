@@ -17,8 +17,8 @@ const Banner = () => {
 
   const startInterval = () => {
     return setInterval(() => {
-      setNum((num) => (num === 2 ? 0 : num + 1));
-    }, 8000);
+      setNum((num) => (num === 3 ? 0 : num + 1));
+    }, 2000);
   };
 
   return (
@@ -29,7 +29,7 @@ const Banner = () => {
         fill
         loading="lazy"
         placeholder="blur" 
-        blurDataURL="/images/ajax_poster_blur.webp"
+        blurDataURL="/images/blur_inter.webp"
       />
        <div className={styles.containerData}>
         <p className={styles.title}>{posterInfo?.title}</p>

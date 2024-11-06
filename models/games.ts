@@ -1,6 +1,28 @@
 export const History = {
   Games: [
     {
+      Player1: "M",
+      Player2: "F",
+      Result: "L",
+      LocalEscudo: "/images/evertonfc.png",
+      LocalNombre: "EVERTON",
+      LocalResultado: "1",
+      VisitanteEscudo: "/images/Internazionale.png",
+      VisitanteNombre: "INTER",
+      VisitanteResultado: "2",
+    },
+    {
+      Player1: "M",
+      Player2: "G",
+      Result: "L",
+      LocalEscudo: "/images/mancity.png",
+      LocalNombre: "MANCHESTER CITY",
+      LocalResultado: "1",
+      VisitanteEscudo: "/images/Internazionale.png",
+      VisitanteNombre: "INTER",
+      VisitanteResultado: "3",
+    },
+    {
       Player1: "F",
       Player2: "G",
       Result: "L",
@@ -812,11 +834,29 @@ export const stats_marcos = {
         VisitanteNombre: "MANCHESTER CITY",
         VisitanteResultado: 1,
       },
+      {
+        Result: "Defeat",
+        LocalEscudo: "/images/mancity.png",
+        LocalNombre: "MANCHESTER CITY",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/Internazionale.png",
+        VisitanteNombre: "INTER",
+        VisitanteResultado: 3,
+      },
+      {
+        Result: "Defeat",
+        LocalEscudo: "/images/evertonfc.png",
+        LocalNombre: "EVERTON",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/Internazionale.png",
+        VisitanteNombre: "INTER",
+        VisitanteResultado: 2,
+      },
     ],
     stats: {
       win: 9,
-      loss: 19,
-      porcent: "32%",
+      loss: 21,
+      porcent: "30%",
     },
   },
   clasics: {
@@ -970,6 +1010,9 @@ export const stats_marcos = {
     },
   },
 };
+
+
+
 
 export const stats_franco = {
   info: {
@@ -1281,11 +1324,20 @@ export const stats_franco = {
         LocalNombre:"BORUSSIA DORTMUND",
         LocalResultado: 1,
       },
+      {
+        Result: "Victory",
+        VisitanteEscudo: "/images/Internazionale.png",
+        VisitanteNombre: "INTER",
+        VisitanteResultado: 2,
+        LocalEscudo: "/images/evertonfc.png",
+        LocalNombre:"EVERTON",
+        LocalResultado: 1,
+      },
     ],
     stats: {
-      win: 21,
+      win: 22,
       loss: 12,
-      porcent: "63%",
+      porcent: "64%",
     },
   },
   clasics: {
@@ -1420,14 +1472,26 @@ export const stats_franco = {
         VisitanteNombre: "JUVENTUS",
         VisitanteResultado: 1,
       },
+      {
+        Result: "Victory",
+        Raiz: "Octavos de Final",
+        LocalEscudo: "/images/ParisSaintGermain.png",
+        LocalNombre: "PSG",
+        LocalResultado: 1,
+        VisitanteEscudo: "/images/da-removebg-preview.png",
+        VisitanteNombre: "JUVENTUS",
+        VisitanteResultado: 0,
+      },
     ],
     stats: {
-      porcent: "83%",
-      win: 10,
+      porcent: "85%",
+      win: 11,
       loss: 2,
     },
   },
 };
+
+
 
 export const stats_gaston = {
   info: {
@@ -1694,11 +1758,20 @@ export const stats_gaston = {
         VisitanteNombre: "PARIS SAINT GERMAIN",
         VisitanteResultado: 0,
       },
+      {
+        Result: "Victory",
+        LocalEscudo: "/images/Internazionale.png",
+        LocalNombre: "INTER",
+        LocalResultado: 3,
+        VisitanteEscudo: "/images/evertonfc.png",
+        VisitanteNombre: "EVERTON",
+        VisitanteResultado: 1,
+      },
     ],
     stats: {
-      win: 16,
+      win: 17,
       loss: 13,
-      porcent: "55%",
+      porcent: "57%",
     },
   },
   clasics: {
@@ -1833,14 +1906,26 @@ export const stats_gaston = {
         VisitanteNombre: "PSG",
         VisitanteResultado: 0,
       },
+      {
+        Result: "Defeat",
+        Raiz: "Octavos de Final",
+        LocalEscudo: "/images/da-removebg-preview.png",
+        LocalNombre: "JUVENTUS",
+        LocalResultado: 0,
+        VisitanteEscudo: "/images/ParisSaintGermain.png",
+        VisitanteNombre: "PSG",
+        VisitanteResultado: 1,
+      },
     ],
     stats: {
       win: 5,
-      loss: 6,
-      porcent: "45%",
+      loss: 7,
+      porcent: "41%",
     },
   },
 };
+
+
 
 export const data = {
   poster: [
@@ -1850,6 +1935,14 @@ export const data = {
       title: "¡CHELSEA CAMPEON!",
       description:
         "SE LE DIO, Chelsea es el nuevo campeon, vence la final por penales a Dortmund, de la mano de Marcos Aquino.",
+    },
+    {
+      image:
+        "/images/11.jpg",
+      alt: "poster_image",
+      title: "INTER BICAMPEON",
+      description:
+        "Internazionale es BICAMPEON! derroto 2 - 1 a Everton FC, y 3 - 1 al Manchester City ",
     },
     {
       image:
@@ -1867,6 +1960,7 @@ export const data = {
       description:
         "Porto suma una estrella mas, y escala al TOP 9 del ranking mundial, tras derrotar 1 a 0 al Bayern Munich.",
     },
+ 
     {
       image:
         "/images/galatasaray_poster.webp",
@@ -2013,71 +2107,72 @@ export const data = {
       titles: 3,
     },
     {
-      logo: "/images/Barcelona.webp",
+      logo: "/images/Internazionale.png",
       rank: 6,
+      name: "INTER",
+      titles: 3,
+    },
+    {
+      logo: "/images/Barcelona.webp",
+      rank: 7,
       name: "BARCELONA",
       titles: 2,
     },
     {
       logo: "/images/Tottenham.png",
-      rank: 7,
+      rank: 8,
       name: "TOTTENHAM",
       titles: 2,
     },
     {
       logo: "/images/newcastlee.png",
-      rank: 8,
+      rank: 9,
       name: "NEWCASTLE",
       titles: 2,
     },
     {
       logo: "/images/oporto.png",
-      rank: 9,
+      rank: 10,
       name: "PORTO",
       titles: 2,
     },
     {
       logo: "/images/Chelsea.png",
-      rank: 10,
+      rank: 11,
       name: "CHELSEA",
       titles: 2,
     },
     {
       logo: "/images/sevillaa.png",
-      rank: 11,
+      rank: 12,
       name: "SEVILLA",
       titles: 2,
     },
     {
       logo: "/images/arsenalfc.png",
-      rank: 12,
+      rank: 13,
       name: "ARSENAL",
       titles: 2,
     },
     {
       logo: "/images/AstonVilla.png",
-      rank: 13,
+      rank: 14,
       name: "ASTON VILLA",
       titles: 1,
     },
     {
       logo: "/images/SSC_Neapel.svg.png",
-      rank: 14,
+      rank: 15,
       name: "NAPOLI",
       titles: 1,
     },
     {
       logo: "/images/valenciafc.png",
-      rank: 15,
+      rank: 16,
       name: "VALENCIA",
       titles: 1,
     },
-    {
-      logo: "/images/Internazionale.png",
-      rank: 16,
-      name: "INTER",
-      titles: 1,
-    },
+   
     {
       logo: "/images/da-removebg-preview.png",
       rank: 17,
