@@ -2010,6 +2010,14 @@ export const data = {
     },
     {
       image:
+        "/images/pogbaaa.jpg",
+      alt: "poster_image",
+      title: "KING POGBA",
+      description:
+        "Pogba suma una copa mas en su debut en FC BARCELONA, Pogba es triple campeon del mundo y balon de oro.",
+    },
+    {
+      image:
         "/images/11.jpg",
       alt: "poster_image",
       title: "INTER BICAMPEON",
@@ -2024,14 +2032,7 @@ export const data = {
       description:
         "Ajax goleo 3 a 0 al ARSENAL, y levanto su primer trofeo, se le acredito la posicion N°19.",
     },
-    {
-      image:
-        "/images/porto_poster.webp",
-      alt: "poster_image",
-      title: "PORTO SUMA SU SEGUNDO TITULO",
-      description:
-        "Porto suma una estrella mas, y escala al TOP 9 del ranking mundial, tras derrotar 1 a 0 al Bayern Munich.",
-    },
+   
  
     {
       image:
