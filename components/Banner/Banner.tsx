@@ -18,7 +18,7 @@ const Banner = () => {
   const startInterval = () => {
     return setInterval(() => {
       setNum((num) => (num === 3 ? 0 : num + 1));
-    }, 2000);
+    }, 6000);
   };
 
   return (

@@ -10,9 +10,14 @@ const MyProvider: FC<MyProviderProps> = ({ children }) => {
   const [FrancoBombo, setFrancoBombo] = useState<any>([]);
   const [MarcosBombo, setMarcosBombo] = useState<any>([]);
   const [GastonBombo, setGastonBombo] = useState<any>([]);
+
   const [GastonCopy, setGastonCopy] = useState<any>([]);
   const [FrancoCopy, setFrancoCopy] = useState<any>([]);
   const [MarcosCopy, setMarcosCopy] = useState<any>([]);
+
+  const [RomaBombo, setRomaBombo] = useState<any>([]);
+  const [RomaCopy, setRomaCopy] = useState<any>([]);
+
 
   const Franco = (newValue: any[]) => {
     setFrancoCopy(newValue);
@@ -23,11 +28,17 @@ const MyProvider: FC<MyProviderProps> = ({ children }) => {
     setGastonCopy(newValue);
     setGastonBombo(newValue);
   };
+
   const Marcos = (newValue: any[]) => {
     setMarcosCopy(newValue);
     setMarcosBombo(newValue);
   };
   
+  const Roma = (newValue: any[]) => {
+    setRomaCopy(newValue);
+    setRomaBombo(newValue);
+  };
+
   const contextValue: MyContextType = {
     Franco,
     Gaston,
@@ -38,6 +49,10 @@ const MyProvider: FC<MyProviderProps> = ({ children }) => {
     FrancoCopy,
     GastonCopy,
     MarcosCopy,
+
+    Roma, 
+    RomaBombo,
+    RomaCopy
   };
 
   return (

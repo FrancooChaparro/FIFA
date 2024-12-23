@@ -11,6 +11,10 @@ export type MyContextType = {
   FrancoCopy: any[] | [];
   GastonCopy: any[] | [];
   MarcosCopy: any[] | [];
+
+  Roma: (newValue: any[]) => void;
+  RomaBombo: any[] | [];
+  RomaCopy: any[] | [];
 };
 
 const MyContext = createContext<MyContextType | undefined>(undefined);
